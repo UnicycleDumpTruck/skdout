@@ -25,7 +25,7 @@
         <div class="schedule">
             {% for item in site.data.context.time_list %}
             <div class="time" style="grid-row-start: {{ item.first }}; grid-column-start: 1;">
-                {{ item.last }}
+                t:{{ item.last }}
             </div>
             {% endfor %} 
             {% for item in site.data.context.hour_rows %}
@@ -33,7 +33,7 @@
                 style="grid-row-start: {{ item.first }}; grid-row-end: span 4; grid-column-start:1; grid-column-end: span 4;">
                 
             </div>
-            {% endfor %} {% if site.data.context.events %} {% for ev in site.data.context.events %}
+            {% endfor %} {% if site.data.context.events %} {% assign day_events = site.data.context.events | where: "weekday", "Friday" %}{% for ev in day_events %}
             <div class="item {{ ev.class }}"
                 style="grid-row: {{ ev.start_row }} / {{ ev.end_row }}; grid-column-start: {{ ev.row }}; {% if ev.task == "Prop Swap Only" %} grid-column-end: span 2; {% endif %}">
                 <div class="text_container">
