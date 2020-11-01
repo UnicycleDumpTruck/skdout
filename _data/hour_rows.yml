@@ -1,0 +1,24 @@
+- !!python/tuple
+  - 1
+  - '"09:00"'
+- !!python/tuple
+  - 5
+  - '"10:00"'
+- !!python/tuple
+  - 9
+  - '"11:00"'
+- !!python/tuple
+  - 13
+  - '"12:00"'
+- !!python/tuple
+  - 17
+  - '"13:00"'
+- !!python/tuple
+  - 21
+  - '"14:00"'
+- !!python/tuple
+  - 25
+  - '"15:00"'
+- !!python/tuple
+  - 29
+  - '"16:00"'

@@ -10,10 +10,10 @@
 <body>
     <div class="body_container">
         <div class="title_nav_container">
-            <div class="page_title">{{ weekday }}</div>
+            <div class="page_title">{{ page.weekday }}</div>
             <div class="nav_container">
-                <a class="day_link" href="http://127.0.0.1:8000/Today/">Today</a>
-                <a class="day_link" href="http://127.0.0.1:8000/Monday/">Monday</a>
+                <a class="day_link" href="/Today/">Today</a>
+                <a class="day_link" href="/Monday/">Monday</a>
                 <a class="day_link" href="/Tuesday/">Tuesday</a>
                 <a class="day_link" href="/Wednesday/">Wednesday</a>
                 <a class="day_link" href="/Thursday/">Thursday</a>
@@ -22,22 +22,22 @@
             </div>
         </div>
         <br>
-        <div class="schedule">
-            {% for item in site.data.context.time_list %}
+        <div class="schedule" style="grid-template-rows: repeat({{site.data.context.num_rows}}, 3.2em);">
+            {% for item in site.data.time_list %}
             <div class="time" style="grid-row-start: {{ item.first }}; grid-column-start: 1;">
-                t:{{ item.last }}
+                {{ item.last | date: '%H:%M' }}
             </div>
             {% endfor %} 
-            {% for item in site.data.context.hour_rows %}
+            {% for item in site.data.hour_rows %}
             <div class="hour"
                 style="grid-row-start: {{ item.first }}; grid-row-end: span 4; grid-column-start:1; grid-column-end: span 4;">
                 
             </div>
-            {% endfor %} {% if site.data.context.events %} {% assign day_events = site.data.context.events | where: "weekday", "Friday" %}{% for ev in day_events %}
+            {% endfor %} {% if site.data.events %} {% assign day_events = site.data.events | where: "weekday", "Friday" %}{% for ev in day_events %}
             <div class="item {{ ev.class }}"
                 style="grid-row: {{ ev.start_row }} / {{ ev.end_row }}; grid-column-start: {{ ev.row }}; {% if ev.task == "Prop Swap Only" %} grid-column-end: span 2; {% endif %}">
                 <div class="text_container">
-                    <span class="event_time">{{ev.start_string}} to {{ev.end_string}}</span>
+                    <span class="event_time">{{ev.start_string | slice: 1, 5}} to {{ev.end_string| slice: 1, 5}}</span>
                     {% if ev.task != "Prop Swap Only" %}
                     <br />
                     {% endif %}

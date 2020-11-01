@@ -37,7 +37,7 @@
 .schedule {
   display: grid;
   grid-template-columns: 30px repeat(3, 1fr);
-  grid-template-rows: repeat({{num_rows}}, 3.2em); /* was 2.7em for printing */
+  /* was 2.7em for printing */
   grid-gap: 5px;
   background-color: #3a4d7e;
   max-width: 800px;

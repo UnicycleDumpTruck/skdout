@@ -50,7 +50,7 @@ def per_delta(start, end, delta):
 
 
 def list_of_times(start, end, delta):
-    return list(result.strftime("%H:%M") for result in per_delta(start, end, delta))
+    return list(('"' + str(result.strftime("%H:%M")) + '"') for result in per_delta(start, end, delta))
 
 
 def day_of_times():
@@ -163,14 +163,14 @@ if __name__ == "__main__":
                         )
                         task_list.append(
                             {'weekday': weekday, 'location': location, 'start': start, 'end': end, 'task': task, 'icons': icons.get(task)})
-                        print(weekday, location, start, end, task)
     # after file context
     df = pd.DataFrame.from_records(task_list)
-    print(df.head())
+    # print(df.head())
     # Remove Members Only events
     df = df[~df['task'].str.contains("Members Only")]
     df = df[~df['task'].str.contains("Activity Room Play")]
     df = df[~df['task'].str.contains("Camp staff clean")]
+    df = df[~df['task'].str.contains("Virex Spray Everything")]
 
     df["start_time"] = df.start.apply(
         lambda x: datetime.datetime.combine(datetime.date(
@@ -180,8 +180,10 @@ if __name__ == "__main__":
         lambda x: datetime.datetime.combine(datetime.date(
             2020, 1, 1), x)
     )
-    df["start_string"] = df.start_time.apply(lambda x: x.strftime("%H:%M"))
-    df["end_string"] = df.end_time.apply(lambda x: x.strftime("%H:%M"))
+    df["start_string"] = df.start_time.apply(
+        lambda x: '"' + x.strftime("%H:%M") + '"')
+    df["end_string"] = df.end_time.apply(
+        lambda x: '"' + x.strftime("%H:%M") + '"')
 
     time_list = list_of_times(
         datetime.datetime.combine(datetime.date(
@@ -190,15 +192,16 @@ if __name__ == "__main__":
             2020, 1, 1), max(df['end'])) + datetime.timedelta(minutes=15),  # Latest time in df
         datetime.timedelta(minutes=15),  # Interval of time list
     )
+    print(time_list[0][3:6])
     hour_rows = [
-        (index, time) for (index, time) in enumerate(time_list, 1) if time[2:] == ":00"
+        (index, str(time)) for (index, time) in enumerate(time_list, 1) if time[3:6] == ":00"
     ]
 
     df["start_row"] = df.start_time.apply(
-        lambda x: time_list.index(x.strftime("%H:%M")) + 1
+        lambda x: time_list.index('"' + x.strftime("%H:%M") + '"') + 1
     )
     df["end_row"] = df.end_time.apply(
-        lambda x: time_list.index(x.strftime("%H:%M")) + 1
+        lambda x: time_list.index('"' + x.strftime("%H:%M") + '"') + 1
     )
     # df["start_row"] = df["start"]
     # df["end_row"] = df["end"]
@@ -209,14 +212,24 @@ if __name__ == "__main__":
 
     context = {
         "num_rows": len(time_list),
-        "weekday": weekday.lower().capitalize(),
-        "events": events,
-        "time_list": list(enumerate(time_list, 1)),
-        "hour_rows": hour_rows,
+        # "weekday": weekday.lower().capitalize(),
+        # "events": events,
+        # "time_list": list(enumerate(time_list, 1)),
+        # "hour_rows": hour_rows,
     }
-    dict_file = [{'sports': ['soccer', 'football', 'basketball', 'cricket', 'hockey', 'table tennis']},
-                 {'countries': ['Pakistan', 'USA', 'India', 'China', 'Germany', 'France', 'Spain']}]
+    print(df.head())
+    print(hour_rows)
+    df.to_csv(r'_data/eventscsv.csv', index=False)
+
     with open(r'_data/context.yml', 'w') as yml_file:
         documents = yaml.dump(
             context, yml_file, default_flow_style=False)
-    print(events)
+    with open(r'_data/events.yml', 'w') as yml_file:
+        documents = yaml.dump(
+            events, yml_file, default_flow_style=False)
+    with open(r'_data/time_list.yml', 'w') as yml_file:
+        documents = yaml.dump(
+            list(enumerate(time_list, 1)), yml_file, default_flow_style=False)
+    with open(r'_data/hour_rows.yml', 'w') as yml_file:
+        documents = yaml.dump(
+            hour_rows, yml_file, default_flow_style=False)
