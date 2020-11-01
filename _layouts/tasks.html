@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="body_container">
+        <div class="title_nav_container">
+            <div class="page_title">{{ weekday }}</div>
+            <div class="nav_container">
+                <a class="day_link" href="http://127.0.0.1:8000/Today/">Today</a>
+                <a class="day_link" href="http://127.0.0.1:8000/Monday/">Monday</a>
+                <a class="day_link" href="/Tuesday/">Tuesday</a>
+                <a class="day_link" href="/Wednesday/">Wednesday</a>
+                <a class="day_link" href="/Thursday/">Thursday</a>
+                <a class="day_link" href="/Friday/">Friday</a>
+                <a class="day_link" href="/Weekend/">Weekend</a>
+            </div>
+        </div>
+        <br>
+        <div class="schedule">
+            {% for item in site.data.context.time_list %}
+            <div class="time" style="grid-row-start: {{ item.first }}; grid-column-start: 1;">
+                {{ item.last }}
+            </div>
+            {% endfor %} 
+            {% for item in site.data.context.hour_rows %}
+            <div class="hour"
+                style="grid-row-start: {{ item.first }}; grid-row-end: span 4; grid-column-start:1; grid-column-end: span 4;">
+                
+            </div>
+            {% endfor %} {% if site.data.context.events %} {% for ev in site.data.context.events %}
+            <div class="item {{ ev.class }}"
+                style="grid-row: {{ ev.start_row }} / {{ ev.end_row }}; grid-column-start: {{ ev.row }}; {% if ev.task == "Prop Swap Only" %} grid-column-end: span 2; {% endif %}">
+                <div class="text_container">
+                    <span class="event_time">{{ev.start_string}} to {{ev.end_string}}</span>
+                    {% if ev.task != "Prop Swap Only" %}
+                    <br />
+                    {% endif %}
+                    <span class="event_location">{{ ev.location }}:</span>
+                    {% if ev.task != "Prop Swap Only" %}
+                    <!-- <br /> -->
+                    {% endif %}
+                    <span class="event_task">{{ev.task}}</span>
+                </div>
+                <div class="img_container"
+                    style="{% if ev.task == "Prop Swap Only" %} grid-column-start: 4; grid-row-start: 1;{% else %} grid-column-start: 1; grid-column-end: 5; grid-row-start:2;{% endif %}">
+                    {% for src in ev.icons %}
+                    <img class="task_icon" src="/assets/{{ src }}" alt="{{ src }}" />
+                    {% if ev.task != "Prop Swap Only" %}
+                    <br />
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <p>No events are available.</p>
+        {% endif %} {{task_df}}
+    </div>
+
+
+
+</body>
+
+</html>
