@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>{{ page.weekday }}</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -12,13 +12,12 @@
         <div class="title_nav_container">
             <div class="page_title">{{ page.weekday }}</div>
             <div class="nav_container">
-                <a class="day_link" href="/Today/">Today</a>
-                <a class="day_link" href="/Monday/">Monday</a>
-                <a class="day_link" href="/Tuesday/">Tuesday</a>
-                <a class="day_link" href="/Wednesday/">Wednesday</a>
-                <a class="day_link" href="/Thursday/">Thursday</a>
-                <a class="day_link" href="/Friday/">Friday</a>
-                <a class="day_link" href="/Weekend/">Weekend</a>
+                <a class="day_link" href="/monday">Monday</a>
+                <a class="day_link" href="/tuesday">Tuesday</a>
+                <a class="day_link" href="/wednesday">Wednesday</a>
+                <a class="day_link" href="/thursday">Thursday</a>
+                <a class="day_link" href="/friday">Friday</a>
+                <a class="day_link" href="/weekend">Weekend</a>
             </div>
         </div>
         <br>
@@ -31,9 +30,10 @@
             {% for item in site.data.hour_rows %}
             <div class="hour"
                 style="grid-row-start: {{ item.first }}; grid-row-end: span 4; grid-column-start:1; grid-column-end: span 4;">
-                
             </div>
-            {% endfor %} {% if site.data.events %} {% assign day_events = site.data.events | where: "weekday", "Friday" %}{% for ev in day_events %}
+            {% endfor %}
+            {% assign day_events = site.data.events | where: "weekday", page.weekday %}
+            {% for ev in day_events %}
             <div class="item {{ ev.class }}"
                 style="grid-row: {{ ev.start_row }} / {{ ev.end_row }}; grid-column-start: {{ ev.row }}; {% if ev.task == "Prop Swap Only" %} grid-column-end: span 2; {% endif %}">
                 <div class="text_container">
@@ -59,9 +59,6 @@
             </div>
             {% endfor %}
         </div>
-        {% else %}
-        <p>No events are available.</p>
-        {% endif %} {{task_df}}
     </div>
 
 

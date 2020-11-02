@@ -1,4 +1,5 @@
-- end_row: 5
+- class: learn_and_play
+  end_row: 5
   end_string: '"10:00"'
   icons: &id001 !!python/tuple
   - close.png
@@ -9,7 +10,8 @@
   start_string: '"09:00"'
   task: Learn & Play
   weekday: Monday
-- end_row: 28
+- class: spray_and_swap
+  end_row: 28
   end_string: '"15:45"'
   icons: &id002 !!python/tuple
   - close.png
@@ -21,7 +23,8 @@
   start_string: '"15:00"'
   task: Disinfect & Prop Swap
   weekday: Monday
-- end_row: 11
+- class: learn_and_play
+  end_row: 11
   end_string: '"11:30"'
   icons: *id001
   location: Around Town
@@ -30,7 +33,8 @@
   start_string: '"10:30"'
   task: Learn & Play
   weekday: Monday
-- end_row: 31
+- class: spray_and_swap
+  end_row: 31
   end_string: '"16:30"'
   icons: *id002
   location: Around Town
@@ -39,7 +43,8 @@
   start_string: '"15:45"'
   task: Disinfect & Prop Swap
   weekday: Monday
-- end_row: 5
+- class: learn_and_play
+  end_row: 5
   end_string: '"10:00"'
   icons: *id001
   location: Around Town
@@ -48,7 +53,8 @@
   start_string: '"09:00"'
   task: Learn & Play
   weekday: Tuesday
-- end_row: 28
+- class: spray_and_swap
+  end_row: 28
   end_string: '"15:45"'
   icons: *id002
   location: Around Town
@@ -57,7 +63,8 @@
   start_string: '"15:00"'
   task: Disinfect & Prop Swap
   weekday: Tuesday
-- end_row: 11
+- class: learn_and_play
+  end_row: 11
   end_string: '"11:30"'
   icons: *id001
   location: Moneypalooza
@@ -66,7 +73,8 @@
   start_string: '"10:30"'
   task: Learn & Play
   weekday: Tuesday
-- end_row: 31
+- class: spray_and_swap
+  end_row: 31
   end_string: '"16:30"'
   icons: *id002
   location: Moneypalooza
@@ -75,7 +83,8 @@
   start_string: '"15:45"'
   task: Disinfect & Prop Swap
   weekday: Tuesday
-- end_row: 5
+- class: learn_and_play
+  end_row: 5
   end_string: '"10:00"'
   icons: *id001
   location: Kid Grid & RPW
@@ -84,7 +93,8 @@
   start_string: '"09:00"'
   task: Learn & Play
   weekday: Wednesday
-- end_row: 6
+- class: prop_swap
+  end_row: 6
   end_string: '"10:15"'
   icons: &id003 !!python/tuple
   - open.png
@@ -95,7 +105,8 @@
   start_string: '"10:00"'
   task: Prop Swap Only
   weekday: Wednesday
-- end_row: 19
+- class: wipe_down
+  end_row: 19
   end_string: '"13:30"'
   icons: &id004 !!python/tuple
   - open.png
@@ -106,7 +117,8 @@
   start_string: '"13:00"'
   task: Wipe down
   weekday: Wednesday
-- end_row: 5
+- class: prop_swap
+  end_row: 5
   end_string: '"10:00"'
   icons: *id003
   location: P2P & STEMosphere
@@ -115,7 +127,8 @@
   start_string: '"09:45"'
   task: Prop Swap Only
   weekday: Wednesday
-- end_row: 7
+- class: closed_to_public
+  end_row: 7
   end_string: '"10:30"'
   icons: *id001
   location: P2P & STEMosphere
@@ -124,7 +137,8 @@
   start_string: '"10:00"'
   task: Closed to Public
   weekday: Wednesday
-- end_row: 11
+- class: learn_and_play
+  end_row: 11
   end_string: '"11:30"'
   icons: *id001
   location: P2P & STEMosphere
@@ -133,7 +147,8 @@
   start_string: '"10:30"'
   task: Learn & Play
   weekday: Wednesday
-- end_row: 25
+- class: wipe_down
+  end_row: 25
   end_string: '"15:00"'
   icons: *id004
   location: P2P & STEMosphere
@@ -142,7 +157,8 @@
   start_string: '"14:30"'
   task: Wipe down
   weekday: Wednesday
-- end_row: 13
+- class: spray_and_swap
+  end_row: 13
   end_string: '"12:00"'
   icons: *id002
   location: Splash (UW - SS)
@@ -151,7 +167,8 @@
   start_string: '"11:15"'
   task: Disinfect & Prop Swap
   weekday: Wednesday
-- end_row: 22
+- class: wipe_down
+  end_row: 22
   end_string: '"14:15"'
   icons: *id004
   location: Splash (UW - SS)
@@ -160,7 +177,8 @@
   start_string: '"13:45"'
   task: Wipe down
   weekday: Wednesday
-- end_row: 16
+- class: spray_and_swap
+  end_row: 16
   end_string: '"12:45"'
   icons: *id002
   location: HTT
@@ -169,7 +187,8 @@
   start_string: '"12:00"'
   task: Disinfect & Prop Swap
   weekday: Wednesday
-- end_row: 19
+- class: spray_and_swap
+  end_row: 19
   end_string: '"13:30"'
   icons: *id002
   location: Around Town
@@ -178,7 +197,8 @@
   start_string: '"12:45"'
   task: Disinfect & Prop Swap
   weekday: Wednesday
-- end_row: 22
+- class: spray_and_swap
+  end_row: 22
   end_string: '"14:15"'
   icons: *id002
   location: Moneypalooza
@@ -187,7 +207,8 @@
   start_string: '"13:30"'
   task: Disinfect & Prop Swap
   weekday: Wednesday
-- end_row: 12
+- class: wipe_down
+  end_row: 12
   end_string: '"11:45"'
   icons: *id004
   location: Ideaworks & Art Loft
@@ -196,7 +217,8 @@
   start_string: '"11:15"'
   task: Wipe down
   weekday: Wednesday
-- end_row: 25
+- class: spray_and_swap
+  end_row: 25
   end_string: '"15:00"'
   icons: *id002
   location: Ideaworks & Art Loft
@@ -205,7 +227,8 @@
   start_string: '"14:15"'
   task: Disinfect & Prop Swap
   weekday: Wednesday
-- end_row: 16
+- class: wipe_down
+  end_row: 16
   end_string: '"12:45"'
   icons: *id004
   location: TH & PZ
@@ -214,7 +237,8 @@
   start_string: '"12:15"'
   task: Wipe down
   weekday: Wednesday
-- end_row: 28
+- class: spray_and_swap
+  end_row: 28
   end_string: '"15:45"'
   icons: *id002
   location: TH & PZ
@@ -223,7 +247,8 @@
   start_string: '"15:00"'
   task: Disinfect & Prop Swap
   weekday: Wednesday
-- end_row: 5
+- class: learn_and_play
+  end_row: 5
   end_string: '"10:00"'
   icons: *id001
   location: HTT
@@ -232,7 +257,8 @@
   start_string: '"09:00"'
   task: Learn & Play
   weekday: Thursday
-- end_row: 6
+- class: prop_swap
+  end_row: 6
   end_string: '"10:15"'
   icons: *id003
   location: HTT
@@ -241,7 +267,8 @@
   start_string: '"10:00"'
   task: Prop Swap Only
   weekday: Thursday
-- end_row: 19
+- class: wipe_down
+  end_row: 19
   end_string: '"13:30"'
   icons: *id004
   location: HTT
@@ -250,7 +277,8 @@
   start_string: '"13:00"'
   task: Wipe down
   weekday: Thursday
-- end_row: 5
+- class: prop_swap
+  end_row: 5
   end_string: '"10:00"'
   icons: *id003
   location: Splash (UW - SS)
@@ -259,7 +287,8 @@
   start_string: '"09:45"'
   task: Prop Swap Only
   weekday: Thursday
-- end_row: 7
+- class: closed_to_public
+  end_row: 7
   end_string: '"10:30"'
   icons: *id001
   location: Splash (UW - SS)
@@ -268,7 +297,8 @@
   start_string: '"10:00"'
   task: Closed to Public
   weekday: Thursday
-- end_row: 11
+- class: learn_and_play
+  end_row: 11
   end_string: '"11:30"'
   icons: *id001
   location: Splash (UW - SS)
@@ -277,7 +307,8 @@
   start_string: '"10:30"'
   task: Learn & Play
   weekday: Thursday
-- end_row: 25
+- class: wipe_down
+  end_row: 25
   end_string: '"15:00"'
   icons: *id004
   location: Splash (UW - SS)
@@ -286,7 +317,8 @@
   start_string: '"14:30"'
   task: Wipe down
   weekday: Thursday
-- end_row: 13
+- class: spray_and_swap
+  end_row: 13
   end_string: '"12:00"'
   icons: *id002
   location: Ideaworks & Art Loft
@@ -295,7 +327,8 @@
   start_string: '"11:15"'
   task: Disinfect & Prop Swap
   weekday: Thursday
-- end_row: 22
+- class: wipe_down
+  end_row: 22
   end_string: '"14:15"'
   icons: *id004
   location: Ideaworks & Art Loft
@@ -304,7 +337,8 @@
   start_string: '"13:45"'
   task: Wipe down
   weekday: Thursday
-- end_row: 16
+- class: spray_and_swap
+  end_row: 16
   end_string: '"12:45"'
   icons: *id002
   location: Around Town
@@ -313,7 +347,8 @@
   start_string: '"12:00"'
   task: Disinfect & Prop Swap
   weekday: Thursday
-- end_row: 19
+- class: spray_and_swap
+  end_row: 19
   end_string: '"13:30"'
   icons: *id002
   location: Moneypalooza
@@ -322,7 +357,8 @@
   start_string: '"12:45"'
   task: Disinfect & Prop Swap
   weekday: Thursday
-- end_row: 22
+- class: spray_and_swap
+  end_row: 22
   end_string: '"14:15"'
   icons: *id002
   location: P2P & STEMosphere
@@ -331,7 +367,8 @@
   start_string: '"13:30"'
   task: Disinfect & Prop Swap
   weekday: Thursday
-- end_row: 12
+- class: wipe_down
+  end_row: 12
   end_string: '"11:45"'
   icons: *id004
   location: Kid Grid & RPW
@@ -340,7 +377,8 @@
   start_string: '"11:15"'
   task: Wipe down
   weekday: Thursday
-- end_row: 25
+- class: spray_and_swap
+  end_row: 25
   end_string: '"15:00"'
   icons: *id002
   location: Kid Grid & RPW
@@ -349,7 +387,8 @@
   start_string: '"14:15"'
   task: Disinfect & Prop Swap
   weekday: Thursday
-- end_row: 16
+- class: wipe_down
+  end_row: 16
   end_string: '"12:45"'
   icons: *id004
   location: TH & PZ
@@ -358,7 +397,8 @@
   start_string: '"12:15"'
   task: Wipe down
   weekday: Thursday
-- end_row: 28
+- class: spray_and_swap
+  end_row: 28
   end_string: '"15:45"'
   icons: *id002
   location: TH & PZ
@@ -367,7 +407,8 @@
   start_string: '"15:00"'
   task: Disinfect & Prop Swap
   weekday: Thursday
-- end_row: 5
+- class: learn_and_play
+  end_row: 5
   end_string: '"10:00"'
   icons: *id001
   location: Splash (UW - SS)
@@ -376,7 +417,8 @@
   start_string: '"09:00"'
   task: Learn & Play
   weekday: Friday
-- end_row: 6
+- class: prop_swap
+  end_row: 6
   end_string: '"10:15"'
   icons: *id003
   location: Splash (UW - SS)
@@ -385,7 +427,8 @@
   start_string: '"10:00"'
   task: Prop Swap Only
   weekday: Friday
-- end_row: 19
+- class: wipe_down
+  end_row: 19
   end_string: '"13:30"'
   icons: *id004
   location: Splash (UW - SS)
@@ -394,7 +437,8 @@
   start_string: '"13:00"'
   task: Wipe down
   weekday: Friday
-- end_row: 5
+- class: prop_swap
+  end_row: 5
   end_string: '"10:00"'
   icons: *id003
   location: Ideaworks & Art Loft
@@ -403,7 +447,8 @@
   start_string: '"09:45"'
   task: Prop Swap Only
   weekday: Friday
-- end_row: 7
+- class: closed_to_public
+  end_row: 7
   end_string: '"10:30"'
   icons: *id001
   location: Ideaworks & Art Loft
@@ -412,7 +457,8 @@
   start_string: '"10:00"'
   task: Closed to Public
   weekday: Friday
-- end_row: 11
+- class: learn_and_play
+  end_row: 11
   end_string: '"11:30"'
   icons: *id001
   location: Ideaworks & Art Loft
@@ -421,7 +467,8 @@
   start_string: '"10:30"'
   task: Learn & Play
   weekday: Friday
-- end_row: 25
+- class: wipe_down
+  end_row: 25
   end_string: '"15:00"'
   icons: *id004
   location: Ideaworks & Art Loft
@@ -430,7 +477,8 @@
   start_string: '"14:30"'
   task: Wipe down
   weekday: Friday
-- end_row: 13
+- class: spray_and_swap
+  end_row: 13
   end_string: '"12:00"'
   icons: *id002
   location: Kid Grid & RPW
@@ -439,7 +487,8 @@
   start_string: '"11:15"'
   task: Disinfect & Prop Swap
   weekday: Friday
-- end_row: 22
+- class: wipe_down
+  end_row: 22
   end_string: '"14:15"'
   icons: *id004
   location: Kid Grid & RPW
@@ -448,7 +497,8 @@
   start_string: '"13:45"'
   task: Wipe down
   weekday: Friday
-- end_row: 16
+- class: spray_and_swap
+  end_row: 16
   end_string: '"12:45"'
   icons: *id002
   location: HTT
@@ -457,7 +507,8 @@
   start_string: '"12:00"'
   task: Disinfect & Prop Swap
   weekday: Friday
-- end_row: 19
+- class: spray_and_swap
+  end_row: 19
   end_string: '"13:30"'
   icons: *id002
   location: Around Town
@@ -466,7 +517,8 @@
   start_string: '"12:45"'
   task: Disinfect & Prop Swap
   weekday: Friday
-- end_row: 22
+- class: spray_and_swap
+  end_row: 22
   end_string: '"14:15"'
   icons: *id002
   location: Moneypalooza
@@ -475,7 +527,8 @@
   start_string: '"13:30"'
   task: Disinfect & Prop Swap
   weekday: Friday
-- end_row: 12
+- class: wipe_down
+  end_row: 12
   end_string: '"11:45"'
   icons: *id004
   location: P2P & STEMosphere
@@ -484,7 +537,8 @@
   start_string: '"11:15"'
   task: Wipe down
   weekday: Friday
-- end_row: 25
+- class: spray_and_swap
+  end_row: 25
   end_string: '"15:00"'
   icons: *id002
   location: P2P & STEMosphere
@@ -493,7 +547,8 @@
   start_string: '"14:15"'
   task: Disinfect & Prop Swap
   weekday: Friday
-- end_row: 16
+- class: wipe_down
+  end_row: 16
   end_string: '"12:45"'
   icons: *id004
   location: TH & PZ
@@ -502,7 +557,8 @@
   start_string: '"12:15"'
   task: Wipe down
   weekday: Friday
-- end_row: 28
+- class: spray_and_swap
+  end_row: 28
   end_string: '"15:45"'
   icons: *id002
   location: TH & PZ
@@ -511,7 +567,8 @@
   start_string: '"15:00"'
   task: Disinfect & Prop Swap
   weekday: Friday
-- end_row: 8
+- class: spray_and_swap
+  end_row: 8
   end_string: '"10:45"'
   icons: *id002
   location: HTT
@@ -520,7 +577,8 @@
   start_string: '"10:00"'
   task: Disinfect & Prop Swap
   weekday: Weekend
-- end_row: 20
+- class: wipe_down
+  end_row: 20
   end_string: '"13:45"'
   icons: *id004
   location: HTT
@@ -529,7 +587,8 @@
   start_string: '"13:15"'
   task: Wipe down
   weekday: Weekend
-- end_row: 11
+- class: spray_and_swap
+  end_row: 11
   end_string: '"11:30"'
   icons: *id002
   location: TH & PZ
@@ -538,7 +597,8 @@
   start_string: '"10:45"'
   task: Disinfect & Prop Swap
   weekday: Weekend
-- end_row: 24
+- class: wipe_down
+  end_row: 24
   end_string: '"14:45"'
   icons: *id004
   location: TH & PZ
@@ -547,7 +607,8 @@
   start_string: '"14:15"'
   task: Wipe down
   weekday: Weekend
-- end_row: 14
+- class: spray_and_swap
+  end_row: 14
   end_string: '"12:15"'
   icons: *id002
   location: Around Town
@@ -556,7 +617,8 @@
   start_string: '"11:30"'
   task: Disinfect & Prop Swap
   weekday: Weekend
-- end_row: 17
+- class: spray_and_swap
+  end_row: 17
   end_string: '"13:00"'
   icons: *id002
   location: Splash (TT - SS)
@@ -565,7 +627,8 @@
   start_string: '"12:15"'
   task: Disinfect & Prop Swap
   weekday: Weekend
-- end_row: 20
+- class: spray_and_swap
+  end_row: 20
   end_string: '"13:45"'
   icons: *id002
   location: Moneypalooza
@@ -574,7 +637,8 @@
   start_string: '"13:00"'
   task: Disinfect & Prop Swap
   weekday: Weekend
-- end_row: 23
+- class: spray_and_swap
+  end_row: 23
   end_string: '"14:30"'
   icons: *id002
   location: Ideaworks & Art Loft
@@ -583,7 +647,8 @@
   start_string: '"13:45"'
   task: Disinfect & Prop Swap
   weekday: Weekend
-- end_row: 13
+- class: wipe_down
+  end_row: 13
   end_string: '"12:00"'
   icons: *id004
   location: P2P & STEMosphere
@@ -592,7 +657,8 @@
   start_string: '"11:30"'
   task: Wipe down
   weekday: Weekend
-- end_row: 26
+- class: spray_and_swap
+  end_row: 26
   end_string: '"15:15"'
   icons: *id002
   location: P2P & STEMosphere
@@ -601,7 +667,8 @@
   start_string: '"14:30"'
   task: Disinfect & Prop Swap
   weekday: Weekend
-- end_row: 17
+- class: wipe_down
+  end_row: 17
   end_string: '"13:00"'
   icons: *id004
   location: Kid Grid & RPW
@@ -610,7 +677,8 @@
   start_string: '"12:30"'
   task: Wipe down
   weekday: Weekend
-- end_row: 29
+- class: spray_and_swap
+  end_row: 29
   end_string: '"16:00"'
   icons: *id002
   location: Kid Grid & RPW

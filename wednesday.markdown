@@ -1,0 +1,4 @@
+---
+weekday: "Wednesday"
+layout: tasks
+---

@@ -126,7 +126,7 @@ def merged_size(cell, sheet):
 
 if __name__ == "__main__":
     filename = sys.argv[1]
-    print(filename)
+    print(f"Importing file: {filename}")
     wb = openpyxl.load_workbook(filename)
     sheet = wb["Schedule"]
     # row 14 is the first row of time headers, col B to AL
@@ -139,7 +139,6 @@ if __name__ == "__main__":
             ["weekday", "location", "start_time", "end_time", "task_text", "id"]
         )
         for day in DAY_ROWS:
-            print("=" * 80)
             rng_start = "B" + str(day[0])
             rng_end = "AJ" + str(day[1])
             for row in sheet[rng_start:rng_end]:
@@ -185,6 +184,8 @@ if __name__ == "__main__":
     df["end_string"] = df.end_time.apply(
         lambda x: '"' + x.strftime("%H:%M") + '"')
 
+    df["class"] = df.task.apply(lambda x: task_classes[x])
+
     time_list = list_of_times(
         datetime.datetime.combine(datetime.date(
             2020, 1, 1), min(df['start'])),  # Earliest time in df
@@ -192,7 +193,6 @@ if __name__ == "__main__":
             2020, 1, 1), max(df['end'])) + datetime.timedelta(minutes=15),  # Latest time in df
         datetime.timedelta(minutes=15),  # Interval of time list
     )
-    print(time_list[0][3:6])
     hour_rows = [
         (index, str(time)) for (index, time) in enumerate(time_list, 1) if time[3:6] == ":00"
     ]
@@ -218,7 +218,7 @@ if __name__ == "__main__":
         # "hour_rows": hour_rows,
     }
     print(df.head())
-    print(hour_rows)
+    print(time_list)
     df.to_csv(r'_data/eventscsv.csv', index=False)
 
     with open(r'_data/context.yml', 'w') as yml_file:
