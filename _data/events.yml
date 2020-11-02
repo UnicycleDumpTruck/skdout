@@ -1,19 +1,41 @@
 - class: learn_and_play
+  end: &id004 !!python/object/apply:datetime.time
+  - !!binary |
+    CgAAAAAA
   end_row: 5
-  end_string: '"10:00"'
+  end_string: '10:00'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577872800000000000
+  - null
+  - null
   icons: &id001 !!python/tuple
   - close.png
   - learn.png
   location: Moneypalooza
   long_location: null
   row: 2
+  start: &id005 !!python/object/apply:datetime.time
+  - !!binary |
+    CQAAAAAA
   start_row: 1
-  start_string: '"09:00"'
+  start_string: '9:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577869200000000000
+  - null
+  - null
   task: Learn & Play
+  time_range: 9:00 to 10:00
   weekday: Monday
 - class: spray_and_swap
+  end: &id003 !!python/object/apply:datetime.time
+  - !!binary |
+    Dy0AAAAA
   end_row: 28
-  end_string: '"15:45"'
+  end_string: '3:45'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577893500000000000
+  - null
+  - null
   icons: &id002 !!python/tuple
   - close.png
   - swap.png
@@ -21,737 +43,1513 @@
   location: Moneypalooza
   long_location: null
   row: 3
+  start: &id006 !!python/object/apply:datetime.time
+  - !!binary |
+    DwAAAAAA
   start_row: 25
-  start_string: '"15:00"'
+  start_string: '3:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577890800000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 3:00 to 3:45
   weekday: Monday
 - class: learn_and_play
+  end: &id007 !!python/object/apply:datetime.time
+  - !!binary |
+    Cx4AAAAA
   end_row: 11
-  end_string: '"11:30"'
+  end_string: '11:30'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577878200000000000
+  - null
+  - null
   icons: *id001
   location: Around Town
   long_location: null
   row: 2
+  start: &id008 !!python/object/apply:datetime.time
+  - !!binary |
+    Ch4AAAAA
   start_row: 7
-  start_string: '"10:30"'
+  start_string: '10:30'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577874600000000000
+  - null
+  - null
   task: Learn & Play
+  time_range: 10:30 to 11:30
   weekday: Monday
 - class: spray_and_swap
+  end: &id009 !!python/object/apply:datetime.time
+  - !!binary |
+    EB4AAAAA
   end_row: 31
-  end_string: '"16:30"'
+  end_string: '4:30'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577896200000000000
+  - null
+  - null
   icons: *id002
   location: Around Town
   long_location: null
   row: 3
+  start: *id003
   start_row: 28
-  start_string: '"15:45"'
+  start_string: '3:45'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577893500000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 3:45 to 4:30
   weekday: Monday
 - class: learn_and_play
+  end: *id004
   end_row: 5
-  end_string: '"10:00"'
+  end_string: '10:00'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577872800000000000
+  - null
+  - null
   icons: *id001
   location: Around Town
   long_location: null
   row: 2
+  start: *id005
   start_row: 1
-  start_string: '"09:00"'
+  start_string: '9:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577869200000000000
+  - null
+  - null
   task: Learn & Play
+  time_range: 9:00 to 10:00
   weekday: Tuesday
 - class: spray_and_swap
+  end: *id003
   end_row: 28
-  end_string: '"15:45"'
+  end_string: '3:45'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577893500000000000
+  - null
+  - null
   icons: *id002
   location: Around Town
   long_location: null
   row: 3
+  start: *id006
   start_row: 25
-  start_string: '"15:00"'
+  start_string: '3:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577890800000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 3:00 to 3:45
   weekday: Tuesday
 - class: learn_and_play
+  end: *id007
   end_row: 11
-  end_string: '"11:30"'
+  end_string: '11:30'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577878200000000000
+  - null
+  - null
   icons: *id001
   location: Moneypalooza
   long_location: null
   row: 2
+  start: *id008
   start_row: 7
-  start_string: '"10:30"'
+  start_string: '10:30'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577874600000000000
+  - null
+  - null
   task: Learn & Play
+  time_range: 10:30 to 11:30
   weekday: Tuesday
 - class: spray_and_swap
+  end: *id009
   end_row: 31
-  end_string: '"16:30"'
+  end_string: '4:30'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577896200000000000
+  - null
+  - null
   icons: *id002
   location: Moneypalooza
   long_location: null
   row: 3
+  start: *id003
   start_row: 28
-  start_string: '"15:45"'
+  start_string: '3:45'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577893500000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 3:45 to 4:30
   weekday: Tuesday
 - class: learn_and_play
+  end: *id004
   end_row: 5
-  end_string: '"10:00"'
+  end_string: '10:00'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577872800000000000
+  - null
+  - null
   icons: *id001
   location: Kid Grid & RPW
   long_location: Kid Grid & River Playway
   row: 2
+  start: *id005
   start_row: 1
-  start_string: '"09:00"'
+  start_string: '9:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577869200000000000
+  - null
+  - null
   task: Learn & Play
+  time_range: 9:00 to 10:00
   weekday: Wednesday
 - class: prop_swap
+  end: &id017 !!python/object/apply:datetime.time
+  - !!binary |
+    Cg8AAAAA
   end_row: 6
-  end_string: '"10:15"'
-  icons: &id003 !!python/tuple
+  end_string: '10:15'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577873700000000000
+  - null
+  - null
+  icons: &id010 !!python/tuple
   - open.png
   - swap.png
   location: Kid Grid & RPW
   long_location: Kid Grid & River Playway
   row: 3
+  start: *id004
   start_row: 5
-  start_string: '"10:00"'
+  start_string: '10:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577872800000000000
+  - null
+  - null
   task: Prop Swap Only
+  time_range: 10:00 to 10:15
   weekday: Wednesday
 - class: wipe_down
+  end: &id013 !!python/object/apply:datetime.time
+  - !!binary |
+    DR4AAAAA
   end_row: 19
-  end_string: '"13:30"'
-  icons: &id004 !!python/tuple
+  end_string: '1:30'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577885400000000000
+  - null
+  - null
+  icons: &id011 !!python/tuple
   - open.png
   - wipe.png
   location: Kid Grid & RPW
   long_location: Kid Grid & River Playway
   row: 4
+  start: &id018 !!python/object/apply:datetime.time
+  - !!binary |
+    DQAAAAAA
   start_row: 17
-  start_string: '"13:00"'
+  start_string: '1:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577883600000000000
+  - null
+  - null
   task: Wipe down
+  time_range: 1:00 to 1:30
   weekday: Wednesday
 - class: prop_swap
+  end: *id004
   end_row: 5
-  end_string: '"10:00"'
-  icons: *id003
+  end_string: '10:00'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577872800000000000
+  - null
+  - null
+  icons: *id010
   location: P2P & STEMosphere
   long_location: Power2Play & STEMosphere
   row: 3
+  start: &id019 !!python/object/apply:datetime.time
+  - !!binary |
+    CS0AAAAA
   start_row: 4
-  start_string: '"09:45"'
+  start_string: '9:45'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577871900000000000
+  - null
+  - null
   task: Prop Swap Only
+  time_range: 9:45 to 10:00
   weekday: Wednesday
 - class: closed_to_public
+  end: *id008
   end_row: 7
-  end_string: '"10:30"'
+  end_string: '10:30'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577874600000000000
+  - null
+  - null
   icons: *id001
   location: P2P & STEMosphere
   long_location: Power2Play & STEMosphere
   row: 2
+  start: *id004
   start_row: 5
-  start_string: '"10:00"'
+  start_string: '10:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577872800000000000
+  - null
+  - null
   task: Closed to Public
+  time_range: 10:00 to 10:30
   weekday: Wednesday
 - class: learn_and_play
+  end: *id007
   end_row: 11
-  end_string: '"11:30"'
+  end_string: '11:30'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577878200000000000
+  - null
+  - null
   icons: *id001
   location: P2P & STEMosphere
   long_location: Power2Play & STEMosphere
   row: 2
+  start: *id008
   start_row: 7
-  start_string: '"10:30"'
+  start_string: '10:30'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577874600000000000
+  - null
+  - null
   task: Learn & Play
+  time_range: 10:30 to 11:30
   weekday: Wednesday
 - class: wipe_down
+  end: *id006
   end_row: 25
-  end_string: '"15:00"'
-  icons: *id004
+  end_string: '3:00'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577890800000000000
+  - null
+  - null
+  icons: *id011
   location: P2P & STEMosphere
   long_location: Power2Play & STEMosphere
   row: 4
+  start: &id020 !!python/object/apply:datetime.time
+  - !!binary |
+    Dh4AAAAA
   start_row: 23
-  start_string: '"14:30"'
+  start_string: '2:30'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577889000000000000
+  - null
+  - null
   task: Wipe down
+  time_range: 2:30 to 3:00
   weekday: Wednesday
 - class: spray_and_swap
+  end: &id012 !!python/object/apply:datetime.time
+  - !!binary |
+    DAAAAAAA
   end_row: 13
-  end_string: '"12:00"'
+  end_string: '12:00'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577880000000000000
+  - null
+  - null
   icons: *id002
   location: Splash (UW - SS)
   long_location: null
   row: 3
+  start: &id016 !!python/object/apply:datetime.time
+  - !!binary |
+    Cw8AAAAA
   start_row: 10
-  start_string: '"11:15"'
+  start_string: '11:15'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577877300000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 11:15 to 12:00
   weekday: Wednesday
 - class: wipe_down
+  end: &id015 !!python/object/apply:datetime.time
+  - !!binary |
+    Dg8AAAAA
   end_row: 22
-  end_string: '"14:15"'
-  icons: *id004
+  end_string: '2:15'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577888100000000000
+  - null
+  - null
+  icons: *id011
   location: Splash (UW - SS)
   long_location: null
   row: 4
+  start: &id021 !!python/object/apply:datetime.time
+  - !!binary |
+    DS0AAAAA
   start_row: 20
-  start_string: '"13:45"'
+  start_string: '1:45'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577886300000000000
+  - null
+  - null
   task: Wipe down
+  time_range: 1:45 to 2:15
   weekday: Wednesday
 - class: spray_and_swap
+  end: &id014 !!python/object/apply:datetime.time
+  - !!binary |
+    DC0AAAAA
   end_row: 16
-  end_string: '"12:45"'
+  end_string: '12:45'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577882700000000000
+  - null
+  - null
   icons: *id002
   location: HTT
   long_location: Hit the Trail
   row: 3
+  start: *id012
   start_row: 13
-  start_string: '"12:00"'
+  start_string: '12:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577880000000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 12:00 to 12:45
   weekday: Wednesday
 - class: spray_and_swap
+  end: *id013
   end_row: 19
-  end_string: '"13:30"'
+  end_string: '1:30'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577885400000000000
+  - null
+  - null
   icons: *id002
   location: Around Town
   long_location: null
   row: 3
+  start: *id014
   start_row: 16
-  start_string: '"12:45"'
+  start_string: '12:45'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577882700000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 12:45 to 1:30
   weekday: Wednesday
 - class: spray_and_swap
+  end: *id015
   end_row: 22
-  end_string: '"14:15"'
+  end_string: '2:15'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577888100000000000
+  - null
+  - null
   icons: *id002
   location: Moneypalooza
   long_location: null
   row: 3
+  start: *id013
   start_row: 19
-  start_string: '"13:30"'
+  start_string: '1:30'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577885400000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 1:30 to 2:15
   weekday: Wednesday
 - class: wipe_down
+  end: &id022 !!python/object/apply:datetime.time
+  - !!binary |
+    Cy0AAAAA
   end_row: 12
-  end_string: '"11:45"'
-  icons: *id004
+  end_string: '11:45'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577879100000000000
+  - null
+  - null
+  icons: *id011
   location: Ideaworks & Art Loft
   long_location: null
   row: 4
+  start: *id016
   start_row: 10
-  start_string: '"11:15"'
+  start_string: '11:15'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577877300000000000
+  - null
+  - null
   task: Wipe down
+  time_range: 11:15 to 11:45
   weekday: Wednesday
 - class: spray_and_swap
+  end: *id006
   end_row: 25
-  end_string: '"15:00"'
+  end_string: '3:00'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577890800000000000
+  - null
+  - null
   icons: *id002
   location: Ideaworks & Art Loft
   long_location: null
   row: 3
+  start: *id015
   start_row: 22
-  start_string: '"14:15"'
+  start_string: '2:15'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577888100000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 2:15 to 3:00
   weekday: Wednesday
 - class: wipe_down
+  end: *id014
   end_row: 16
-  end_string: '"12:45"'
-  icons: *id004
+  end_string: '12:45'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577882700000000000
+  - null
+  - null
+  icons: *id011
   location: TH & PZ
   long_location: Toddlers Hollow & Putting Zoo
   row: 4
+  start: &id023 !!python/object/apply:datetime.time
+  - !!binary |
+    DA8AAAAA
   start_row: 14
-  start_string: '"12:15"'
+  start_string: '12:15'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577880900000000000
+  - null
+  - null
   task: Wipe down
+  time_range: 12:15 to 12:45
   weekday: Wednesday
 - class: spray_and_swap
+  end: *id003
   end_row: 28
-  end_string: '"15:45"'
+  end_string: '3:45'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577893500000000000
+  - null
+  - null
   icons: *id002
   location: TH & PZ
   long_location: Toddlers Hollow & Putting Zoo
   row: 3
+  start: *id006
   start_row: 25
-  start_string: '"15:00"'
+  start_string: '3:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577890800000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 3:00 to 3:45
   weekday: Wednesday
 - class: learn_and_play
+  end: *id004
   end_row: 5
-  end_string: '"10:00"'
+  end_string: '10:00'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577872800000000000
+  - null
+  - null
   icons: *id001
   location: HTT
   long_location: Hit the Trail
   row: 2
+  start: *id005
   start_row: 1
-  start_string: '"09:00"'
+  start_string: '9:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577869200000000000
+  - null
+  - null
   task: Learn & Play
+  time_range: 9:00 to 10:00
   weekday: Thursday
 - class: prop_swap
+  end: *id017
   end_row: 6
-  end_string: '"10:15"'
-  icons: *id003
+  end_string: '10:15'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577873700000000000
+  - null
+  - null
+  icons: *id010
   location: HTT
   long_location: Hit the Trail
   row: 3
+  start: *id004
   start_row: 5
-  start_string: '"10:00"'
+  start_string: '10:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577872800000000000
+  - null
+  - null
   task: Prop Swap Only
+  time_range: 10:00 to 10:15
   weekday: Thursday
 - class: wipe_down
+  end: *id013
   end_row: 19
-  end_string: '"13:30"'
-  icons: *id004
+  end_string: '1:30'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577885400000000000
+  - null
+  - null
+  icons: *id011
   location: HTT
   long_location: Hit the Trail
   row: 4
+  start: *id018
   start_row: 17
-  start_string: '"13:00"'
+  start_string: '1:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577883600000000000
+  - null
+  - null
   task: Wipe down
+  time_range: 1:00 to 1:30
   weekday: Thursday
 - class: prop_swap
+  end: *id004
   end_row: 5
-  end_string: '"10:00"'
-  icons: *id003
+  end_string: '10:00'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577872800000000000
+  - null
+  - null
+  icons: *id010
   location: Splash (UW - SS)
   long_location: null
   row: 3
+  start: *id019
   start_row: 4
-  start_string: '"09:45"'
+  start_string: '9:45'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577871900000000000
+  - null
+  - null
   task: Prop Swap Only
+  time_range: 9:45 to 10:00
   weekday: Thursday
 - class: closed_to_public
+  end: *id008
   end_row: 7
-  end_string: '"10:30"'
+  end_string: '10:30'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577874600000000000
+  - null
+  - null
   icons: *id001
   location: Splash (UW - SS)
   long_location: null
   row: 2
+  start: *id004
   start_row: 5
-  start_string: '"10:00"'
+  start_string: '10:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577872800000000000
+  - null
+  - null
   task: Closed to Public
+  time_range: 10:00 to 10:30
   weekday: Thursday
 - class: learn_and_play
+  end: *id007
   end_row: 11
-  end_string: '"11:30"'
+  end_string: '11:30'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577878200000000000
+  - null
+  - null
   icons: *id001
   location: Splash (UW - SS)
   long_location: null
   row: 2
+  start: *id008
   start_row: 7
-  start_string: '"10:30"'
+  start_string: '10:30'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577874600000000000
+  - null
+  - null
   task: Learn & Play
+  time_range: 10:30 to 11:30
   weekday: Thursday
 - class: wipe_down
+  end: *id006
   end_row: 25
-  end_string: '"15:00"'
-  icons: *id004
+  end_string: '3:00'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577890800000000000
+  - null
+  - null
+  icons: *id011
   location: Splash (UW - SS)
   long_location: null
   row: 4
+  start: *id020
   start_row: 23
-  start_string: '"14:30"'
+  start_string: '2:30'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577889000000000000
+  - null
+  - null
   task: Wipe down
+  time_range: 2:30 to 3:00
   weekday: Thursday
 - class: spray_and_swap
+  end: *id012
   end_row: 13
-  end_string: '"12:00"'
+  end_string: '12:00'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577880000000000000
+  - null
+  - null
   icons: *id002
   location: Ideaworks & Art Loft
   long_location: null
   row: 3
+  start: *id016
   start_row: 10
-  start_string: '"11:15"'
+  start_string: '11:15'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577877300000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 11:15 to 12:00
   weekday: Thursday
 - class: wipe_down
+  end: *id015
   end_row: 22
-  end_string: '"14:15"'
-  icons: *id004
+  end_string: '2:15'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577888100000000000
+  - null
+  - null
+  icons: *id011
   location: Ideaworks & Art Loft
   long_location: null
   row: 4
+  start: *id021
   start_row: 20
-  start_string: '"13:45"'
+  start_string: '1:45'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577886300000000000
+  - null
+  - null
   task: Wipe down
+  time_range: 1:45 to 2:15
   weekday: Thursday
 - class: spray_and_swap
+  end: *id014
   end_row: 16
-  end_string: '"12:45"'
+  end_string: '12:45'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577882700000000000
+  - null
+  - null
   icons: *id002
   location: Around Town
   long_location: null
   row: 3
+  start: *id012
   start_row: 13
-  start_string: '"12:00"'
+  start_string: '12:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577880000000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 12:00 to 12:45
   weekday: Thursday
 - class: spray_and_swap
+  end: *id013
   end_row: 19
-  end_string: '"13:30"'
+  end_string: '1:30'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577885400000000000
+  - null
+  - null
   icons: *id002
   location: Moneypalooza
   long_location: null
   row: 3
+  start: *id014
   start_row: 16
-  start_string: '"12:45"'
+  start_string: '12:45'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577882700000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 12:45 to 1:30
   weekday: Thursday
 - class: spray_and_swap
+  end: *id015
   end_row: 22
-  end_string: '"14:15"'
+  end_string: '2:15'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577888100000000000
+  - null
+  - null
   icons: *id002
   location: P2P & STEMosphere
   long_location: Power2Play & STEMosphere
   row: 3
+  start: *id013
   start_row: 19
-  start_string: '"13:30"'
+  start_string: '1:30'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577885400000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 1:30 to 2:15
   weekday: Thursday
 - class: wipe_down
+  end: *id022
   end_row: 12
-  end_string: '"11:45"'
-  icons: *id004
+  end_string: '11:45'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577879100000000000
+  - null
+  - null
+  icons: *id011
   location: Kid Grid & RPW
   long_location: Kid Grid & River Playway
   row: 4
+  start: *id016
   start_row: 10
-  start_string: '"11:15"'
+  start_string: '11:15'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577877300000000000
+  - null
+  - null
   task: Wipe down
+  time_range: 11:15 to 11:45
   weekday: Thursday
 - class: spray_and_swap
+  end: *id006
   end_row: 25
-  end_string: '"15:00"'
+  end_string: '3:00'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577890800000000000
+  - null
+  - null
   icons: *id002
   location: Kid Grid & RPW
   long_location: Kid Grid & River Playway
   row: 3
+  start: *id015
   start_row: 22
-  start_string: '"14:15"'
+  start_string: '2:15'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577888100000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 2:15 to 3:00
   weekday: Thursday
 - class: wipe_down
+  end: *id014
   end_row: 16
-  end_string: '"12:45"'
-  icons: *id004
+  end_string: '12:45'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577882700000000000
+  - null
+  - null
+  icons: *id011
   location: TH & PZ
   long_location: Toddlers Hollow & Putting Zoo
   row: 4
+  start: *id023
   start_row: 14
-  start_string: '"12:15"'
+  start_string: '12:15'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577880900000000000
+  - null
+  - null
   task: Wipe down
+  time_range: 12:15 to 12:45
   weekday: Thursday
 - class: spray_and_swap
+  end: *id003
   end_row: 28
-  end_string: '"15:45"'
+  end_string: '3:45'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577893500000000000
+  - null
+  - null
   icons: *id002
   location: TH & PZ
   long_location: Toddlers Hollow & Putting Zoo
   row: 3
+  start: *id006
   start_row: 25
-  start_string: '"15:00"'
+  start_string: '3:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577890800000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 3:00 to 3:45
   weekday: Thursday
 - class: learn_and_play
+  end: *id004
   end_row: 5
-  end_string: '"10:00"'
+  end_string: '10:00'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577872800000000000
+  - null
+  - null
   icons: *id001
   location: Splash (UW - SS)
   long_location: null
   row: 2
+  start: *id005
   start_row: 1
-  start_string: '"09:00"'
+  start_string: '9:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577869200000000000
+  - null
+  - null
   task: Learn & Play
+  time_range: 9:00 to 10:00
   weekday: Friday
 - class: prop_swap
+  end: *id017
   end_row: 6
-  end_string: '"10:15"'
-  icons: *id003
+  end_string: '10:15'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577873700000000000
+  - null
+  - null
+  icons: *id010
   location: Splash (UW - SS)
   long_location: null
   row: 3
+  start: *id004
   start_row: 5
-  start_string: '"10:00"'
+  start_string: '10:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577872800000000000
+  - null
+  - null
   task: Prop Swap Only
+  time_range: 10:00 to 10:15
   weekday: Friday
 - class: wipe_down
+  end: *id013
   end_row: 19
-  end_string: '"13:30"'
-  icons: *id004
+  end_string: '1:30'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577885400000000000
+  - null
+  - null
+  icons: *id011
   location: Splash (UW - SS)
   long_location: null
   row: 4
+  start: *id018
   start_row: 17
-  start_string: '"13:00"'
+  start_string: '1:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577883600000000000
+  - null
+  - null
   task: Wipe down
+  time_range: 1:00 to 1:30
   weekday: Friday
 - class: prop_swap
+  end: *id004
   end_row: 5
-  end_string: '"10:00"'
-  icons: *id003
+  end_string: '10:00'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577872800000000000
+  - null
+  - null
+  icons: *id010
   location: Ideaworks & Art Loft
   long_location: null
   row: 3
+  start: *id019
   start_row: 4
-  start_string: '"09:45"'
+  start_string: '9:45'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577871900000000000
+  - null
+  - null
   task: Prop Swap Only
+  time_range: 9:45 to 10:00
   weekday: Friday
 - class: closed_to_public
+  end: *id008
   end_row: 7
-  end_string: '"10:30"'
+  end_string: '10:30'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577874600000000000
+  - null
+  - null
   icons: *id001
   location: Ideaworks & Art Loft
   long_location: null
   row: 2
+  start: *id004
   start_row: 5
-  start_string: '"10:00"'
+  start_string: '10:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577872800000000000
+  - null
+  - null
   task: Closed to Public
+  time_range: 10:00 to 10:30
   weekday: Friday
 - class: learn_and_play
+  end: *id007
   end_row: 11
-  end_string: '"11:30"'
+  end_string: '11:30'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577878200000000000
+  - null
+  - null
   icons: *id001
   location: Ideaworks & Art Loft
   long_location: null
   row: 2
+  start: *id008
   start_row: 7
-  start_string: '"10:30"'
+  start_string: '10:30'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577874600000000000
+  - null
+  - null
   task: Learn & Play
+  time_range: 10:30 to 11:30
   weekday: Friday
 - class: wipe_down
+  end: *id006
   end_row: 25
-  end_string: '"15:00"'
-  icons: *id004
+  end_string: '3:00'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577890800000000000
+  - null
+  - null
+  icons: *id011
   location: Ideaworks & Art Loft
   long_location: null
   row: 4
+  start: *id020
   start_row: 23
-  start_string: '"14:30"'
+  start_string: '2:30'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577889000000000000
+  - null
+  - null
   task: Wipe down
+  time_range: 2:30 to 3:00
   weekday: Friday
 - class: spray_and_swap
+  end: *id012
   end_row: 13
-  end_string: '"12:00"'
+  end_string: '12:00'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577880000000000000
+  - null
+  - null
   icons: *id002
   location: Kid Grid & RPW
   long_location: Kid Grid & River Playway
   row: 3
+  start: *id016
   start_row: 10
-  start_string: '"11:15"'
+  start_string: '11:15'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577877300000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 11:15 to 12:00
   weekday: Friday
 - class: wipe_down
+  end: *id015
   end_row: 22
-  end_string: '"14:15"'
-  icons: *id004
+  end_string: '2:15'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577888100000000000
+  - null
+  - null
+  icons: *id011
   location: Kid Grid & RPW
   long_location: Kid Grid & River Playway
   row: 4
+  start: *id021
   start_row: 20
-  start_string: '"13:45"'
+  start_string: '1:45'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577886300000000000
+  - null
+  - null
   task: Wipe down
+  time_range: 1:45 to 2:15
   weekday: Friday
 - class: spray_and_swap
+  end: *id014
   end_row: 16
-  end_string: '"12:45"'
+  end_string: '12:45'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577882700000000000
+  - null
+  - null
   icons: *id002
   location: HTT
   long_location: Hit the Trail
   row: 3
+  start: *id012
   start_row: 13
-  start_string: '"12:00"'
+  start_string: '12:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577880000000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 12:00 to 12:45
   weekday: Friday
 - class: spray_and_swap
+  end: *id013
   end_row: 19
-  end_string: '"13:30"'
+  end_string: '1:30'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577885400000000000
+  - null
+  - null
   icons: *id002
   location: Around Town
   long_location: null
   row: 3
+  start: *id014
   start_row: 16
-  start_string: '"12:45"'
+  start_string: '12:45'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577882700000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 12:45 to 1:30
   weekday: Friday
 - class: spray_and_swap
+  end: *id015
   end_row: 22
-  end_string: '"14:15"'
+  end_string: '2:15'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577888100000000000
+  - null
+  - null
   icons: *id002
   location: Moneypalooza
   long_location: null
   row: 3
+  start: *id013
   start_row: 19
-  start_string: '"13:30"'
+  start_string: '1:30'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577885400000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 1:30 to 2:15
   weekday: Friday
 - class: wipe_down
+  end: *id022
   end_row: 12
-  end_string: '"11:45"'
-  icons: *id004
+  end_string: '11:45'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577879100000000000
+  - null
+  - null
+  icons: *id011
   location: P2P & STEMosphere
   long_location: Power2Play & STEMosphere
   row: 4
+  start: *id016
   start_row: 10
-  start_string: '"11:15"'
+  start_string: '11:15'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577877300000000000
+  - null
+  - null
   task: Wipe down
+  time_range: 11:15 to 11:45
   weekday: Friday
 - class: spray_and_swap
+  end: *id006
   end_row: 25
-  end_string: '"15:00"'
+  end_string: '3:00'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577890800000000000
+  - null
+  - null
   icons: *id002
   location: P2P & STEMosphere
   long_location: Power2Play & STEMosphere
   row: 3
+  start: *id015
   start_row: 22
-  start_string: '"14:15"'
+  start_string: '2:15'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577888100000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 2:15 to 3:00
   weekday: Friday
 - class: wipe_down
+  end: *id014
   end_row: 16
-  end_string: '"12:45"'
-  icons: *id004
+  end_string: '12:45'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577882700000000000
+  - null
+  - null
+  icons: *id011
   location: TH & PZ
   long_location: Toddlers Hollow & Putting Zoo
   row: 4
+  start: *id023
   start_row: 14
-  start_string: '"12:15"'
+  start_string: '12:15'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577880900000000000
+  - null
+  - null
   task: Wipe down
+  time_range: 12:15 to 12:45
   weekday: Friday
 - class: spray_and_swap
+  end: *id003
   end_row: 28
-  end_string: '"15:45"'
+  end_string: '3:45'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577893500000000000
+  - null
+  - null
   icons: *id002
   location: TH & PZ
   long_location: Toddlers Hollow & Putting Zoo
   row: 3
+  start: *id006
   start_row: 25
-  start_string: '"15:00"'
+  start_string: '3:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577890800000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 3:00 to 3:45
   weekday: Friday
 - class: spray_and_swap
+  end: &id024 !!python/object/apply:datetime.time
+  - !!binary |
+    Ci0AAAAA
   end_row: 8
-  end_string: '"10:45"'
+  end_string: '10:45'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577875500000000000
+  - null
+  - null
   icons: *id002
   location: HTT
   long_location: Hit the Trail
   row: 3
+  start: *id004
   start_row: 5
-  start_string: '"10:00"'
+  start_string: '10:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577872800000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 10:00 to 10:45
   weekday: Weekend
 - class: wipe_down
+  end: *id021
   end_row: 20
-  end_string: '"13:45"'
-  icons: *id004
+  end_string: '1:45'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577886300000000000
+  - null
+  - null
+  icons: *id011
   location: HTT
   long_location: Hit the Trail
   row: 4
+  start: !!python/object/apply:datetime.time
+  - !!binary |
+    DQ8AAAAA
   start_row: 18
-  start_string: '"13:15"'
+  start_string: '1:15'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577884500000000000
+  - null
+  - null
   task: Wipe down
+  time_range: 1:15 to 1:45
   weekday: Weekend
 - class: spray_and_swap
+  end: *id007
   end_row: 11
-  end_string: '"11:30"'
+  end_string: '11:30'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577878200000000000
+  - null
+  - null
   icons: *id002
   location: TH & PZ
   long_location: Toddlers Hollow & Putting Zoo
   row: 3
+  start: *id024
   start_row: 8
-  start_string: '"10:45"'
+  start_string: '10:45'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577875500000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 10:45 to 11:30
   weekday: Weekend
 - class: wipe_down
+  end: !!python/object/apply:datetime.time
+  - !!binary |
+    Di0AAAAA
   end_row: 24
-  end_string: '"14:45"'
-  icons: *id004
+  end_string: '2:45'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577889900000000000
+  - null
+  - null
+  icons: *id011
   location: TH & PZ
   long_location: Toddlers Hollow & Putting Zoo
   row: 4
+  start: *id015
   start_row: 22
-  start_string: '"14:15"'
+  start_string: '2:15'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577888100000000000
+  - null
+  - null
   task: Wipe down
+  time_range: 2:15 to 2:45
   weekday: Weekend
 - class: spray_and_swap
+  end: *id023
   end_row: 14
-  end_string: '"12:15"'
+  end_string: '12:15'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577880900000000000
+  - null
+  - null
   icons: *id002
   location: Around Town
   long_location: null
   row: 3
+  start: *id007
   start_row: 11
-  start_string: '"11:30"'
+  start_string: '11:30'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577878200000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 11:30 to 12:15
   weekday: Weekend
 - class: spray_and_swap
+  end: *id018
   end_row: 17
-  end_string: '"13:00"'
+  end_string: '1:00'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577883600000000000
+  - null
+  - null
   icons: *id002
   location: Splash (TT - SS)
   long_location: null
   row: 3
+  start: *id023
   start_row: 14
-  start_string: '"12:15"'
+  start_string: '12:15'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577880900000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 12:15 to 1:00
   weekday: Weekend
 - class: spray_and_swap
+  end: *id021
   end_row: 20
-  end_string: '"13:45"'
+  end_string: '1:45'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577886300000000000
+  - null
+  - null
   icons: *id002
   location: Moneypalooza
   long_location: null
   row: 3
+  start: *id018
   start_row: 17
-  start_string: '"13:00"'
+  start_string: '1:00'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577883600000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 1:00 to 1:45
   weekday: Weekend
 - class: spray_and_swap
+  end: *id020
   end_row: 23
-  end_string: '"14:30"'
+  end_string: '2:30'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577889000000000000
+  - null
+  - null
   icons: *id002
   location: Ideaworks & Art Loft
   long_location: null
   row: 3
+  start: *id021
   start_row: 20
-  start_string: '"13:45"'
+  start_string: '1:45'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577886300000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 1:45 to 2:30
   weekday: Weekend
 - class: wipe_down
+  end: *id012
   end_row: 13
-  end_string: '"12:00"'
-  icons: *id004
+  end_string: '12:00'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577880000000000000
+  - null
+  - null
+  icons: *id011
   location: P2P & STEMosphere
   long_location: Power2Play & STEMosphere
   row: 4
+  start: *id007
   start_row: 11
-  start_string: '"11:30"'
+  start_string: '11:30'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577878200000000000
+  - null
+  - null
   task: Wipe down
+  time_range: 11:30 to 12:00
   weekday: Weekend
 - class: spray_and_swap
+  end: &id025 !!python/object/apply:datetime.time
+  - !!binary |
+    Dw8AAAAA
   end_row: 26
-  end_string: '"15:15"'
+  end_string: '3:15'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577891700000000000
+  - null
+  - null
   icons: *id002
   location: P2P & STEMosphere
   long_location: Power2Play & STEMosphere
   row: 3
+  start: *id020
   start_row: 23
-  start_string: '"14:30"'
+  start_string: '2:30'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577889000000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 2:30 to 3:15
   weekday: Weekend
 - class: wipe_down
+  end: *id018
   end_row: 17
-  end_string: '"13:00"'
-  icons: *id004
+  end_string: '1:00'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577883600000000000
+  - null
+  - null
+  icons: *id011
   location: Kid Grid & RPW
   long_location: Kid Grid & River Playway
   row: 4
+  start: !!python/object/apply:datetime.time
+  - !!binary |
+    DB4AAAAA
   start_row: 15
-  start_string: '"12:30"'
+  start_string: '12:30'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577881800000000000
+  - null
+  - null
   task: Wipe down
+  time_range: 12:30 to 1:00
   weekday: Weekend
 - class: spray_and_swap
+  end: !!python/object/apply:datetime.time
+  - !!binary |
+    EAAAAAAA
   end_row: 29
-  end_string: '"16:00"'
+  end_string: '4:00'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577894400000000000
+  - null
+  - null
   icons: *id002
   location: Kid Grid & RPW
   long_location: Kid Grid & River Playway
   row: 3
+  start: *id025
   start_row: 26
-  start_string: '"15:15"'
+  start_string: '3:15'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577891700000000000
+  - null
+  - null
   task: Disinfect & Prop Swap
+  time_range: 3:15 to 4:00
   weekday: Weekend

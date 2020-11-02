@@ -32,7 +32,7 @@
                 ">
             {% for item in site.data.time_list %}
             <div class="time" style="grid-row-start: {{ item.first }}; grid-column-start: 1;">
-                {{ item.last | date: '%H:%M' }}
+                {{ item.last | date: '%-I:%M' }}
             </div>
             {% endfor %} 
             {% for item in site.data.hour_rows %}
@@ -45,7 +45,8 @@
             <div class="item {{ ev.class }}"
                 style="grid-row: {{ ev.start_row }} / {{ ev.end_row }}; grid-column-start: {{ ev.row }}; {% if ev.task == "Prop Swap Only" %} grid-column-end: span 2; {% endif %}">
                 <div class="text_container">
-                    <span class="event_time">{{ev.start_string | slice: 1, 5}} to {{ev.end_string| slice: 1, 5}}</span>
+                    <!--<span class="event_time">{{ev.start_string | slice: 1, 5}} to {{ev.end_string| slice: 1, 5}}</span>-->
+                    <span class="event_time">{{ev.time_range}}</span>
                     {% if ev.task != "Prop Swap Only" %}
                     <br />
                     {% endif %}

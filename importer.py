@@ -24,8 +24,8 @@ def prep_df(day_of_week):
     df = pd.DataFrame.from_records(q)
     df["start_date"] = df.start_time.apply(time_to_date)
     df["end_date"] = df.end_time.apply(time_to_date)
-    df["start_string"] = df.start_time.apply(lambda x: x.strftime("%H:%M"))
-    df["end_string"] = df.end_time.apply(lambda x: x.strftime("%H:%M"))
+    df["start_string"] = df.start_time.apply(lambda x: x.strftime("%I:%M"))
+    df["end_string"] = df.end_time.apply(lambda x: x.strftime("%I:%M"))
     df["caption"] = (
         df["start_string"]
         + " to "
@@ -50,7 +50,7 @@ def per_delta(start, end, delta):
 
 
 def list_of_times(start, end, delta):
-    return list(('"' + str(result.strftime("%H:%M")) + '"') for result in per_delta(start, end, delta))
+    return list(('"' + str(result.strftime("%-I:%M%p")) + '"') for result in per_delta(start, end, delta))
 
 
 def day_of_times():
@@ -184,10 +184,14 @@ if __name__ == "__main__":
         lambda x: datetime.datetime.combine(datetime.date(
             2020, 1, 1), x)
     )
+    # df["start_string"] = df.start_time.apply(
+    #     lambda x: '"' + x.strftime("%I:%M") + '"')
+    # df["end_string"] = df.end_time.apply(
+    #     lambda x: '"' + x.strftime("%I:%M") + '"')
     df["start_string"] = df.start_time.apply(
-        lambda x: '"' + x.strftime("%H:%M") + '"')
+        lambda x: x.strftime("%-I:%M"))
     df["end_string"] = df.end_time.apply(
-        lambda x: '"' + x.strftime("%H:%M") + '"')
+        lambda x: x.strftime("%-I:%M"))
 
     df["class"] = df.task.apply(lambda x: task_classes[x])
     df["long_location"] = df.location.apply(lambda x: long_locations.get(x))
@@ -200,19 +204,23 @@ if __name__ == "__main__":
         datetime.timedelta(minutes=15),  # Interval of time list
     )
     hour_rows = [
-        (index, str(time)) for (index, time) in enumerate(time_list, 1) if time[3:6] == ":00"
+        (index, time) for (index, time) in enumerate(time_list, 1) if ":00" in time
     ]
+    print("Hours:")
+    print(hour_rows)
 
     df["start_row"] = df.start_time.apply(
-        lambda x: time_list.index('"' + x.strftime("%H:%M") + '"') + 1
+        lambda x: time_list.index('"' + x.strftime("%-I:%M%p") + '"') + 1
     )
     df["end_row"] = df.end_time.apply(
-        lambda x: time_list.index('"' + x.strftime("%H:%M") + '"') + 1
+        lambda x: time_list.index('"' + x.strftime("%-I:%M%p") + '"') + 1
     )
+    df["time_range"] = df["start_string"] + " to " + df["end_string"]
+
     # df["start_row"] = df["start"]
     # df["end_row"] = df["end"]
     df["row"] = df.task.apply(lambda r: task_rows.get(r, 6))
-    df = df.drop(['start_time', 'end_time', 'start', 'end'], axis=1)
+    #df = df.drop(['start_time', 'end_time', 'start', 'end'], axis=1)
 
     events = list(df.to_dict("index").values())
 
