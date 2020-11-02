@@ -15,22 +15,23 @@
     <link rel="mask-icon" href="/sked/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-</head>
-<script>
-    function showToday() {
-        let weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Weekend', 'Weekend']
-        var d = new Date();
-        var n = d.getDay();
-        var today = weekdays[n];
-        document.getElementById("page_title").innerHTML = today;
-
-        var divsToHide = document.getElementsByClassName("classname"); //divsToHide is an array
-        for(var i = 0; i < divsToHide.length; i++){
-            divsToHide[i].style.visibility = "hidden"; // or
-            divsToHide[i].style.display = "none"; // depending on what you're doing
+    <script>
+        function showToday() {
+            let weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Weekend', 'Weekend']
+            var d = new Date();
+            var n = d.getDay();
+            var today = weekdays[n];
+            document.getElementById("page_title").innerHTML = today;
+    
+            var divsToHide = document.getElementsByClassName("classname"); //divsToHide is an array
+            for(var i = 0; i < divsToHide.length; i++){
+                divsToHide[i].style.visibility = "hidden"; // or
+                divsToHide[i].style.display = "none"; // depending on what you're doing
+            }
         }
-    }
-</script>
+    </script>
+</head>
+
 <body onload="showToday()">
     <div class="body_container">
         <div class="title_nav_container">
