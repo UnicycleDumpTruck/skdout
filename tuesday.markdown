@@ -1,4 +1,4 @@
 ---
-weekday: "Tuesday"
+weekday: :long_day
 layout: tasks
 ---
