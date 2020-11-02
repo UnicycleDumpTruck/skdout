@@ -22,6 +22,7 @@
             var n = d.getDay();
             var today = 'Weekend'; //weekdays[n];
             document.getElementById("page_title").innerHTML = today;
+            document.getElementById("today_is").innerHTML = "Today is " + today;
             
             for(var j = 0; j < weekdays.length; j++) {
                 var divsToHide = document.getElementsByClassName(weekdays[j]); //divsToHide is an array
@@ -43,6 +44,7 @@
     <div class="body_container">
         <div class="title_nav_container">
             <div class="page_title" id="page_title"></div>
+            <div class="today_is" id="today_is"></div>
             <div class="nav_container">
                 <a class="day_link" href="/sked/monday">Monday</a>
                 <a class="day_link" href="/sked/tuesday">Tuesday</a>
