@@ -162,10 +162,7 @@ if __name__ == "__main__":
                         )
                         task_list.append(
                             {'weekday': weekday, 'location': location, 'start': start, 'end': end, 'task': task, 'icons': icons.get(task)})
-    # after file context
     df = pd.DataFrame.from_records(task_list)
-    # print(df.head())
-    # Remove Members Only events
     df = df[~df['task'].str.contains("Members Only")]
     df = df[~df['task'].str.contains("Activity Room Play")]
     df = df[~df['task'].str.contains("Camp staff clean")]

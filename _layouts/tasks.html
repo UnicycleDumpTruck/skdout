@@ -22,7 +22,14 @@
             </div>
         </div>
         <br>
-        <div class="schedule" style="grid-template-rows: repeat({{site.data.context.num_rows}}, 3.2em);">
+        <div class="schedule" style=
+                "grid-template-rows: repeat({{site.data.context.num_rows}}, 3.2em); 
+                {% if page.weekday == 'Weekend' %}
+                grid-template-columns: 30px 0px repeat(2, 1fr);
+                {% else %}
+                grid-template-columns: 30px repeat(3, 1fr);
+                {% endif %}
+                ">
             {% for item in site.data.time_list %}
             <div class="time" style="grid-row-start: {{ item.first }}; grid-column-start: 1;">
                 {{ item.last | date: '%H:%M' }}

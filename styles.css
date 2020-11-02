@@ -36,8 +36,6 @@
 
 .schedule {
   display: grid;
-  grid-template-columns: 30px repeat(3, 1fr);
-  /* was 2.7em for printing */
   grid-gap: 5px;
   background-color: #3a4d7e;
   max-width: 800px;
