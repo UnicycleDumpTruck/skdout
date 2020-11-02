@@ -12,8 +12,8 @@
         <div class="title_nav_container">
             <div class="page_title">{{ page.weekday }}</div>
             <div class="nav_container">
-                <a class="day_link" href="../monday">Monday</a>
-                <a class="day_link" href="../tuesday">Tuesday</a>
+                <a class="day_link" href="/sked/monday">Monday</a>
+                <a class="day_link" href="/sked/tuesday">Tuesday</a>
                 <a class="day_link" href="/sked/wednesday">Wednesday</a>
                 <a class="day_link" href="/sked/thursday">Thursday</a>
                 <a class="day_link" href="/sked/friday">Friday</a>
@@ -50,7 +50,7 @@
                 <div class="img_container"
                     style="{% if ev.task == "Prop Swap Only" %} grid-column-start: 4; grid-row-start: 1;{% else %} grid-column-start: 1; grid-column-end: 5; grid-row-start:2;{% endif %}">
                     {% for src in ev.icons %}
-                    <img class="task_icon" src="../assets/{{ src }}" alt="{{ src }}" />
+                    <img class="task_icon" src="/sked/assets/{{ src }}" alt="{{ src }}" />
                     {% if ev.task != "Prop Swap Only" %}
                     <br />
                     {% endif %}
