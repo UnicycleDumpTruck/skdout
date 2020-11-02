@@ -20,7 +20,7 @@
             let weekdays = ['Weekend','Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Weekend']
             var d = new Date();
             var n = d.getDay();
-            var today = 'Weekend'; //weekdays[n];
+            var today = weekdays[n];
             //document.getElementById("page_title").innerHTML = today;
             document.getElementById("today_is").innerHTML = ((today == "Weekend") ? "Welcome to the weekend!" : ("Today is " + today + "."));
             
