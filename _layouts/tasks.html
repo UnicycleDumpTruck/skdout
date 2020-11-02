@@ -49,7 +49,8 @@
                     {% if ev.task != "Prop Swap Only" %}
                     <br />
                     {% endif %}
-                    <span class="event_location">{{ ev.location }}:</span>
+                    <span class="event_location">{% if ev.long_location %}{{ ev.long_location }}:</span>{% else %}{{ ev.location }}:</span>{% endif %}
+                    
                     {% if ev.task != "Prop Swap Only" %}
                     <!-- <br /> -->
                     {% endif %}

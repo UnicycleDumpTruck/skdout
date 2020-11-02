@@ -61,6 +61,14 @@ def day_of_times():
     )
 
 
+long_locations = {
+    "HTT": "Hit the Trail",
+    "TH & PZ": "Toddlers Hollow & Putting Zoo",
+    "P2P & STEMosphere": "Power2Play & STEMosphere",
+    "Kid Grid & RPW": "Kid Grid & River Playway",
+}
+
+
 task_rows = {
     "Learn & Play": 2,
     "Closed to Public": 2,
@@ -182,6 +190,7 @@ if __name__ == "__main__":
         lambda x: '"' + x.strftime("%H:%M") + '"')
 
     df["class"] = df.task.apply(lambda x: task_classes[x])
+    df["long_location"] = df.location.apply(lambda x: long_locations.get(x))
 
     time_list = list_of_times(
         datetime.datetime.combine(datetime.date(

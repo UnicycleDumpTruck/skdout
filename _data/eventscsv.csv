@@ -1,69 +1,69 @@
-weekday,location,task,icons,start_string,end_string,class,start_row,end_row,row
-Monday,Moneypalooza,Learn & Play,"('close.png', 'learn.png')","""09:00""","""10:00""",learn_and_play,1,5,2
-Monday,Moneypalooza,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""15:00""","""15:45""",spray_and_swap,25,28,3
-Monday,Around Town,Learn & Play,"('close.png', 'learn.png')","""10:30""","""11:30""",learn_and_play,7,11,2
-Monday,Around Town,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""15:45""","""16:30""",spray_and_swap,28,31,3
-Tuesday,Around Town,Learn & Play,"('close.png', 'learn.png')","""09:00""","""10:00""",learn_and_play,1,5,2
-Tuesday,Around Town,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""15:00""","""15:45""",spray_and_swap,25,28,3
-Tuesday,Moneypalooza,Learn & Play,"('close.png', 'learn.png')","""10:30""","""11:30""",learn_and_play,7,11,2
-Tuesday,Moneypalooza,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""15:45""","""16:30""",spray_and_swap,28,31,3
-Wednesday,Kid Grid & RPW,Learn & Play,"('close.png', 'learn.png')","""09:00""","""10:00""",learn_and_play,1,5,2
-Wednesday,Kid Grid & RPW,Prop Swap Only,"('open.png', 'swap.png')","""10:00""","""10:15""",prop_swap,5,6,3
-Wednesday,Kid Grid & RPW,Wipe down,"('open.png', 'wipe.png')","""13:00""","""13:30""",wipe_down,17,19,4
-Wednesday,P2P & STEMosphere,Prop Swap Only,"('open.png', 'swap.png')","""09:45""","""10:00""",prop_swap,4,5,3
-Wednesday,P2P & STEMosphere,Closed to Public,"('close.png', 'learn.png')","""10:00""","""10:30""",closed_to_public,5,7,2
-Wednesday,P2P & STEMosphere,Learn & Play,"('close.png', 'learn.png')","""10:30""","""11:30""",learn_and_play,7,11,2
-Wednesday,P2P & STEMosphere,Wipe down,"('open.png', 'wipe.png')","""14:30""","""15:00""",wipe_down,23,25,4
-Wednesday,Splash (UW - SS),Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""11:15""","""12:00""",spray_and_swap,10,13,3
-Wednesday,Splash (UW - SS),Wipe down,"('open.png', 'wipe.png')","""13:45""","""14:15""",wipe_down,20,22,4
-Wednesday,HTT,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""12:00""","""12:45""",spray_and_swap,13,16,3
-Wednesday,Around Town,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""12:45""","""13:30""",spray_and_swap,16,19,3
-Wednesday,Moneypalooza,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""13:30""","""14:15""",spray_and_swap,19,22,3
-Wednesday,Ideaworks & Art Loft,Wipe down,"('open.png', 'wipe.png')","""11:15""","""11:45""",wipe_down,10,12,4
-Wednesday,Ideaworks & Art Loft,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""14:15""","""15:00""",spray_and_swap,22,25,3
-Wednesday,TH & PZ,Wipe down,"('open.png', 'wipe.png')","""12:15""","""12:45""",wipe_down,14,16,4
-Wednesday,TH & PZ,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""15:00""","""15:45""",spray_and_swap,25,28,3
-Thursday,HTT,Learn & Play,"('close.png', 'learn.png')","""09:00""","""10:00""",learn_and_play,1,5,2
-Thursday,HTT,Prop Swap Only,"('open.png', 'swap.png')","""10:00""","""10:15""",prop_swap,5,6,3
-Thursday,HTT,Wipe down,"('open.png', 'wipe.png')","""13:00""","""13:30""",wipe_down,17,19,4
-Thursday,Splash (UW - SS),Prop Swap Only,"('open.png', 'swap.png')","""09:45""","""10:00""",prop_swap,4,5,3
-Thursday,Splash (UW - SS),Closed to Public,"('close.png', 'learn.png')","""10:00""","""10:30""",closed_to_public,5,7,2
-Thursday,Splash (UW - SS),Learn & Play,"('close.png', 'learn.png')","""10:30""","""11:30""",learn_and_play,7,11,2
-Thursday,Splash (UW - SS),Wipe down,"('open.png', 'wipe.png')","""14:30""","""15:00""",wipe_down,23,25,4
-Thursday,Ideaworks & Art Loft,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""11:15""","""12:00""",spray_and_swap,10,13,3
-Thursday,Ideaworks & Art Loft,Wipe down,"('open.png', 'wipe.png')","""13:45""","""14:15""",wipe_down,20,22,4
-Thursday,Around Town,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""12:00""","""12:45""",spray_and_swap,13,16,3
-Thursday,Moneypalooza,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""12:45""","""13:30""",spray_and_swap,16,19,3
-Thursday,P2P & STEMosphere,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""13:30""","""14:15""",spray_and_swap,19,22,3
-Thursday,Kid Grid & RPW,Wipe down,"('open.png', 'wipe.png')","""11:15""","""11:45""",wipe_down,10,12,4
-Thursday,Kid Grid & RPW,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""14:15""","""15:00""",spray_and_swap,22,25,3
-Thursday,TH & PZ,Wipe down,"('open.png', 'wipe.png')","""12:15""","""12:45""",wipe_down,14,16,4
-Thursday,TH & PZ,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""15:00""","""15:45""",spray_and_swap,25,28,3
-Friday,Splash (UW - SS),Learn & Play,"('close.png', 'learn.png')","""09:00""","""10:00""",learn_and_play,1,5,2
-Friday,Splash (UW - SS),Prop Swap Only,"('open.png', 'swap.png')","""10:00""","""10:15""",prop_swap,5,6,3
-Friday,Splash (UW - SS),Wipe down,"('open.png', 'wipe.png')","""13:00""","""13:30""",wipe_down,17,19,4
-Friday,Ideaworks & Art Loft,Prop Swap Only,"('open.png', 'swap.png')","""09:45""","""10:00""",prop_swap,4,5,3
-Friday,Ideaworks & Art Loft,Closed to Public,"('close.png', 'learn.png')","""10:00""","""10:30""",closed_to_public,5,7,2
-Friday,Ideaworks & Art Loft,Learn & Play,"('close.png', 'learn.png')","""10:30""","""11:30""",learn_and_play,7,11,2
-Friday,Ideaworks & Art Loft,Wipe down,"('open.png', 'wipe.png')","""14:30""","""15:00""",wipe_down,23,25,4
-Friday,Kid Grid & RPW,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""11:15""","""12:00""",spray_and_swap,10,13,3
-Friday,Kid Grid & RPW,Wipe down,"('open.png', 'wipe.png')","""13:45""","""14:15""",wipe_down,20,22,4
-Friday,HTT,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""12:00""","""12:45""",spray_and_swap,13,16,3
-Friday,Around Town,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""12:45""","""13:30""",spray_and_swap,16,19,3
-Friday,Moneypalooza,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""13:30""","""14:15""",spray_and_swap,19,22,3
-Friday,P2P & STEMosphere,Wipe down,"('open.png', 'wipe.png')","""11:15""","""11:45""",wipe_down,10,12,4
-Friday,P2P & STEMosphere,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""14:15""","""15:00""",spray_and_swap,22,25,3
-Friday,TH & PZ,Wipe down,"('open.png', 'wipe.png')","""12:15""","""12:45""",wipe_down,14,16,4
-Friday,TH & PZ,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""15:00""","""15:45""",spray_and_swap,25,28,3
-Weekend,HTT,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""10:00""","""10:45""",spray_and_swap,5,8,3
-Weekend,HTT,Wipe down,"('open.png', 'wipe.png')","""13:15""","""13:45""",wipe_down,18,20,4
-Weekend,TH & PZ,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""10:45""","""11:30""",spray_and_swap,8,11,3
-Weekend,TH & PZ,Wipe down,"('open.png', 'wipe.png')","""14:15""","""14:45""",wipe_down,22,24,4
-Weekend,Around Town,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""11:30""","""12:15""",spray_and_swap,11,14,3
-Weekend,Splash (TT - SS),Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""12:15""","""13:00""",spray_and_swap,14,17,3
-Weekend,Moneypalooza,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""13:00""","""13:45""",spray_and_swap,17,20,3
-Weekend,Ideaworks & Art Loft,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""13:45""","""14:30""",spray_and_swap,20,23,3
-Weekend,P2P & STEMosphere,Wipe down,"('open.png', 'wipe.png')","""11:30""","""12:00""",wipe_down,11,13,4
-Weekend,P2P & STEMosphere,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""14:30""","""15:15""",spray_and_swap,23,26,3
-Weekend,Kid Grid & RPW,Wipe down,"('open.png', 'wipe.png')","""12:30""","""13:00""",wipe_down,15,17,4
-Weekend,Kid Grid & RPW,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""15:15""","""16:00""",spray_and_swap,26,29,3
+weekday,location,task,icons,start_string,end_string,class,long_location,start_row,end_row,row
+Monday,Moneypalooza,Learn & Play,"('close.png', 'learn.png')","""09:00""","""10:00""",learn_and_play,,1,5,2
+Monday,Moneypalooza,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""15:00""","""15:45""",spray_and_swap,,25,28,3
+Monday,Around Town,Learn & Play,"('close.png', 'learn.png')","""10:30""","""11:30""",learn_and_play,,7,11,2
+Monday,Around Town,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""15:45""","""16:30""",spray_and_swap,,28,31,3
+Tuesday,Around Town,Learn & Play,"('close.png', 'learn.png')","""09:00""","""10:00""",learn_and_play,,1,5,2
+Tuesday,Around Town,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""15:00""","""15:45""",spray_and_swap,,25,28,3
+Tuesday,Moneypalooza,Learn & Play,"('close.png', 'learn.png')","""10:30""","""11:30""",learn_and_play,,7,11,2
+Tuesday,Moneypalooza,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""15:45""","""16:30""",spray_and_swap,,28,31,3
+Wednesday,Kid Grid & RPW,Learn & Play,"('close.png', 'learn.png')","""09:00""","""10:00""",learn_and_play,Kid Grid & River Playway,1,5,2
+Wednesday,Kid Grid & RPW,Prop Swap Only,"('open.png', 'swap.png')","""10:00""","""10:15""",prop_swap,Kid Grid & River Playway,5,6,3
+Wednesday,Kid Grid & RPW,Wipe down,"('open.png', 'wipe.png')","""13:00""","""13:30""",wipe_down,Kid Grid & River Playway,17,19,4
+Wednesday,P2P & STEMosphere,Prop Swap Only,"('open.png', 'swap.png')","""09:45""","""10:00""",prop_swap,Power2Play & STEMosphere,4,5,3
+Wednesday,P2P & STEMosphere,Closed to Public,"('close.png', 'learn.png')","""10:00""","""10:30""",closed_to_public,Power2Play & STEMosphere,5,7,2
+Wednesday,P2P & STEMosphere,Learn & Play,"('close.png', 'learn.png')","""10:30""","""11:30""",learn_and_play,Power2Play & STEMosphere,7,11,2
+Wednesday,P2P & STEMosphere,Wipe down,"('open.png', 'wipe.png')","""14:30""","""15:00""",wipe_down,Power2Play & STEMosphere,23,25,4
+Wednesday,Splash (UW - SS),Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""11:15""","""12:00""",spray_and_swap,,10,13,3
+Wednesday,Splash (UW - SS),Wipe down,"('open.png', 'wipe.png')","""13:45""","""14:15""",wipe_down,,20,22,4
+Wednesday,HTT,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""12:00""","""12:45""",spray_and_swap,Hit the Trail,13,16,3
+Wednesday,Around Town,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""12:45""","""13:30""",spray_and_swap,,16,19,3
+Wednesday,Moneypalooza,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""13:30""","""14:15""",spray_and_swap,,19,22,3
+Wednesday,Ideaworks & Art Loft,Wipe down,"('open.png', 'wipe.png')","""11:15""","""11:45""",wipe_down,,10,12,4
+Wednesday,Ideaworks & Art Loft,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""14:15""","""15:00""",spray_and_swap,,22,25,3
+Wednesday,TH & PZ,Wipe down,"('open.png', 'wipe.png')","""12:15""","""12:45""",wipe_down,Toddlers Hollow & Putting Zoo,14,16,4
+Wednesday,TH & PZ,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""15:00""","""15:45""",spray_and_swap,Toddlers Hollow & Putting Zoo,25,28,3
+Thursday,HTT,Learn & Play,"('close.png', 'learn.png')","""09:00""","""10:00""",learn_and_play,Hit the Trail,1,5,2
+Thursday,HTT,Prop Swap Only,"('open.png', 'swap.png')","""10:00""","""10:15""",prop_swap,Hit the Trail,5,6,3
+Thursday,HTT,Wipe down,"('open.png', 'wipe.png')","""13:00""","""13:30""",wipe_down,Hit the Trail,17,19,4
+Thursday,Splash (UW - SS),Prop Swap Only,"('open.png', 'swap.png')","""09:45""","""10:00""",prop_swap,,4,5,3
+Thursday,Splash (UW - SS),Closed to Public,"('close.png', 'learn.png')","""10:00""","""10:30""",closed_to_public,,5,7,2
+Thursday,Splash (UW - SS),Learn & Play,"('close.png', 'learn.png')","""10:30""","""11:30""",learn_and_play,,7,11,2
+Thursday,Splash (UW - SS),Wipe down,"('open.png', 'wipe.png')","""14:30""","""15:00""",wipe_down,,23,25,4
+Thursday,Ideaworks & Art Loft,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""11:15""","""12:00""",spray_and_swap,,10,13,3
+Thursday,Ideaworks & Art Loft,Wipe down,"('open.png', 'wipe.png')","""13:45""","""14:15""",wipe_down,,20,22,4
+Thursday,Around Town,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""12:00""","""12:45""",spray_and_swap,,13,16,3
+Thursday,Moneypalooza,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""12:45""","""13:30""",spray_and_swap,,16,19,3
+Thursday,P2P & STEMosphere,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""13:30""","""14:15""",spray_and_swap,Power2Play & STEMosphere,19,22,3
+Thursday,Kid Grid & RPW,Wipe down,"('open.png', 'wipe.png')","""11:15""","""11:45""",wipe_down,Kid Grid & River Playway,10,12,4
+Thursday,Kid Grid & RPW,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""14:15""","""15:00""",spray_and_swap,Kid Grid & River Playway,22,25,3
+Thursday,TH & PZ,Wipe down,"('open.png', 'wipe.png')","""12:15""","""12:45""",wipe_down,Toddlers Hollow & Putting Zoo,14,16,4
+Thursday,TH & PZ,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""15:00""","""15:45""",spray_and_swap,Toddlers Hollow & Putting Zoo,25,28,3
+Friday,Splash (UW - SS),Learn & Play,"('close.png', 'learn.png')","""09:00""","""10:00""",learn_and_play,,1,5,2
+Friday,Splash (UW - SS),Prop Swap Only,"('open.png', 'swap.png')","""10:00""","""10:15""",prop_swap,,5,6,3
+Friday,Splash (UW - SS),Wipe down,"('open.png', 'wipe.png')","""13:00""","""13:30""",wipe_down,,17,19,4
+Friday,Ideaworks & Art Loft,Prop Swap Only,"('open.png', 'swap.png')","""09:45""","""10:00""",prop_swap,,4,5,3
+Friday,Ideaworks & Art Loft,Closed to Public,"('close.png', 'learn.png')","""10:00""","""10:30""",closed_to_public,,5,7,2
+Friday,Ideaworks & Art Loft,Learn & Play,"('close.png', 'learn.png')","""10:30""","""11:30""",learn_and_play,,7,11,2
+Friday,Ideaworks & Art Loft,Wipe down,"('open.png', 'wipe.png')","""14:30""","""15:00""",wipe_down,,23,25,4
+Friday,Kid Grid & RPW,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""11:15""","""12:00""",spray_and_swap,Kid Grid & River Playway,10,13,3
+Friday,Kid Grid & RPW,Wipe down,"('open.png', 'wipe.png')","""13:45""","""14:15""",wipe_down,Kid Grid & River Playway,20,22,4
+Friday,HTT,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""12:00""","""12:45""",spray_and_swap,Hit the Trail,13,16,3
+Friday,Around Town,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""12:45""","""13:30""",spray_and_swap,,16,19,3
+Friday,Moneypalooza,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""13:30""","""14:15""",spray_and_swap,,19,22,3
+Friday,P2P & STEMosphere,Wipe down,"('open.png', 'wipe.png')","""11:15""","""11:45""",wipe_down,Power2Play & STEMosphere,10,12,4
+Friday,P2P & STEMosphere,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""14:15""","""15:00""",spray_and_swap,Power2Play & STEMosphere,22,25,3
+Friday,TH & PZ,Wipe down,"('open.png', 'wipe.png')","""12:15""","""12:45""",wipe_down,Toddlers Hollow & Putting Zoo,14,16,4
+Friday,TH & PZ,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""15:00""","""15:45""",spray_and_swap,Toddlers Hollow & Putting Zoo,25,28,3
+Weekend,HTT,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""10:00""","""10:45""",spray_and_swap,Hit the Trail,5,8,3
+Weekend,HTT,Wipe down,"('open.png', 'wipe.png')","""13:15""","""13:45""",wipe_down,Hit the Trail,18,20,4
+Weekend,TH & PZ,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""10:45""","""11:30""",spray_and_swap,Toddlers Hollow & Putting Zoo,8,11,3
+Weekend,TH & PZ,Wipe down,"('open.png', 'wipe.png')","""14:15""","""14:45""",wipe_down,Toddlers Hollow & Putting Zoo,22,24,4
+Weekend,Around Town,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""11:30""","""12:15""",spray_and_swap,,11,14,3
+Weekend,Splash (TT - SS),Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""12:15""","""13:00""",spray_and_swap,,14,17,3
+Weekend,Moneypalooza,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""13:00""","""13:45""",spray_and_swap,,17,20,3
+Weekend,Ideaworks & Art Loft,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""13:45""","""14:30""",spray_and_swap,,20,23,3
+Weekend,P2P & STEMosphere,Wipe down,"('open.png', 'wipe.png')","""11:30""","""12:00""",wipe_down,Power2Play & STEMosphere,11,13,4
+Weekend,P2P & STEMosphere,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""14:30""","""15:15""",spray_and_swap,Power2Play & STEMosphere,23,26,3
+Weekend,Kid Grid & RPW,Wipe down,"('open.png', 'wipe.png')","""12:30""","""13:00""",wipe_down,Kid Grid & River Playway,15,17,4
+Weekend,Kid Grid & RPW,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')","""15:15""","""16:00""",spray_and_swap,Kid Grid & River Playway,26,29,3
