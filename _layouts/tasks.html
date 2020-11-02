@@ -23,12 +23,12 @@
             <div class="page_title">{{ page.weekday }}</div>
             <div class="nav_container">
                 <a class="day_link" href="/sked/today">Today</a>
-                <a class="day_link" href="/sked/monday">Monday</a>
-                <a class="day_link" href="/sked/tuesday">Tuesday</a>
-                <a class="day_link" href="/sked/wednesday">Wednesday</a>
-                <a class="day_link" href="/sked/thursday">Thursday</a>
-                <a class="day_link" href="/sked/friday">Friday</a>
-                <a class="day_link" href="/sked/weekend">Weekend</a>
+                {% if page.weekday != "Monday"}<a class="day_link" href="/sked/monday">Monday</a>{% endif %}
+                {% if page.weekday != "Tuesday"}<<a class="day_link" href="/sked/tuesday">Tuesday</a>{% endif %}
+                {% if page.weekday != "Wednesday"}<<a class="day_link" href="/sked/wednesday">Wednesday</a>{% endif %}
+                {% if page.weekday != "Thursday"}<<a class="day_link" href="/sked/thursday">Thursday</a>{% endif %}
+                {% if page.weekday != "Friday"}<<a class="day_link" href="/sked/friday">Friday</a>{% endif %}
+                {% if page.weekday != "Weekend"}<<a class="day_link" href="/sked/weekend">Weekend</a>{% endif %}
             </div>
         </div>
         <br>
