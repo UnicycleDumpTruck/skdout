@@ -17,16 +17,23 @@
     <meta name="theme-color" content="#ffffff">
     <script>
         function showToday() {
-            let weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Weekend', 'Weekend']
+            let weekdays = ['Weekend','Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Weekend']
             var d = new Date();
             var n = d.getDay();
             var today = weekdays[n];
             document.getElementById("page_title").innerHTML = today;
-    
-            var divsToHide = document.getElementsByClassName("classname"); //divsToHide is an array
-            for(var i = 0; i < divsToHide.length; i++){
-                divsToHide[i].style.visibility = "hidden"; // or
-                divsToHide[i].style.display = "none"; // depending on what you're doing
+            
+            for(var j = 0; j < weekdays.length; j++) {
+                var divsToHide = document.getElementsByClassName(weekdays[j]); //divsToHide is an array
+                for(var i = 0; i < divsToHide.length; i++){
+                    //divsToHide[i].style.visibility = "hidden"; // or
+                    divsToHide[i].style.display = "none"; // depending on what you're doing
+                }
+            }
+            var divsToShow = document.getElementsByClassName("today"); //divsToHide is an array
+            for(var i = 0; i < divsToShow.length; i++){
+                //divsToShow[i].style.visibility = "hidden"; // or
+                divsToShow[i].style.display = "grid"; // depending on what you're doing
             }
         }
     </script>

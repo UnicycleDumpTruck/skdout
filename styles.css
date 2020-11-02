@@ -108,7 +108,7 @@
   color: black;
   border-radius: 4px;
   border: 2px solid white;
-  display: grid;
+  /*display: grid;*/
   row-gap: 0px;
   column-gap: 0px;
   grid-template-columns: 1fr 50px 50px;
