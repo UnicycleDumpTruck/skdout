@@ -206,7 +206,7 @@ if __name__ == "__main__":
     hour_rows = [
         (index, time) for (index, time) in enumerate(time_list, 1) if ":00" in time
     ]
-    print("Hours:")
+    #print("Hours:")
     print(hour_rows)
 
     df["start_row"] = df.start_time.apply(
