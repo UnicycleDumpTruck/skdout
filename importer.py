@@ -53,6 +53,21 @@ def list_of_times(start, end, delta):
     return list(('"' + str(result.strftime("%-I:%M%p")) + '"') for result in per_delta(start, end, delta))
 
 
+def list_times_in_range(start, end):
+
+    return list_of_times(
+        datetime.datetime.combine(datetime.date(
+            2020, 1, 1), start),  # datetime.time(8, 0)),  # min(df['start'])),  # Earliest time in df
+        datetime.datetime.combine(datetime.date(
+            2020, 1, 1), end),  # datetime.time(17, 0)),  # max(df['end'])) + datetime.timedelta(minutes=15),  # Latest time in df
+        datetime.timedelta(minutes=15),  # Interval of time list
+    )
+
+
+def list_times_in_range_for_row(row):
+    return list_times_in_range(row['start'], row['end'])
+
+
 def day_of_times():
     return list_of_times(
         datetime.datetime(2020, 1, 1, 0, 0, 0, 0),
@@ -231,6 +246,7 @@ if __name__ == "__main__":
     df["col_start"] = df.task.apply(lambda r: task_col_ranges.get(r, 6)[0])
     df["col_end"] = df.task.apply(lambda r: task_col_ranges.get(r, 7)[1])
     # df = df.drop(['start_time', 'end_time', 'start', 'end'], axis=1)
+    df["times"] = df.apply(lambda r: list_times_in_range_for_row(r), axis=1)
 
     events = list(df.to_dict("index").values())
 
