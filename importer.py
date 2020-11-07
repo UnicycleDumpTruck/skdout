@@ -78,6 +78,14 @@ task_rows = {
     "Prop Swap Only": 3,
 }
 
+task_col_ranges = {
+    "Learn & Play": (2, 3),
+    "Closed to Public": (2, 3),
+    "Disinfect & Prop Swap": (3, 4),
+    "Wipe down": (4, 5),
+    "Prop Swap": (3, 5),
+    "Prop Swap Only": (3, 5),
+}
 
 task_classes = {
     "Learn & Play": "learn_and_play",
@@ -220,6 +228,8 @@ if __name__ == "__main__":
     # df["start_row"] = df["start"]
     # df["end_row"] = df["end"]
     df["row"] = df.task.apply(lambda r: task_rows.get(r, 6))
+    df["col_start"] = df.task.apply(lambda r: task_col_ranges.get(r, 6)[0])
+    df["col_end"] = df.task.apply(lambda r: task_col_ranges.get(r, 7)[1])
     # df = df.drop(['start_time', 'end_time', 'start', 'end'], axis=1)
 
     events = list(df.to_dict("index").values())
