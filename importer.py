@@ -1,3 +1,4 @@
+from collections import Counter
 import yaml
 import sys
 import csv
@@ -66,6 +67,11 @@ def list_times_in_range(start, end):
 
 def list_times_in_range_for_row(row):
     return list_times_in_range(row['start'], row['end'])
+
+
+def add_times_for_event(cntr, row):
+    for time_slot in list_times_in_range_for_row(row):
+        cntr[time_slot] += 1
 
 
 def day_of_times():
@@ -229,8 +235,6 @@ if __name__ == "__main__":
     hour_rows = [
         (index, time) for (index, time) in enumerate(time_list, 1) if ":00" in time
     ]
-    # print("Hours:")
-    print(hour_rows)
 
     df["start_row"] = df.start_time.apply(
         lambda x: time_list.index('"' + x.strftime("%-I:%M%p") + '"') + 1
@@ -240,31 +244,41 @@ if __name__ == "__main__":
     )
     df["time_range"] = df["start_string"] + " to " + df["end_string"]
 
-    # df["start_row"] = df["start"]
-    # df["end_row"] = df["end"]
     df["row"] = df.task.apply(lambda r: task_rows.get(r, 6))
     df["col_start"] = df.task.apply(lambda r: task_col_ranges.get(r, 6)[0])
     df["col_end"] = df.task.apply(lambda r: task_col_ranges.get(r, 7)[1])
     # df = df.drop(['start_time', 'end_time', 'start', 'end'], axis=1)
+
     df["times"] = df.apply(lambda r: list_times_in_range_for_row(r), axis=1)
+    df.apply(lambda r: print(type(r['times'])), axis=1)
+    time_counts_by_day = {}
+    for wd in weekdays:
+        time_counts_by_day[wd] = Counter()
+        df.loc[df['weekday'] == wd].apply(
+            lambda r: add_times_for_event(time_counts_by_day[wd], r), axis=1)
+
+    print(time_counts_by_day)
+
+    df["cols_here"] = df.apply(lambda r: max(
+        time_counts_by_day[r['weekday']][time_slot] for time_slot in r["times"]), axis=1)
 
     events = list(df.to_dict("index").values())
 
     day_ranges = {
         wday: (min(df.loc[df['weekday'] == wday]['start']), max(df.loc[df['weekday'] == wday]['end'])) for wday in weekdays}
-    print("Day Ranges")
-    print(day_ranges)
+    # print("Day Ranges")
+    # print(day_ranges)
 
     context = {
         "num_rows": len(time_list),
         "day_ranges": day_ranges,
+        "time_counts_by_day": time_counts_by_day,
         # "weekday": weekday.lower().capitalize(),
         # "events": events,
         # "time_list": list(enumerate(time_list, 1)),
         # "hour_rows": hour_rows,
     }
     print(df.head())
-    print(time_list)
     df.to_csv(r'_data/eventscsv.csv', index=False)
 
     with open(r'_data/context.yml', 'w') as yml_file:

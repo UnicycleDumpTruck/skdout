@@ -1,6 +1,7 @@
 - class: learn_and_play
   col_end: 3
   col_start: 2
+  cols_here: 1
   end: &id004 !!python/object/apply:datetime.time
   - !!binary |
     CgAAAAAA
@@ -36,6 +37,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 1
   end: &id003 !!python/object/apply:datetime.time
   - !!binary |
     Dy0AAAAA
@@ -71,6 +73,7 @@
 - class: learn_and_play
   col_end: 3
   col_start: 2
+  cols_here: 1
   end: &id007 !!python/object/apply:datetime.time
   - !!binary |
     Cx4AAAAA
@@ -104,6 +107,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 1
   end: &id009 !!python/object/apply:datetime.time
   - !!binary |
     EB4AAAAA
@@ -134,6 +138,7 @@
 - class: learn_and_play
   col_end: 3
   col_start: 2
+  cols_here: 1
   end: *id004
   end_row: 9
   end_string: '10:00'
@@ -163,6 +168,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 1
   end: *id003
   end_row: 32
   end_string: '3:45'
@@ -191,6 +197,7 @@
 - class: learn_and_play
   col_end: 3
   col_start: 2
+  cols_here: 1
   end: *id007
   end_row: 15
   end_string: '11:30'
@@ -220,6 +227,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 1
   end: *id009
   end_row: 35
   end_string: '4:30'
@@ -248,6 +256,7 @@
 - class: learn_and_play
   col_end: 3
   col_start: 2
+  cols_here: 3
   end: *id004
   end_row: 9
   end_string: '10:00'
@@ -277,6 +286,7 @@
 - class: prop_swap
   col_end: 5
   col_start: 3
+  cols_here: 1
   end: &id011 !!python/object/apply:datetime.time
   - !!binary |
     Cg8AAAAA
@@ -307,6 +317,7 @@
 - class: wipe_down
   col_end: 5
   col_start: 4
+  cols_here: 3
   end: &id016 !!python/object/apply:datetime.time
   - !!binary |
     DR4AAAAA
@@ -340,6 +351,7 @@
 - class: learn_and_play
   col_end: 3
   col_start: 2
+  cols_here: 3
   end: *id004
   end_row: 9
   end_string: '10:00'
@@ -369,6 +381,7 @@
 - class: prop_swap
   col_end: 5
   col_start: 3
+  cols_here: 1
   end: *id008
   end_row: 11
   end_string: '10:30'
@@ -395,6 +408,7 @@
 - class: wipe_down
   col_end: 5
   col_start: 4
+  cols_here: 2
   end: *id006
   end_row: 29
   end_string: '3:00'
@@ -424,6 +438,7 @@
 - class: learn_and_play
   col_end: 3
   col_start: 2
+  cols_here: 3
   end: &id020 !!python/object/apply:datetime.time
   - !!binary |
     CS0AAAAA
@@ -458,6 +473,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 2
   end: &id013 !!python/object/apply:datetime.time
   - !!binary |
     DAAAAAAA
@@ -490,6 +506,7 @@
 - class: wipe_down
   col_end: 5
   col_start: 4
+  cols_here: 2
   end: &id017 !!python/object/apply:datetime.time
   - !!binary |
     Dg8AAAAA
@@ -521,6 +538,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 2
   end: &id015 !!python/object/apply:datetime.time
   - !!binary |
     DC0AAAAA
@@ -551,6 +569,7 @@
 - class: learn_and_play
   col_end: 3
   col_start: 2
+  cols_here: 3
   end: *id014
   end_row: 24
   end_string: '1:45'
@@ -580,6 +599,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 3
   end: *id016
   end_row: 23
   end_string: '1:30'
@@ -608,6 +628,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 2
   end: *id017
   end_row: 26
   end_string: '2:15'
@@ -636,6 +657,7 @@
 - class: wipe_down
   col_end: 5
   col_start: 4
+  cols_here: 2
   end: &id022 !!python/object/apply:datetime.time
   - !!binary |
     Cy0AAAAA
@@ -665,6 +687,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 2
   end: *id006
   end_row: 29
   end_string: '3:00'
@@ -693,6 +716,7 @@
 - class: wipe_down
   col_end: 5
   col_start: 4
+  cols_here: 2
   end: *id015
   end_row: 20
   end_string: '12:45'
@@ -722,6 +746,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 1
   end: *id003
   end_row: 32
   end_string: '3:45'
@@ -750,6 +775,7 @@
 - class: learn_and_play
   col_end: 3
   col_start: 2
+  cols_here: 2
   end: *id004
   end_row: 9
   end_string: '10:00'
@@ -779,6 +805,7 @@
 - class: prop_swap
   col_end: 5
   col_start: 3
+  cols_here: 1
   end: *id011
   end_row: 10
   end_string: '10:15'
@@ -805,6 +832,7 @@
 - class: wipe_down
   col_end: 5
   col_start: 4
+  cols_here: 2
   end: *id016
   end_row: 23
   end_string: '1:30'
@@ -832,6 +860,7 @@
 - class: prop_swap
   col_end: 5
   col_start: 3
+  cols_here: 2
   end: *id004
   end_row: 9
   end_string: '10:00'
@@ -858,6 +887,7 @@
 - class: learn_and_play
   col_end: 3
   col_start: 2
+  cols_here: 3
   end: *id013
   end_row: 17
   end_string: '12:00'
@@ -889,6 +919,7 @@
 - class: wipe_down
   col_end: 5
   col_start: 4
+  cols_here: 2
   end: *id006
   end_row: 29
   end_string: '3:00'
@@ -916,6 +947,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 3
   end: *id013
   end_row: 17
   end_string: '12:00'
@@ -944,6 +976,7 @@
 - class: wipe_down
   col_end: 5
   col_start: 4
+  cols_here: 2
   end: *id017
   end_row: 26
   end_string: '2:15'
@@ -971,6 +1004,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 2
   end: *id015
   end_row: 20
   end_string: '12:45'
@@ -999,6 +1033,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 2
   end: *id016
   end_row: 23
   end_string: '1:30'
@@ -1027,6 +1062,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 2
   end: *id017
   end_row: 26
   end_string: '2:15'
@@ -1055,6 +1091,7 @@
 - class: wipe_down
   col_end: 5
   col_start: 4
+  cols_here: 3
   end: *id022
   end_row: 16
   end_string: '11:45'
@@ -1082,6 +1119,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 2
   end: *id006
   end_row: 29
   end_string: '3:00'
@@ -1110,6 +1148,7 @@
 - class: wipe_down
   col_end: 5
   col_start: 4
+  cols_here: 2
   end: *id015
   end_row: 20
   end_string: '12:45'
@@ -1137,6 +1176,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 1
   end: *id003
   end_row: 32
   end_string: '3:45'
@@ -1165,6 +1205,7 @@
 - class: learn_and_play
   col_end: 3
   col_start: 2
+  cols_here: 2
   end: *id004
   end_row: 9
   end_string: '10:00'
@@ -1194,6 +1235,7 @@
 - class: prop_swap
   col_end: 5
   col_start: 3
+  cols_here: 1
   end: *id011
   end_row: 10
   end_string: '10:15'
@@ -1220,6 +1262,7 @@
 - class: wipe_down
   col_end: 5
   col_start: 4
+  cols_here: 2
   end: *id016
   end_row: 23
   end_string: '1:30'
@@ -1247,6 +1290,7 @@
 - class: prop_swap
   col_end: 5
   col_start: 3
+  cols_here: 2
   end: *id004
   end_row: 9
   end_string: '10:00'
@@ -1273,6 +1317,7 @@
 - class: learn_and_play
   col_end: 3
   col_start: 2
+  cols_here: 3
   end: *id013
   end_row: 17
   end_string: '12:00'
@@ -1302,6 +1347,7 @@
 - class: wipe_down
   col_end: 5
   col_start: 4
+  cols_here: 2
   end: *id006
   end_row: 29
   end_string: '3:00'
@@ -1329,6 +1375,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 3
   end: *id013
   end_row: 17
   end_string: '12:00'
@@ -1357,6 +1404,7 @@
 - class: wipe_down
   col_end: 5
   col_start: 4
+  cols_here: 2
   end: *id017
   end_row: 26
   end_string: '2:15'
@@ -1384,6 +1432,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 2
   end: *id015
   end_row: 20
   end_string: '12:45'
@@ -1412,6 +1461,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 2
   end: *id016
   end_row: 23
   end_string: '1:30'
@@ -1440,6 +1490,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 2
   end: *id017
   end_row: 26
   end_string: '2:15'
@@ -1468,6 +1519,7 @@
 - class: wipe_down
   col_end: 5
   col_start: 4
+  cols_here: 3
   end: *id022
   end_row: 16
   end_string: '11:45'
@@ -1495,6 +1547,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 2
   end: *id006
   end_row: 29
   end_string: '3:00'
@@ -1523,6 +1576,7 @@
 - class: wipe_down
   col_end: 5
   col_start: 4
+  cols_here: 2
   end: *id015
   end_row: 20
   end_string: '12:45'
@@ -1550,6 +1604,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 1
   end: *id003
   end_row: 32
   end_string: '3:45'
@@ -1578,6 +1633,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 1
   end: &id025 !!python/object/apply:datetime.time
   - !!binary |
     Ci0AAAAA
@@ -1608,6 +1664,7 @@
 - class: wipe_down
   col_end: 5
   col_start: 4
+  cols_here: 2
   end: *id014
   end_row: 24
   end_string: '1:45'
@@ -1637,6 +1694,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 1
   end: *id007
   end_row: 15
   end_string: '11:30'
@@ -1665,6 +1723,7 @@
 - class: wipe_down
   col_end: 5
   col_start: 4
+  cols_here: 2
   end: !!python/object/apply:datetime.time
   - !!binary |
     Di0AAAAA
@@ -1694,6 +1753,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 2
   end: *id023
   end_row: 18
   end_string: '12:15'
@@ -1722,6 +1782,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 2
   end: *id019
   end_row: 21
   end_string: '1:00'
@@ -1750,6 +1811,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 2
   end: *id014
   end_row: 24
   end_string: '1:45'
@@ -1778,6 +1840,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 2
   end: *id021
   end_row: 27
   end_string: '2:30'
@@ -1806,6 +1869,7 @@
 - class: wipe_down
   col_end: 5
   col_start: 4
+  cols_here: 2
   end: *id013
   end_row: 17
   end_string: '12:00'
@@ -1833,6 +1897,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 2
   end: &id026 !!python/object/apply:datetime.time
   - !!binary |
     Dw8AAAAA
@@ -1863,6 +1928,7 @@
 - class: wipe_down
   col_end: 5
   col_start: 4
+  cols_here: 2
   end: *id019
   end_row: 21
   end_string: '1:00'
@@ -1892,6 +1958,7 @@
 - class: spray_and_swap
   col_end: 4
   col_start: 3
+  cols_here: 1
   end: !!python/object/apply:datetime.time
   - !!binary |
     EAAAAAAA
