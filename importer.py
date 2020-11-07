@@ -198,15 +198,15 @@ if __name__ == "__main__":
 
     time_list = list_of_times(
         datetime.datetime.combine(datetime.date(
-            2020, 1, 1), min(df['start'])),  # Earliest time in df
+            2020, 1, 1), datetime.time(8, 0)),  # min(df['start'])),  # Earliest time in df
         datetime.datetime.combine(datetime.date(
-            2020, 1, 1), max(df['end'])) + datetime.timedelta(minutes=15),  # Latest time in df
+            2020, 1, 1), datetime.time(17, 0)),  # max(df['end'])) + datetime.timedelta(minutes=15),  # Latest time in df
         datetime.timedelta(minutes=15),  # Interval of time list
     )
     hour_rows = [
         (index, time) for (index, time) in enumerate(time_list, 1) if ":00" in time
     ]
-    #print("Hours:")
+    # print("Hours:")
     print(hour_rows)
 
     df["start_row"] = df.start_time.apply(
@@ -220,12 +220,18 @@ if __name__ == "__main__":
     # df["start_row"] = df["start"]
     # df["end_row"] = df["end"]
     df["row"] = df.task.apply(lambda r: task_rows.get(r, 6))
-    #df = df.drop(['start_time', 'end_time', 'start', 'end'], axis=1)
+    # df = df.drop(['start_time', 'end_time', 'start', 'end'], axis=1)
 
     events = list(df.to_dict("index").values())
 
+    day_ranges = {
+        wday: (min(df.loc[df['weekday'] == wday]['start']), max(df.loc[df['weekday'] == wday]['end'])) for wday in weekdays}
+    print("Day Ranges")
+    print(day_ranges)
+
     context = {
         "num_rows": len(time_list),
+        "day_ranges": day_ranges,
         # "weekday": weekday.lower().capitalize(),
         # "events": events,
         # "time_list": list(enumerate(time_list, 1)),
