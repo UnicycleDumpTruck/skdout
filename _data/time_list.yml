@@ -1,108 +1,96 @@
 - !!python/tuple
   - 1
-  - '"8:00AM"'
-- !!python/tuple
-  - 2
-  - '"8:15AM"'
-- !!python/tuple
-  - 3
-  - '"8:30AM"'
-- !!python/tuple
-  - 4
-  - '"8:45AM"'
-- !!python/tuple
-  - 5
   - '"9:00AM"'
 - !!python/tuple
-  - 6
+  - 2
   - '"9:15AM"'
 - !!python/tuple
-  - 7
+  - 3
   - '"9:30AM"'
 - !!python/tuple
-  - 8
+  - 4
   - '"9:45AM"'
 - !!python/tuple
-  - 9
+  - 5
   - '"10:00AM"'
 - !!python/tuple
-  - 10
+  - 6
   - '"10:15AM"'
 - !!python/tuple
-  - 11
+  - 7
   - '"10:30AM"'
 - !!python/tuple
-  - 12
+  - 8
   - '"10:45AM"'
 - !!python/tuple
-  - 13
+  - 9
   - '"11:00AM"'
 - !!python/tuple
-  - 14
+  - 10
   - '"11:15AM"'
 - !!python/tuple
-  - 15
+  - 11
   - '"11:30AM"'
 - !!python/tuple
-  - 16
+  - 12
   - '"11:45AM"'
 - !!python/tuple
-  - 17
+  - 13
   - '"12:00PM"'
 - !!python/tuple
-  - 18
+  - 14
   - '"12:15PM"'
 - !!python/tuple
-  - 19
+  - 15
   - '"12:30PM"'
 - !!python/tuple
-  - 20
+  - 16
   - '"12:45PM"'
 - !!python/tuple
-  - 21
+  - 17
   - '"1:00PM"'
 - !!python/tuple
-  - 22
+  - 18
   - '"1:15PM"'
 - !!python/tuple
-  - 23
+  - 19
   - '"1:30PM"'
 - !!python/tuple
-  - 24
+  - 20
   - '"1:45PM"'
 - !!python/tuple
-  - 25
+  - 21
   - '"2:00PM"'
 - !!python/tuple
-  - 26
+  - 22
   - '"2:15PM"'
 - !!python/tuple
-  - 27
+  - 23
   - '"2:30PM"'
 - !!python/tuple
-  - 28
+  - 24
   - '"2:45PM"'
 - !!python/tuple
-  - 29
+  - 25
   - '"3:00PM"'
 - !!python/tuple
-  - 30
+  - 26
   - '"3:15PM"'
 - !!python/tuple
-  - 31
+  - 27
   - '"3:30PM"'
 - !!python/tuple
-  - 32
+  - 28
   - '"3:45PM"'
 - !!python/tuple
-  - 33
+  - 29
   - '"4:00PM"'
 - !!python/tuple
-  - 34
+  - 30
   - '"4:15PM"'
 - !!python/tuple
-  - 35
+  - 31
   - '"4:30PM"'
 - !!python/tuple
-  - 36
+  - 32
   - '"4:45PM"'

@@ -1,27 +1,24 @@
 - !!python/tuple
   - 1
-  - '"8:00AM"'
-- !!python/tuple
-  - 5
   - '"9:00AM"'
 - !!python/tuple
-  - 9
+  - 5
   - '"10:00AM"'
 - !!python/tuple
-  - 13
+  - 9
   - '"11:00AM"'
 - !!python/tuple
-  - 17
+  - 13
   - '"12:00PM"'
 - !!python/tuple
-  - 21
+  - 17
   - '"1:00PM"'
 - !!python/tuple
-  - 25
+  - 21
   - '"2:00PM"'
 - !!python/tuple
-  - 29
+  - 25
   - '"3:00PM"'
 - !!python/tuple
-  - 33
+  - 29
   - '"4:00PM"'
