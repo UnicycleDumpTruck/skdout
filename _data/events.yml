@@ -521,32 +521,6 @@
   task: Wipe down
   time_range: 12:15 to 12:45
   weekday: Wednesday
-
-- class: spray_and_swap
-  col_end: 5
-  col_start: 2
-  end: *id003
-  end_row: 1
-  end_string: '08:00'
-  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
-  - 1577893500000000000
-  - null
-  - null
-  icons: *id002
-  location: TH & PZ
-  long_location: Toddlers Hollow & Putting Zoo
-  row: 3
-  start: *id006
-  start_row: 34
-  start_string: '5:00'
-  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
-  - 1577890800000000000
-  - null
-  - null
-  task: Disinfect & Prop Swap
-  time_range: 3:00 to 3:45
-  weekday: Wednesday
-
 - class: spray_and_swap
   col_end: 4
   col_start: 3
@@ -570,7 +544,36 @@
   - null
   task: Disinfect & Prop Swap
   time_range: 3:00 to 3:45
+  weekday: Wednesday
+
+
+- class: prop_swap
+  col_end: 5
+  col_start: 2
+  end: *id011
+  end_row: 36
+  end_string: '9:45'
+  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577871900000000000
+  - null
+  - null
+  icons: *id010
+  location: Museum
+  long_location: Entire Museum
+  row: 3
+  start: *id016
+  start_row: 1
+  start_string: '9:30'
+  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
+  - 1577871000000000000
+  - null
+  - null
+  task: Closed for Thanksgiving
+  time_range: All Day 
   weekday: Thursday
+
+
+
 - class: prop_swap
   col_end: 5
   col_start: 3
