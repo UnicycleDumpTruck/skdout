@@ -547,30 +547,6 @@
   weekday: Wednesday
 
 
-- class: prop_swap
-  col_end: 5
-  col_start: 2
-  end: *id011
-  end_row: 36
-  end_string: '9:45'
-  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
-  - 1577871900000000000
-  - null
-  - null
-  icons: *id010
-  location: Museum
-  long_location: Entire Museum
-  row: 3
-  start: *id016
-  start_row: 1
-  start_string: '9:30'
-  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
-  - 1577871000000000000
-  - null
-  - null
-  task: Closed for Thanksgiving
-  time_range: All Day 
-  weekday: Thursday
 
 
 
