@@ -496,8 +496,8 @@
   time_range: 1:30 to 2:15
   weekday: Wednesday
 - class: learn_and_play
-  col_end: 6
-  col_start: 5
+  col_end: 5
+  col_start: 4
   end: *id007
   end_row: 9
   end_string: '10:00'
