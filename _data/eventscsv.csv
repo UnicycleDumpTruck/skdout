@@ -9,6 +9,7 @@ Tuesday,Around Town,09:00:00,10:00:00,Learn & Play,"('close.png', 'learn.png')",
 Tuesday,Around Town,15:00:00,15:45:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 15:00:00,2020-01-01 15:45:00,3:00,3:45,spray_and_swap,,29,32,3:00 to 3:45,3,3,4
 Wednesday,Kid Grid & RPW,09:00:00,10:00:00,Learn & Play,"('close.png', 'learn.png')",2020-01-01 09:00:00,2020-01-01 10:00:00,9:00,10:00,learn_and_play,Kid Grid & River Playway,5,9,9:00 to 10:00,2,2,3
 Wednesday,Kid Grid & RPW,10:00:00,10:15:00,Prop Swap Only,"('open.png', 'swap.png')",2020-01-01 10:00:00,2020-01-01 10:15:00,10:00,10:15,prop_swap,Kid Grid & River Playway,9,10,10:00 to 10:15,3,3,5
+Wednesday,Kid Grid & RPW,13:00:00,13:30:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 13:00:00,2020-01-01 13:30:00,1:00,1:30,wipe_down,Kid Grid & River Playway,21,23,1:00 to 1:30,4,4,5
 Wednesday,P2P & STEMosphere,10:15:00,10:30:00,Prop Swap Only,"('open.png', 'swap.png')",2020-01-01 10:15:00,2020-01-01 10:30:00,10:15,10:30,prop_swap,Power2Play & STEMosphere,10,11,10:15 to 10:30,3,3,5
 Wednesday,P2P & STEMosphere,12:00:00,13:00:00,Learn & Play,"('close.png', 'learn.png')",2020-01-01 12:00:00,2020-01-01 13:00:00,12:00,1:00,learn_and_play,Power2Play & STEMosphere,17,21,12:00 to 1:00,2,2,3
 Wednesday,P2P & STEMosphere,14:30:00,15:00:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 14:30:00,2020-01-01 15:00:00,2:30,3:00,wipe_down,Power2Play & STEMosphere,27,29,2:30 to 3:00,4,4,5
