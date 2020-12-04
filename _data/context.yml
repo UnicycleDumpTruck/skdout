@@ -1,13 +1,15 @@
 day_ranges:
   Friday: !!python/tuple
-  - &id001 !!python/object/apply:datetime.time
+  - !!python/object/apply:datetime.time
     - !!binary |
-      CQAAAAAA
+      CB4AAAAA
   - &id002 !!python/object/apply:datetime.time
     - !!binary |
       Dy0AAAAA
   Monday: !!python/tuple
-  - *id001
+  - &id001 !!python/object/apply:datetime.time
+    - !!binary |
+      CQAAAAAA
   - &id003 !!python/object/apply:datetime.time
     - !!binary |
       EB4AAAAA
@@ -18,9 +20,7 @@ day_ranges:
   - *id001
   - *id003
   Wednesday: !!python/tuple
-  - !!python/object/apply:datetime.time
-    - !!binary |
-      CB4AAAAA
+  - *id001
   - *id002
   Weekend: !!python/tuple
   - !!python/object/apply:datetime.time
