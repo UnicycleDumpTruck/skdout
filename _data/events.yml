@@ -956,8 +956,8 @@
   time_range: 3:00 to 3:45
   weekday: Thursday
 - class: learn_and_play
-  col_end: 3
-  col_start: 2
+  col_end: 4
+  col_start: 3
   end: *id007
   end_row: 9
   end_string: '10:00'
@@ -1028,8 +1028,8 @@
   time_range: 1:00 to 1:30
   weekday: Friday
 - class: learn_and_play
-  col_end: 3
-  col_start: 2
+  col_end: 5
+  col_start: 4
   end: *id007
   end_row: 9
   end_string: '10:00'
