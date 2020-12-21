@@ -123,14 +123,24 @@ weekdays = ["Monday", "Tuesday", "Wednesday",
             "Thursday", "Friday", "Weekend", "Weekend"]
 
 
+# DAY_ROWS = [
+#     (15, 20, "Monday"),  # Monday
+#     (24, 28, "Tuesday"),  # Tuesday
+#     (32, 39, "Wednesday"),  # Wednesday
+#     (43, 50, "Thursday"),  # Thursday
+#     (54, 61, "Friday"),  # Friday
+#     (66, 73, "Weekend"),  # Weekend: Saturday & Sunday
+# ]
+
 DAY_ROWS = [
-    (15, 20, "Monday"),  # Monday
-    (24, 28, "Tuesday"),  # Tuesday
-    (32, 39, "Wednesday"),  # Wednesday
-    (43, 50, "Thursday"),  # Thursday
-    (54, 61, "Friday"),  # Friday
-    (66, 73, "Weekend"),  # Weekend: Saturday & Sunday
+    (18, 25, "Monday"),  # Monday
+    (31, 38, "Tuesday"),  # Tuesday
+    (42, 49, "Wednesday"),  # Wednesday
+    (53, 60, "Thursday"),  # Thursday
+    (64, 71, "Friday"),  # Friday
+    (76, 83, "Weekend"),  # Weekend: Saturday & Sunday
 ]
+
 
 
 def merged_size(cell, sheet):
