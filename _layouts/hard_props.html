@@ -38,15 +38,6 @@
 
 
 
-        <div class="hard_prop_list" style="grid-template-rows: repeat({{site.data.context.num_rows}}, 3.2em);">
-            {% assign todays_props = site.data.hard_prop | where: "weekday", page.weekday %}
-            {% for prop in todays_props %}
-            <div class="prop_gallery prop_cell">{% prop.Gallery %}</div>
-            <div class="prop_area prop_cell">{% prop.Area %}</div>
-            <div class="prop_item prop_cell">{% prop.Item %}</div>
-            <div class="prop_day prop_cell">{% prop.Day %}</div>
-            <div class="prop_tray prop_cell">{% prop.Tray %}</div>
-        </div>
 
         {% assign mydata=site.data.hard_prop %}
         <table>
