@@ -39,7 +39,7 @@
         <table class="hard_prop_table">
             <caption class="hard_prop_table_caption">Hard props to pull at end of day:</caption>
             <thead>
-                <th>Gallery</th><th>Area</th><th>Item</th><th>Tray</th>
+                <th>Gallery</th><th>Area</th><th>Item</th><th>Tray</th><th>Day</th>
             </thead>
             <tbody>
             {% for row in todays_props %}
@@ -48,6 +48,7 @@
                 <td>{{ row["Area"] }}</td>
                 <td>{{ row["Item"] }}</td>
                 <td>{{ row["Tray"] }}</td>
+                <td>{{ row["Day"] }}</td>
                 </tr>
             {% endfor %}
             </tbody>
