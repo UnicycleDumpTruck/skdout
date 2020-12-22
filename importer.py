@@ -273,3 +273,13 @@ if __name__ == "__main__":
     with open(r'_data/hour_rows.yml', 'w') as yml_file:
         documents = yaml.dump(
             hour_rows, yml_file, default_flow_style=False)
+
+    hard_prop_sked = pd.read_excel("Hard_Props_Pull_Schedule.xlsx", engine='openpyxl')
+    hard_prop_sked.to_csv(r'_data/hard_prop.csv', index=False)
+    hard_prop_sked_dict = list(hard_prop_sked.to_dict("index").values())
+    print(hard_prop_sked)
+
+    with open(r'_data/hard_props.yml', 'w') as yml_file:
+        documents = yaml.dump(
+            hard_prop_sked_dict, yml_file, default_flow_style=False)
+

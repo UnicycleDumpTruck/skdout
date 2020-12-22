@@ -1,0 +1,285 @@
+- Area: Pet Vet
+  Day: Sunday
+  Gallery: Around Town
+  Item: Food Bowls
+  Tray: Pronged
+- Area: Pet Vet
+  Day: Sunday
+  Gallery: Around Town
+  Item: Syringes
+  Tray: Flat
+- Area: Pet Vet
+  Day: Sunday
+  Gallery: Around Town
+  Item: Tweezers
+  Tray: Flat
+- Area: Pet Vet
+  Day: Sunday
+  Gallery: Around Town
+  Item: Combs
+  Tray: Flat
+- Area: Ambulance
+  Day: Sunday
+  Gallery: Around Town
+  Item: Babies
+  Tray: Flat
+- Area: Ambulance
+  Day: Sunday
+  Gallery: Around Town
+  Item: Reflex Hammers
+  Tray: Flat
+- Area: RSS
+  Day: Sunday
+  Gallery: Around Town
+  Item: Light Table Pieces
+  Tray: Flat
+- Area: RSS
+  Day: Sunday
+  Gallery: Around Town
+  Item: Sensory Table Pieces (if hard plastic)
+  Tray: Flat
+- Area: Kitchen
+  Day: Sunday
+  Gallery: Around Town
+  Item: Plates
+  Tray: Pronged
+- Area: Kitchen
+  Day: Sunday
+  Gallery: Around Town
+  Item: Cutting Boards
+  Tray: Pronged
+- Area: Kitchen
+  Day: Sunday
+  Gallery: Around Town
+  Item: Ice Cube Trays
+  Tray: Pronged
+- Area: Kitchen
+  Day: Sunday
+  Gallery: Around Town
+  Item: Cooking Sheets
+  Tray: Pronged
+- Area: Kitchen
+  Day: Sunday
+  Gallery: Around Town
+  Item: Cooking Untensils
+  Tray: Flat
+- Area: Kitchen
+  Day: Sunday
+  Gallery: Around Town
+  Item: Pots/Pans
+  Tray: Flat
+- Area: Kitchen
+  Day: Sunday
+  Gallery: Around Town
+  Item: Bowls
+  Tray: Flat
+- Area: Kitchen
+  Day: Sunday
+  Gallery: Around Town
+  Item: Flour/Sugar bins
+  Tray: Flat
+- Area: Kitchen
+  Day: Sunday
+  Gallery: Around Town
+  Item: Measuring cups/spoons
+  Tray: Flat
+- Area: Kitchen
+  Day: Sunday
+  Gallery: Around Town
+  Item: Silicone trivits
+  Tray: Flat
+- Area: Grocery Store
+  Day: Sunday
+  Gallery: Around Town
+  Item: Plastic Protiens
+  Tray: Flat
+- Area: Grocery Store
+  Day: Sunday
+  Gallery: Around Town
+  Item: Plastic Veggies
+  Tray: Flat
+- Area: Grocery Store
+  Day: Sunday
+  Gallery: Around Town
+  Item: Plastic Grains
+  Tray: Flat
+- Area: Grocery Store
+  Day: Sunday
+  Gallery: Around Town
+  Item: Plastic Fruits
+  Tray: Flat
+- Area: Peek-a-boo Bay
+  Day: Sunday
+  Gallery: Around Town
+  Item: Hard plastic toys
+  Tray: Flat
+- Area: On the Farm
+  Day: Sunday
+  Gallery: Around Town
+  Item: Scoops
+  Tray: Flat
+- Area: On the Farm
+  Day: Sunday
+  Gallery: Around Town
+  Item: Eggs
+  Tray: Flat
+- Area: On the Farm
+  Day: Sunday
+  Gallery: Around Town
+  Item: Red Combs
+  Tray: Flat
+- Area: On the Farm
+  Day: Sunday
+  Gallery: Around Town
+  Item: Red Pails
+  Tray: Flat
+- Area: On the Farm
+  Day: Sunday
+  Gallery: Around Town
+  Item: Milking bottles
+  Tray: Flat
+- Area: On the Farm
+  Day: Sunday
+  Gallery: Around Town
+  Item: Mini Farm Animals from barn table
+  Tray: Flat
+- Area: Pollys
+  Day: Wednesday
+  Gallery: Moneypalooza
+  Item: Brushes/combs
+  Tray: Flat
+- Area: Pollys
+  Day: Wednesday
+  Gallery: Moneypalooza
+  Item: Dog Toys
+  Tray: Flat
+- Area: Ellie's Lemonade
+  Day: Wednesday
+  Gallery: Moneypalooza
+  Item: Spoons
+  Tray: Flat
+- Area: Ellie's Lemonade
+  Day: Wednesday
+  Gallery: Moneypalooza
+  Item: Collanders
+  Tray: Flat
+- Area: Ellie's Lemonade
+  Day: Wednesday
+  Gallery: Moneypalooza
+  Item: Pitchers
+  Tray: Pronged
+- Area: Ellie's Lemonade
+  Day: Wednesday
+  Gallery: Moneypalooza
+  Item: Cups
+  Tray: Pronged
+- Area: Vitos
+  Day: Wednesday
+  Gallery: Moneypalooza
+  Item: Pizza Pans
+  Tray: Pronged
+- Area: Campfire
+  Day: Thursday
+  Gallery: Hit the Trail
+  Item: Blue dishes
+  Tray: Pronged
+- Area: Campfire
+  Day: Thursday
+  Gallery: Hit the Trail
+  Item: Rocks
+  Tray: Flat
+- Area: Checkers
+  Day: Thursday
+  Gallery: Kids Way
+  Item: Checkers Pieces
+  Tray: Flat
+- Area: Mancala
+  Day: Thursday
+  Gallery: Kids Way
+  Item: Mancala Pieces
+  Tray: Flat
+- Area: Kerplunk
+  Day: Thursday
+  Gallery: Kids Way
+  Item: Kerplunk Balls
+  Tray: Flat
+- Area: Sjoelbak
+  Day: Thursday
+  Gallery: Kids Way
+  Item: Sjoelbak Pieces
+  Tray: Flat
+- Area: Science Sub
+  Day: Friday
+  Gallery: Splash
+  Item: Plastic bottles
+  Tray: Pronged
+- Area: Science Sub
+  Day: Friday
+  Gallery: Splash
+  Item: Magnets
+  Tray: Pronged
+- Area: Science Sub
+  Day: Friday
+  Gallery: Splash
+  Item: Tongs
+  Tray: Pronged
+- Area: Seedlings
+  Day: Friday
+  Gallery: Splash
+  Item: Plastic Rocks
+  Tray: Flat
+- Area: Seedlings
+  Day: Friday
+  Gallery: Splash
+  Item: Flower Pots
+  Tray: Flat
+- Area: Kid Grid
+  Day: Saturday
+  Gallery: Kid Grid
+  Item: Vinyl buckets
+  Tray: Pronged
+- Area: Healthy Kitchen
+  Day: Saturday
+  Gallery: Power2Play
+  Item: plastic food
+  Tray: Flat
+- Area: Healthy Kitchen
+  Day: Saturday
+  Gallery: Power2Play
+  Item: pots and pans
+  Tray: Pronged
+- Area: Healthy Kitchen
+  Day: Saturday
+  Gallery: Power2Play
+  Item: plates
+  Tray: Pronged
+- Area: Healthy Kitchen
+  Day: Saturday
+  Gallery: Power2Play
+  Item: cutting boards
+  Tray: Pronged
+- Area: Healthy Kitchen
+  Day: Saturday
+  Gallery: Power2Play
+  Item: Salad Spinner bowls
+  Tray: Flat
+- Area: .nan
+  Day: Saturday
+  Gallery: STEMosphere
+  Item: Duplo/Lego Bricks
+  Tray: Custom
+- Area: .nan
+  Day: Saturday
+  Gallery: STEMosphere
+  Item: Tower Discs
+  Tray: Flat
+- Area: .nan
+  Day: Saturday
+  Gallery: STEMosphere
+  Item: Magnet building toys & balls
+  Tray: Flat
+- Area: Go Zone
+  Day: ' Friday'
+  Gallery: IdeaWorks
+  Item: Kinnex pieces
+  Tray: Custom

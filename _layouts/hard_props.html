@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.weekday }}</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" href="/sked/assets/apple-touch-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">-->
+    <link rel="icon" type="image/png" sizes="32x32" href="/sked/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/sked/favicon-16x16.png">
+    <link rel="manifest" href="/sked/site.webmanifest">
+    <link rel="mask-icon" href="/sked/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div class="body_container">
+
+        <div class="title_nav_container">
+            <div class="page_title">{{ page.weekday }}</div>
+            <div class="nav_container">
+                <a class="day_link" href="/sked/today">Today</a>
+                {% if page.weekday != "Monday" %}<a class="day_link" href="/sked/monday">Monday</a>{% endif %}
+                {% if page.weekday != "Tuesday" %}<a class="day_link" href="/sked/tuesday">Tuesday</a>{% endif %}
+                {% if page.weekday != "Wednesday" %}<a class="day_link" href="/sked/wednesday">Wednesday</a>{% endif %}
+                {% if page.weekday != "Thursday" %}<a class="day_link" href="/sked/thursday">Thursday</a>{% endif %}
+                {% if page.weekday != "Friday" %}<a class="day_link" href="/sked/friday">Friday</a>{% endif %}
+                {% if page.weekday != "Weekend" %}<a class="day_link" href="/sked/weekend">Weekend</a>{% endif %}
+            </div>
+        </div>
+
+        <br>
+
+
+
+
+        <div class="hard_prop_list" style="grid-template-rows: repeat({{site.data.context.num_rows}}, 3.2em);">
+            {% assign todays_props = site.data.hard_prop | where: "weekday", page.weekday %}
+            {% for prop in todays_props %}
+            <div class="prop_gallery prop_cell">{% prop.Gallery %}</div>
+            <div class="prop_area prop_cell">{% prop.Area %}</div>
+            <div class="prop_item prop_cell">{% prop.Item %}</div>
+            <div class="prop_day prop_cell">{% prop.Day %}</div>
+            <div class="prop_tray prop_cell">{% prop.Tray %}</div>
+        </div>
+
+        {% assign mydata=site.data.hard_prop %}
+        <table>
+            <caption>Table caption</caption>
+            <thead>
+            {% for column in mydata[0] %}
+                <th>{{ column[0] }}</th>
+            {% endfor %}
+            </thead>
+            <tbody>
+            {% for row in mydata %}
+                <tr>
+                {% for cell in row %}
+                    <td>{{ cell[1] }}</td>
+                {% endfor %}
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+
+
+    </div>
+</body>
+
+</html>

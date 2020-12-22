@@ -19,6 +19,7 @@
 
 <body>
     <div class="body_container">
+
         <div class="title_nav_container">
             <div class="page_title">{{ page.weekday }}</div>
             <div class="nav_container">
@@ -31,7 +32,9 @@
                 {% if page.weekday != "Weekend" %}<a class="day_link" href="/sked/weekend">Weekend</a>{% endif %}
             </div>
         </div>
+
         <br>
+
         <div class="schedule" style=
                 "grid-template-rows: repeat({{site.data.context.num_rows}}, 3.2em); 
                 {% if page.weekday == 'Weekend' %}
@@ -79,10 +82,9 @@
             </div>
             {% endfor %}
         </div>
+
+
     </div>
-
-
-
 </body>
 
 </html>
