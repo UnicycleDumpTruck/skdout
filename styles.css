@@ -176,11 +176,7 @@ body {
   letter-spacing: 3px;
   font-size: 24px;
   font-weight: bold;
-  display: flex;
-  justify-content: flex-start;
-  align-items: top;
-  max-width: 800px;
-  padding-top: 0px;
+  
 }
 
 th, td {
