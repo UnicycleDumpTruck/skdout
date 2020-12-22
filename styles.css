@@ -171,11 +171,20 @@ body {
   background-color: #afc4fc;
 }
 
-.prop_cell {
-
+.hard_prop_table_caption {
+  color: #afc4fc;
+  letter-spacing: 3px;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  align-items: top;
+  max-width: 800px;
+  padding-top: 0px;
 }
 
 th, td {
+  margin: 0px;
   padding: 5px;
   text-align: left;
   border-bottom: 1px solid #000000;
