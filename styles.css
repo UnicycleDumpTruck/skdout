@@ -164,13 +164,13 @@ body {
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.hard_prop_list {
-  display: grid;
-  max-width: 800px;
+.hard_prop_table {
+  
+  
   grid-gap: 5px;
-  background-color: #3a4d7e;
+  background-color: #afc4fc;
 }
 
 .prop_cell {
-  
+
 }
