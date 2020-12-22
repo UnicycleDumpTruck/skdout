@@ -166,7 +166,6 @@ body {
 
 .hard_prop_table {
   font-size: 10px;
-  grid-gap: 5px;
   background-color: #afc4fc;
 }
 
@@ -183,7 +182,7 @@ body {
 
 th, td {
   margin: 0px;
-  padding: 5px;
+  padding-right: 5px;
   text-align: left;
   border-bottom: 1px solid #000000;
 }
