@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>{{ page.weekday }}</title>
+    <title>Hard Prop Pulls</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="apple-touch-icon" href="/sked/assets/apple-touch-icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +21,7 @@
     <div class="body_container">
 
         <div class="title_nav_container">
-            <div class="page_title">{{ page.weekday }}</div>
+            <div class="page_title">Hard Prop Pulls</div>
             <div class="nav_container">
                 <a class="day_link" href="/sked/today">Today</a>
                 {% if page.weekday != "Monday" %}<a class="day_link" href="/sked/monday">Monday</a>{% endif %}
@@ -36,13 +36,14 @@
         <br>
 
         {% assign todays_props=site.data.hard_prop | where: "Day", page.weekday %}
+        {% assign all_props=site.data.hard_prop %}
         <table class="hard_prop_table">
-            <caption class="hard_prop_table_caption">Hard props to pull at end of day:</caption>
+            <caption class="hard_prop_table_caption">Pull at end of each day:</caption>
             <thead>
                 <th>Gallery</th><th>Area</th><th>Item</th><th>Tray</th><th>Day</th>
             </thead>
             <tbody>
-            {% for row in todays_props %}
+            {% for row in all_props %}
                 <tr>
                 <td>{{ row["Gallery"] }}</td>
                 <td>{{ row["Area"] }}</td>
