@@ -165,8 +165,7 @@ body {
 }
 
 .hard_prop_table {
-  
-  
+  font-size: 10px;
   grid-gap: 5px;
   background-color: #afc4fc;
 }
