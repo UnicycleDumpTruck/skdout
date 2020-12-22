@@ -8,6 +8,7 @@
 .body_container {
   max-width: 800px;
   display: block;
+  justify-content: center;
 }
 
 .page_title {
