@@ -35,13 +35,9 @@
 
         <br>
 
-
-
-
-
-        {% assign mydata=site.data.hard_prop %}
-        <table>
-            <caption>Table caption</caption>
+        {% assign mydata=site.data.hard_prop | where: "weekday", page.weekday %}
+        <table class="hard_prop_table">
+            <caption class="hard_prop_table_caption">Hard props to pull at end of day:</caption>
             <thead>
             {% for column in mydata[0] %}
                 <th>{{ column[0] }}</th>
