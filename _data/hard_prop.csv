@@ -21,7 +21,7 @@ AT,Pet Vet,Combs,Sunday,Flat
 AT,Ambulance,Babies,Sunday,Flat
 AT,Ambulance,Reflex Hammers,Sunday,Flat
 AT,RSS,Light Table Pieces,Sunday,Flat
-AT,RSS,Hard Sensory Bin Items,Sunday,Flat
+AT,RSS,Hard Sensory Items,Sunday,Flat
 AT,Kitchen,Plates,Sunday,Pronged
 AT,Kitchen,Cutting Boards,Sunday,Pronged
 AT,Kitchen,Ice Cube Trays,Sunday,Pronged
@@ -30,7 +30,7 @@ AT,Kitchen,Cooking Untensils,Sunday,Flat
 AT,Kitchen,Pots/Pans,Sunday,Flat
 AT,Kitchen,Bowls,Sunday,Flat
 AT,Kitchen,Flour/Sugar bins,Sunday,Flat
-AT,Kitchen,Measuring cups/spoons,Sunday,Flat
+AT,Kitchen,Measuring cups,Sunday,Flat
 AT,Kitchen,Silicone trivits,Sunday,Flat
 AT,Grocery Store,Plastic Protiens,Sunday,Flat
 AT,Grocery Store,Plastic Veggies,Sunday,Flat
@@ -51,8 +51,8 @@ Kids Way,Kerplunk,Kerplunk Balls,Thursday,Flat
 Kids Way,Sjoelbak,Sjoelbak Pieces,Thursday,Flat
 MP,Pollys,Brushes/combs,Wednesday,Flat
 MP,Pollys,Dog Toys,Wednesday,Flat
-MP,Ellie's Lemonade,Spoons,Wednesday,Flat
-MP,Ellie's Lemonade,Collanders,Wednesday,Flat
-MP,Ellie's Lemonade,Pitchers,Wednesday,Pronged
-MP,Ellie's Lemonade,Cups,Wednesday,Pronged
+MP,Lemonade,Spoons,Wednesday,Flat
+MP,Lemonade,Collanders,Wednesday,Flat
+MP,Lemonade,Pitchers,Wednesday,Pronged
+MP,Lemonade,Cups,Wednesday,Pronged
 MP,Vitos,Pizza Pans,Wednesday,Pronged

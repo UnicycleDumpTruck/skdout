@@ -111,7 +111,7 @@
 - Area: RSS
   Day: Sunday
   Gallery: AT
-  Item: Hard Sensory Bin Items
+  Item: Hard Sensory Items
   Tray: Flat
 - Area: Kitchen
   Day: Sunday
@@ -156,7 +156,7 @@
 - Area: Kitchen
   Day: Sunday
   Gallery: AT
-  Item: Measuring cups/spoons
+  Item: Measuring cups
   Tray: Flat
 - Area: Kitchen
   Day: Sunday
@@ -258,22 +258,22 @@
   Gallery: MP
   Item: Dog Toys
   Tray: Flat
-- Area: Ellie's Lemonade
+- Area: Lemonade
   Day: Wednesday
   Gallery: MP
   Item: Spoons
   Tray: Flat
-- Area: Ellie's Lemonade
+- Area: Lemonade
   Day: Wednesday
   Gallery: MP
   Item: Collanders
   Tray: Flat
-- Area: Ellie's Lemonade
+- Area: Lemonade
   Day: Wednesday
   Gallery: MP
   Item: Pitchers
   Tray: Pronged
-- Area: Ellie's Lemonade
+- Area: Lemonade
   Day: Wednesday
   Gallery: MP
   Item: Cups
