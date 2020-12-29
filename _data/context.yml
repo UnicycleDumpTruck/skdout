@@ -9,6 +9,16 @@ day_ranges:
   Monday: !!python/tuple
   - *id001
   - *id002
+  Saturday: !!python/tuple
+  - &id003 !!python/object/apply:datetime.time
+    - !!binary |
+      CgAAAAAA
+  - &id004 !!python/object/apply:datetime.time
+    - !!binary |
+      EAAAAAAA
+  Sunday: !!python/tuple
+  - *id003
+  - *id004
   Thursday: !!python/tuple
   - *id001
   - *id002
@@ -18,11 +28,4 @@ day_ranges:
   Wednesday: !!python/tuple
   - *id001
   - *id002
-  Weekend: !!python/tuple
-  - !!python/object/apply:datetime.time
-    - !!binary |
-      CgAAAAAA
-  - !!python/object/apply:datetime.time
-    - !!binary |
-      EAAAAAAA
 num_rows: 36

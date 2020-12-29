@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>{{ page.weekday }}</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?version=55">
     <link rel="apple-touch-icon" href="/sked/assets/apple-touch-icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -29,7 +29,8 @@
                 {% if page.weekday != "Wednesday" %}<a class="day_link" href="/sked/wednesday">Wednesday</a>{% endif %}
                 {% if page.weekday != "Thursday" %}<a class="day_link" href="/sked/thursday">Thursday</a>{% endif %}
                 {% if page.weekday != "Friday" %}<a class="day_link" href="/sked/friday">Friday</a>{% endif %}
-                {% if page.weekday != "Weekend" %}<a class="day_link" href="/sked/weekend">Weekend</a>{% endif %}
+                {% if page.weekday != "Saturday" %}<a class="day_link" href="/sked/saturday">Saturday</a>{% endif %}
+                {% if page.weekday != "Sunday" %}<a class="day_link" href="/sked/sunday">Sunday</a>{% endif %}
                 <a class="day_link" href="/sked/hard">Hard Props</a>
             </div>
         </div>
@@ -38,7 +39,7 @@
 
         <div class="schedule" style=
                 "grid-template-rows: repeat({{site.data.context.num_rows}}, 3.2em); 
-                {% if page.weekday == 'Weekend' %}
+                {% if page.weekday == 'Saturday' or page.weekday == 'Sunday' %}
                 grid-template-columns: 30px 0px repeat(2, 1fr);
                 {% else %}
                 grid-template-columns: 30px repeat(3, 1fr);
@@ -84,7 +85,26 @@
             {% endfor %}
         </div>
 
-
+    
+        {% assign todays_props=site.data.hard_prop | where: "Day", page.weekday %}
+        {% if todays_props.size > 0 %}
+        <table class="hard_prop_table">
+            <caption class="hard_prop_table_caption">End of day pull:</caption>
+            <thead>
+                <th>Gallery</th><th>Area</th><th>Item</th><th>Tray</th>
+            </thead>
+            <tbody>
+            {% for row in todays_props %}
+                <tr>
+                <td>{{ row["Gallery"] }}</td>
+                <td>{{ row["Area"] }}</td>
+                <td>{{ row["Item"] }}</td>
+                <td>{{ row["Tray"] }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        {% endif %}
 
 
     </div>

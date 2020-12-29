@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>{{ page.weekday }}</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?version=52">
     <link rel="apple-touch-icon" href="/sked/assets/apple-touch-icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -17,10 +17,11 @@
     <meta name="theme-color" content="#ffffff">
     <script>
         function showToday() {
-            let weekdays = ['Weekend','Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Weekend']
+            let weekdays = ['Sunday','Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
             var d = new Date();
             var n = d.getDay();
             var today = weekdays[n];
+            //var today = 'Sunday';
             //document.getElementById("page_title").innerHTML = today;
             document.getElementById("today_is").innerHTML = ((today == "Weekend") ? "Welcome to the weekend!" : ("Today is " + today + "."));
             
@@ -32,9 +33,21 @@
                 }
             }
             var divsToShow = document.getElementsByClassName(today); //divsToHide is an array
+            var number_of_props_to_pull = 0;
             for(var i = 0; i < divsToShow.length; i++){
                 //divsToShow[i].style.visibility = "hidden"; // or
-                divsToShow[i].style.display = "grid"; // depending on what you're doing
+                if (divsToShow[i].nodeName == "DIV") {
+                    divsToShow[i].style.display = "grid";
+                } else {
+                    divsToShow[i].style.display = "table-row";
+                    number_of_props_to_pull++;
+                }
+                
+            }
+
+            var table_of_props = document.getElementById('prop_table');
+            if (number_of_props_to_pull == 0) {
+                table_of_props.style.display = "none";
             }
         }
     </script>
@@ -51,14 +64,15 @@
                 <a class="day_link" href="/sked/wednesday">Wednesday</a>
                 <a class="day_link" href="/sked/thursday">Thursday</a>
                 <a class="day_link" href="/sked/friday">Friday</a>
-                <a class="day_link" href="/sked/weekend">Weekend</a>
+                <a class="day_link" href="/sked/saturday">Saturday</a>
+                <a class="day_link" href="/sked/sunday">Sunday</a>
                 <a class="day_link" href="/sked/hard">Hard Props</a>
             </div>
         </div>
         <br>
         <div class="schedule" style=
                 "grid-template-rows: repeat({{site.data.context.num_rows}}, 3.2em); 
-                {% if page.weekday == 'Weekend' %}
+                {% if page.weekday == 'Saturday' or page.weekday == 'Sunday' %}
                 grid-template-columns: 30px 0px repeat(2, 1fr);
                 {% else %}
                 grid-template-columns: 30px repeat(3, 1fr);
@@ -103,6 +117,27 @@
             </div>
             {% endfor %}
         </div>
+
+
+        {% assign all_props=site.data.hard_prop %}
+
+        <table class="hard_prop_table" id="prop_table">
+            <caption class="hard_prop_table_caption">Pull at end of day:</caption>
+            <thead>
+                <th>Gallery</th><th>Area</th><th>Item</th><th>Tray</th>
+            </thead>
+            <tbody>
+            {% for row in all_props %}
+                <tr class={{ row["Day"] }} prop>
+                <td>{{ row["Gallery"] }}</td>
+                <td>{{ row["Area"] }}</td>
+                <td>{{ row["Item"] }}</td>
+                <td>{{ row["Tray"] }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+
     </div>
 
 

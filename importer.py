@@ -120,7 +120,7 @@ icons = {
 }
 
 weekdays = ["Monday", "Tuesday", "Wednesday",
-            "Thursday", "Friday", "Weekend", "Weekend"]
+            "Thursday", "Friday", "Saturday", "Sunday"]
 
 
 # DAY_ROWS = [
@@ -133,14 +133,15 @@ weekdays = ["Monday", "Tuesday", "Wednesday",
 # ]
 
 DAY_ROWS = [
-    (18, 25, "Monday"),  # Monday
-    (31, 38, "Tuesday"),  # Tuesday
-    (42, 49, "Wednesday"),  # Wednesday
-    (53, 60, "Thursday"),  # Thursday
-    (64, 71, "Friday"),  # Friday
-    (76, 83, "Weekend"),  # Weekend: Saturday & Sunday
+    (16, 23, "Monday"),  # Monday
+    (29, 36, "Tuesday"),  # Tuesday
+    (40, 47, "Wednesday"),  # Wednesday
+    (51, 58, "Thursday"),  # Thursday
+    (62, 69, "Friday"),  # Friday
+    #(73, 80, "Weekend"),  # Weekend: Saturday & Sunday
+    (73, 80, "Saturday"),
+    (84, 91, "Sunday"),
 ]
-
 
 
 def merged_size(cell, sheet):
@@ -155,7 +156,7 @@ if __name__ == "__main__":
     print(f"Importing file: {filename}")
     wb = openpyxl.load_workbook(filename)
     sheet = wb["Schedule"]
-    # row 14 is the first row of time headers, col B to AL
+    # row 12 is the first row of time headers, col B to AL
     task_list = []
     with open("tasks.csv", mode="w") as output_file:
         output_writer = csv.writer(
@@ -172,15 +173,15 @@ if __name__ == "__main__":
                     if cl.value:
                         weekday = day[2]
                         location = sheet.cell(row=cl.row, column=1).value
-                        start = sheet.cell(row=14, column=cl.column).value
+                        start = sheet.cell(row=12, column=cl.column).value
                         mrg = merged_size(cl, sheet)
                         if mrg:
                             end = sheet.cell(
-                                row=14, column=cl.column + mrg["columns"]
+                                row=12, column=cl.column + mrg["columns"]
                             ).value
                         else:
                             end = sheet.cell(
-                                row=14, column=cl.column + 1).value
+                                row=12, column=cl.column + 1).value
                         task = cl.value
                         id_placeholder = ""
                         output_writer.writerow(
@@ -189,11 +190,11 @@ if __name__ == "__main__":
                         task_list.append(
                             {'weekday': weekday, 'location': location, 'start': start, 'end': end, 'task': task, 'icons': icons.get(task)})
     df = pd.DataFrame.from_records(task_list)
-    df = df[~df['task'].str.contains("Members Only")]
-    df = df[~df['task'].str.contains("Activity Room Play")]
-    df = df[~df['task'].str.contains("Camp staff clean")]
-    df = df[~df['task'].str.contains("Virex Spray Everything")]
-
+    df = df[~df['task'].str.contains("Members Only", na=False)]
+    df = df[~df['task'].str.contains("Activity Room Play", na=False)]
+    df = df[~df['task'].str.contains("Camp staff clean", na=False)]
+    df = df[~df['task'].str.contains("Virex Spray Everything", na=False)]
+    print(df)
     df["start_time"] = df.start.apply(
         lambda x: datetime.datetime.combine(datetime.date(
             2020, 1, 1), x)

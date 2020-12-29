@@ -3,11 +3,11 @@ Monday,HTT,09:30:00,09:45:00,Prop Swap Only,"('open.png', 'swap.png')",2020-01-0
 Monday,HTT,13:00:00,13:30:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 13:00:00,2020-01-01 13:30:00,1:00,1:30,wipe_down,Hit the Trail,21,23,1:00 to 1:30,4,4,5
 Monday,Splash (UW - SS),09:45:00,10:00:00,Prop Swap Only,"('open.png', 'swap.png')",2020-01-01 09:45:00,2020-01-01 10:00:00,9:45,10:00,prop_swap,,8,9,9:45 to 10:00,3,3,5
 Monday,Splash (UW - SS),14:30:00,15:00:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 14:30:00,2020-01-01 15:00:00,2:30,3:00,wipe_down,,27,29,2:30 to 3:00,4,4,5
-Monday,Ideaworks & Art Loft,11:15:00,12:00:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 11:15:00,2020-01-01 12:00:00,11:15,12:00,spray_and_swap,,14,17,11:15 to 12:00,3,3,4
-Monday,Ideaworks & Art Loft,13:45:00,14:15:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 13:45:00,2020-01-01 14:15:00,1:45,2:15,wipe_down,,24,26,1:45 to 2:15,4,4,5
+Monday,P2P & STEMosphere,11:15:00,12:00:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 11:15:00,2020-01-01 12:00:00,11:15,12:00,spray_and_swap,Power2Play & STEMosphere,14,17,11:15 to 12:00,3,3,4
+Monday,P2P & STEMosphere,13:45:00,14:15:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 13:45:00,2020-01-01 14:15:00,1:45,2:15,wipe_down,Power2Play & STEMosphere,24,26,1:45 to 2:15,4,4,5
 Monday,Around Town,12:00:00,12:45:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 12:00:00,2020-01-01 12:45:00,12:00,12:45,spray_and_swap,,17,20,12:00 to 12:45,3,3,4
 Monday,Moneypalooza,12:45:00,13:30:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 12:45:00,2020-01-01 13:30:00,12:45,1:30,spray_and_swap,,20,23,12:45 to 1:30,3,3,4
-Monday,P2P & STEMosphere,13:30:00,14:15:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 13:30:00,2020-01-01 14:15:00,1:30,2:15,spray_and_swap,Power2Play & STEMosphere,23,26,1:30 to 2:15,3,3,4
+Monday,Ideaworks & Art Loft,13:30:00,14:15:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 13:30:00,2020-01-01 14:15:00,1:30,2:15,spray_and_swap,,23,26,1:30 to 2:15,3,3,4
 Monday,Kid Grid & RPW,11:15:00,11:45:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 11:15:00,2020-01-01 11:45:00,11:15,11:45,wipe_down,Kid Grid & River Playway,14,16,11:15 to 11:45,4,4,5
 Monday,Kid Grid & RPW,14:15:00,15:00:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 14:15:00,2020-01-01 15:00:00,2:15,3:00,spray_and_swap,Kid Grid & River Playway,26,29,2:15 to 3:00,3,3,4
 Monday,TH & PZ,12:15:00,12:45:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 12:15:00,2020-01-01 12:45:00,12:15,12:45,wipe_down,Toddlers Hollow & Putting Zoo,18,20,12:15 to 12:45,4,4,5
@@ -31,48 +31,60 @@ Wednesday,P2P & STEMosphere,09:45:00,10:00:00,Prop Swap Only,"('open.png', 'swap
 Wednesday,P2P & STEMosphere,14:30:00,15:00:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 14:30:00,2020-01-01 15:00:00,2:30,3:00,wipe_down,Power2Play & STEMosphere,27,29,2:30 to 3:00,4,4,5
 Wednesday,Splash (UW - SS),11:15:00,12:00:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 11:15:00,2020-01-01 12:00:00,11:15,12:00,spray_and_swap,,14,17,11:15 to 12:00,3,3,4
 Wednesday,Splash (UW - SS),13:45:00,14:15:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 13:45:00,2020-01-01 14:15:00,1:45,2:15,wipe_down,,24,26,1:45 to 2:15,4,4,5
-Wednesday,HTT,12:00:00,12:45:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 12:00:00,2020-01-01 12:45:00,12:00,12:45,spray_and_swap,Hit the Trail,17,20,12:00 to 12:45,3,3,4
-Wednesday,Around Town,12:45:00,13:30:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 12:45:00,2020-01-01 13:30:00,12:45,1:30,spray_and_swap,,20,23,12:45 to 1:30,3,3,4
-Wednesday,Moneypalooza,13:30:00,14:15:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 13:30:00,2020-01-01 14:15:00,1:30,2:15,spray_and_swap,,23,26,1:30 to 2:15,3,3,4
-Wednesday,Ideaworks & Art Loft,11:15:00,11:45:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 11:15:00,2020-01-01 11:45:00,11:15,11:45,wipe_down,,14,16,11:15 to 11:45,4,4,5
-Wednesday,Ideaworks & Art Loft,14:15:00,15:00:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 14:15:00,2020-01-01 15:00:00,2:15,3:00,spray_and_swap,,26,29,2:15 to 3:00,3,3,4
+Wednesday,Around Town,12:00:00,12:45:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 12:00:00,2020-01-01 12:45:00,12:00,12:45,spray_and_swap,,17,20,12:00 to 12:45,3,3,4
+Wednesday,Moneypalooza,12:45:00,13:30:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 12:45:00,2020-01-01 13:30:00,12:45,1:30,spray_and_swap,,20,23,12:45 to 1:30,3,3,4
+Wednesday,Ideaworks & Art Loft,13:30:00,14:15:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 13:30:00,2020-01-01 14:15:00,1:30,2:15,spray_and_swap,,23,26,1:30 to 2:15,3,3,4
+Wednesday,HTT,11:15:00,11:45:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 11:15:00,2020-01-01 11:45:00,11:15,11:45,wipe_down,Hit the Trail,14,16,11:15 to 11:45,4,4,5
+Wednesday,HTT,14:15:00,15:00:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 14:15:00,2020-01-01 15:00:00,2:15,3:00,spray_and_swap,Hit the Trail,26,29,2:15 to 3:00,3,3,4
 Wednesday,TH & PZ,12:15:00,12:45:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 12:15:00,2020-01-01 12:45:00,12:15,12:45,wipe_down,Toddlers Hollow & Putting Zoo,18,20,12:15 to 12:45,4,4,5
 Wednesday,TH & PZ,15:00:00,15:45:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 15:00:00,2020-01-01 15:45:00,3:00,3:45,spray_and_swap,Toddlers Hollow & Putting Zoo,29,32,3:00 to 3:45,3,3,4
 Thursday,HTT,09:30:00,09:45:00,Prop Swap Only,"('open.png', 'swap.png')",2020-01-01 09:30:00,2020-01-01 09:45:00,9:30,9:45,prop_swap,Hit the Trail,7,8,9:30 to 9:45,3,3,5
 Thursday,HTT,13:00:00,13:30:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 13:00:00,2020-01-01 13:30:00,1:00,1:30,wipe_down,Hit the Trail,21,23,1:00 to 1:30,4,4,5
 Thursday,Splash (UW - SS),09:45:00,10:00:00,Prop Swap Only,"('open.png', 'swap.png')",2020-01-01 09:45:00,2020-01-01 10:00:00,9:45,10:00,prop_swap,,8,9,9:45 to 10:00,3,3,5
 Thursday,Splash (UW - SS),14:30:00,15:00:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 14:30:00,2020-01-01 15:00:00,2:30,3:00,wipe_down,,27,29,2:30 to 3:00,4,4,5
-Thursday,Ideaworks & Art Loft,11:15:00,12:00:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 11:15:00,2020-01-01 12:00:00,11:15,12:00,spray_and_swap,,14,17,11:15 to 12:00,3,3,4
-Thursday,Ideaworks & Art Loft,13:45:00,14:15:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 13:45:00,2020-01-01 14:15:00,1:45,2:15,wipe_down,,24,26,1:45 to 2:15,4,4,5
+Thursday,P2P & STEMosphere,11:15:00,12:00:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 11:15:00,2020-01-01 12:00:00,11:15,12:00,spray_and_swap,Power2Play & STEMosphere,14,17,11:15 to 12:00,3,3,4
+Thursday,P2P & STEMosphere,13:45:00,14:15:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 13:45:00,2020-01-01 14:15:00,1:45,2:15,wipe_down,Power2Play & STEMosphere,24,26,1:45 to 2:15,4,4,5
 Thursday,Around Town,12:00:00,12:45:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 12:00:00,2020-01-01 12:45:00,12:00,12:45,spray_and_swap,,17,20,12:00 to 12:45,3,3,4
 Thursday,Moneypalooza,12:45:00,13:30:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 12:45:00,2020-01-01 13:30:00,12:45,1:30,spray_and_swap,,20,23,12:45 to 1:30,3,3,4
-Thursday,P2P & STEMosphere,13:30:00,14:15:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 13:30:00,2020-01-01 14:15:00,1:30,2:15,spray_and_swap,Power2Play & STEMosphere,23,26,1:30 to 2:15,3,3,4
+Thursday,Ideaworks & Art Loft,13:30:00,14:15:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 13:30:00,2020-01-01 14:15:00,1:30,2:15,spray_and_swap,,23,26,1:30 to 2:15,3,3,4
 Thursday,Kid Grid & RPW,11:15:00,11:45:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 11:15:00,2020-01-01 11:45:00,11:15,11:45,wipe_down,Kid Grid & River Playway,14,16,11:15 to 11:45,4,4,5
 Thursday,Kid Grid & RPW,14:15:00,15:00:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 14:15:00,2020-01-01 15:00:00,2:15,3:00,spray_and_swap,Kid Grid & River Playway,26,29,2:15 to 3:00,3,3,4
 Thursday,TH & PZ,12:15:00,12:45:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 12:15:00,2020-01-01 12:45:00,12:15,12:45,wipe_down,Toddlers Hollow & Putting Zoo,18,20,12:15 to 12:45,4,4,5
 Thursday,TH & PZ,15:00:00,15:45:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 15:00:00,2020-01-01 15:45:00,3:00,3:45,spray_and_swap,Toddlers Hollow & Putting Zoo,29,32,3:00 to 3:45,3,3,4
 Friday,Splash (UW - SS),09:30:00,09:45:00,Prop Swap Only,"('open.png', 'swap.png')",2020-01-01 09:30:00,2020-01-01 09:45:00,9:30,9:45,prop_swap,,7,8,9:30 to 9:45,3,3,5
 Friday,Splash (UW - SS),13:00:00,13:30:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 13:00:00,2020-01-01 13:30:00,1:00,1:30,wipe_down,,21,23,1:00 to 1:30,4,4,5
-Friday,Ideaworks & Art Loft,09:45:00,10:00:00,Prop Swap Only,"('open.png', 'swap.png')",2020-01-01 09:45:00,2020-01-01 10:00:00,9:45,10:00,prop_swap,,8,9,9:45 to 10:00,3,3,5
-Friday,Ideaworks & Art Loft,14:30:00,15:00:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 14:30:00,2020-01-01 15:00:00,2:30,3:00,wipe_down,,27,29,2:30 to 3:00,4,4,5
+Friday,HTT,09:45:00,10:00:00,Prop Swap Only,"('open.png', 'swap.png')",2020-01-01 09:45:00,2020-01-01 10:00:00,9:45,10:00,prop_swap,Hit the Trail,8,9,9:45 to 10:00,3,3,5
+Friday,HTT,14:30:00,15:00:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 14:30:00,2020-01-01 15:00:00,2:30,3:00,wipe_down,Hit the Trail,27,29,2:30 to 3:00,4,4,5
 Friday,Kid Grid & RPW,11:15:00,12:00:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 11:15:00,2020-01-01 12:00:00,11:15,12:00,spray_and_swap,Kid Grid & River Playway,14,17,11:15 to 12:00,3,3,4
 Friday,Kid Grid & RPW,13:45:00,14:15:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 13:45:00,2020-01-01 14:15:00,1:45,2:15,wipe_down,Kid Grid & River Playway,24,26,1:45 to 2:15,4,4,5
-Friday,HTT,12:00:00,12:45:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 12:00:00,2020-01-01 12:45:00,12:00,12:45,spray_and_swap,Hit the Trail,17,20,12:00 to 12:45,3,3,4
-Friday,Around Town,12:45:00,13:30:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 12:45:00,2020-01-01 13:30:00,12:45,1:30,spray_and_swap,,20,23,12:45 to 1:30,3,3,4
-Friday,Moneypalooza,13:30:00,14:15:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 13:30:00,2020-01-01 14:15:00,1:30,2:15,spray_and_swap,,23,26,1:30 to 2:15,3,3,4
+Friday,Around Town,12:00:00,12:45:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 12:00:00,2020-01-01 12:45:00,12:00,12:45,spray_and_swap,,17,20,12:00 to 12:45,3,3,4
+Friday,Moneypalooza,12:45:00,13:30:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 12:45:00,2020-01-01 13:30:00,12:45,1:30,spray_and_swap,,20,23,12:45 to 1:30,3,3,4
+Friday,Ideaworks & Art Loft,13:30:00,14:15:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 13:30:00,2020-01-01 14:15:00,1:30,2:15,spray_and_swap,,23,26,1:30 to 2:15,3,3,4
 Friday,P2P & STEMosphere,11:15:00,11:45:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 11:15:00,2020-01-01 11:45:00,11:15,11:45,wipe_down,Power2Play & STEMosphere,14,16,11:15 to 11:45,4,4,5
 Friday,P2P & STEMosphere,14:15:00,15:00:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 14:15:00,2020-01-01 15:00:00,2:15,3:00,spray_and_swap,Power2Play & STEMosphere,26,29,2:15 to 3:00,3,3,4
 Friday,TH & PZ,12:15:00,12:45:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 12:15:00,2020-01-01 12:45:00,12:15,12:45,wipe_down,Toddlers Hollow & Putting Zoo,18,20,12:15 to 12:45,4,4,5
 Friday,TH & PZ,15:00:00,15:45:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 15:00:00,2020-01-01 15:45:00,3:00,3:45,spray_and_swap,Toddlers Hollow & Putting Zoo,29,32,3:00 to 3:45,3,3,4
-Weekend,HTT,10:00:00,10:45:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 10:00:00,2020-01-01 10:45:00,10:00,10:45,spray_and_swap,Hit the Trail,9,12,10:00 to 10:45,3,3,4
-Weekend,HTT,13:15:00,13:45:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 13:15:00,2020-01-01 13:45:00,1:15,1:45,wipe_down,Hit the Trail,22,24,1:15 to 1:45,4,4,5
-Weekend,TH & PZ,10:45:00,11:30:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 10:45:00,2020-01-01 11:30:00,10:45,11:30,spray_and_swap,Toddlers Hollow & Putting Zoo,12,15,10:45 to 11:30,3,3,4
-Weekend,TH & PZ,14:15:00,14:45:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 14:15:00,2020-01-01 14:45:00,2:15,2:45,wipe_down,Toddlers Hollow & Putting Zoo,26,28,2:15 to 2:45,4,4,5
-Weekend,Around Town,11:30:00,12:15:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 11:30:00,2020-01-01 12:15:00,11:30,12:15,spray_and_swap,,15,18,11:30 to 12:15,3,3,4
-Weekend,Splash (TT - SS),12:15:00,13:00:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 12:15:00,2020-01-01 13:00:00,12:15,1:00,spray_and_swap,,18,21,12:15 to 1:00,3,3,4
-Weekend,Moneypalooza,13:00:00,13:45:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 13:00:00,2020-01-01 13:45:00,1:00,1:45,spray_and_swap,,21,24,1:00 to 1:45,3,3,4
-Weekend,Ideaworks & Art Loft,13:45:00,14:30:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 13:45:00,2020-01-01 14:30:00,1:45,2:30,spray_and_swap,,24,27,1:45 to 2:30,3,3,4
-Weekend,P2P & STEMosphere,11:30:00,12:00:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 11:30:00,2020-01-01 12:00:00,11:30,12:00,wipe_down,Power2Play & STEMosphere,15,17,11:30 to 12:00,4,4,5
-Weekend,P2P & STEMosphere,14:30:00,15:15:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 14:30:00,2020-01-01 15:15:00,2:30,3:15,spray_and_swap,Power2Play & STEMosphere,27,30,2:30 to 3:15,3,3,4
-Weekend,Kid Grid & RPW,12:30:00,13:00:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 12:30:00,2020-01-01 13:00:00,12:30,1:00,wipe_down,Kid Grid & River Playway,19,21,12:30 to 1:00,4,4,5
-Weekend,Kid Grid & RPW,15:15:00,16:00:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 15:15:00,2020-01-01 16:00:00,3:15,4:00,spray_and_swap,Kid Grid & River Playway,30,33,3:15 to 4:00,3,3,4
+Saturday,HTT,10:00:00,10:45:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 10:00:00,2020-01-01 10:45:00,10:00,10:45,spray_and_swap,Hit the Trail,9,12,10:00 to 10:45,3,3,4
+Saturday,HTT,13:15:00,13:45:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 13:15:00,2020-01-01 13:45:00,1:15,1:45,wipe_down,Hit the Trail,22,24,1:15 to 1:45,4,4,5
+Saturday,TH & PZ,10:45:00,11:30:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 10:45:00,2020-01-01 11:30:00,10:45,11:30,spray_and_swap,Toddlers Hollow & Putting Zoo,12,15,10:45 to 11:30,3,3,4
+Saturday,TH & PZ,14:15:00,14:45:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 14:15:00,2020-01-01 14:45:00,2:15,2:45,wipe_down,Toddlers Hollow & Putting Zoo,26,28,2:15 to 2:45,4,4,5
+Saturday,Splash (TT - SS),11:30:00,12:15:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 11:30:00,2020-01-01 12:15:00,11:30,12:15,spray_and_swap,,15,18,11:30 to 12:15,3,3,4
+Saturday,Around Town,12:15:00,13:00:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 12:15:00,2020-01-01 13:00:00,12:15,1:00,spray_and_swap,,18,21,12:15 to 1:00,3,3,4
+Saturday,Moneypalooza,13:00:00,13:45:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 13:00:00,2020-01-01 13:45:00,1:00,1:45,spray_and_swap,,21,24,1:00 to 1:45,3,3,4
+Saturday,Ideaworks & Art Loft,13:45:00,14:30:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 13:45:00,2020-01-01 14:30:00,1:45,2:30,spray_and_swap,,24,27,1:45 to 2:30,3,3,4
+Saturday,P2P & STEMosphere,11:30:00,12:00:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 11:30:00,2020-01-01 12:00:00,11:30,12:00,wipe_down,Power2Play & STEMosphere,15,17,11:30 to 12:00,4,4,5
+Saturday,P2P & STEMosphere,14:30:00,15:15:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 14:30:00,2020-01-01 15:15:00,2:30,3:15,spray_and_swap,Power2Play & STEMosphere,27,30,2:30 to 3:15,3,3,4
+Saturday,Kid Grid & RPW,12:30:00,13:00:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 12:30:00,2020-01-01 13:00:00,12:30,1:00,wipe_down,Kid Grid & River Playway,19,21,12:30 to 1:00,4,4,5
+Saturday,Kid Grid & RPW,15:15:00,16:00:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 15:15:00,2020-01-01 16:00:00,3:15,4:00,spray_and_swap,Kid Grid & River Playway,30,33,3:15 to 4:00,3,3,4
+Sunday,HTT,10:00:00,10:45:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 10:00:00,2020-01-01 10:45:00,10:00,10:45,spray_and_swap,Hit the Trail,9,12,10:00 to 10:45,3,3,4
+Sunday,HTT,13:15:00,13:45:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 13:15:00,2020-01-01 13:45:00,1:15,1:45,wipe_down,Hit the Trail,22,24,1:15 to 1:45,4,4,5
+Sunday,TH & PZ,10:45:00,11:30:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 10:45:00,2020-01-01 11:30:00,10:45,11:30,spray_and_swap,Toddlers Hollow & Putting Zoo,12,15,10:45 to 11:30,3,3,4
+Sunday,TH & PZ,14:15:00,14:45:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 14:15:00,2020-01-01 14:45:00,2:15,2:45,wipe_down,Toddlers Hollow & Putting Zoo,26,28,2:15 to 2:45,4,4,5
+Sunday,Splash (TT - SS),11:30:00,12:15:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 11:30:00,2020-01-01 12:15:00,11:30,12:15,spray_and_swap,,15,18,11:30 to 12:15,3,3,4
+Sunday,Around Town,12:15:00,13:00:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 12:15:00,2020-01-01 13:00:00,12:15,1:00,spray_and_swap,,18,21,12:15 to 1:00,3,3,4
+Sunday,Moneypalooza,13:00:00,13:45:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 13:00:00,2020-01-01 13:45:00,1:00,1:45,spray_and_swap,,21,24,1:00 to 1:45,3,3,4
+Sunday,Ideaworks & Art Loft,13:45:00,14:30:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 13:45:00,2020-01-01 14:30:00,1:45,2:30,spray_and_swap,,24,27,1:45 to 2:30,3,3,4
+Sunday,P2P & STEMosphere,11:30:00,12:00:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 11:30:00,2020-01-01 12:00:00,11:30,12:00,wipe_down,Power2Play & STEMosphere,15,17,11:30 to 12:00,4,4,5
+Sunday,P2P & STEMosphere,14:30:00,15:15:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 14:30:00,2020-01-01 15:15:00,2:30,3:15,spray_and_swap,Power2Play & STEMosphere,27,30,2:30 to 3:15,3,3,4
+Sunday,Kid Grid & RPW,12:30:00,13:00:00,Wipe down,"('open.png', 'wipe.png')",2020-01-01 12:30:00,2020-01-01 13:00:00,12:30,1:00,wipe_down,Kid Grid & River Playway,19,21,12:30 to 1:00,4,4,5
+Sunday,Kid Grid & RPW,15:15:00,16:00:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",2020-01-01 15:15:00,2020-01-01 16:00:00,3:15,4:00,spray_and_swap,Kid Grid & River Playway,30,33,3:15 to 4:00,3,3,4

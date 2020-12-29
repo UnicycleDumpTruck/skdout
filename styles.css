@@ -7,7 +7,7 @@
 
 .body_container {
   max-width: 800px;
-  display: block;
+  display: inline-block;
   justify-content: center;
 }
 
@@ -167,7 +167,9 @@ body {
 
 .hard_prop_table {
   background-color: #afc4fc;
-  margin: 0px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  
 }
 
 .hard_prop_table_caption {
@@ -184,5 +186,7 @@ body {
 th, td {
   margin: 0px;
   padding-right: 5px;
+  padding-left: 5px;
   text-align: left;
+  border: 1px solid black;
 }
