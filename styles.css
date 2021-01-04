@@ -11,6 +11,11 @@
   justify-content: center;
 }
 
+.body_container {
+  display: inline-block;
+  justify-content: center;
+}
+
 .page_title {
   /*color: #5a6fa7;*/
   color: #afc4fc;
@@ -46,25 +51,47 @@
   max-width: 800px;
 }
 
-.learn_and_play {
+.week_schedule {
+  display: grid;
+  grid-gap: 5px;
+  background-color: #3a4d7e;
+  max-width: 800px;
+}
+
+div.learn_and_play {
   padding-left: 10px;
   padding-top: 10px;
   background-color: #dda3ec;
   font-size: 12px;
 }
-.closed_to_public {
+
+span.learn_and_play {
+  background-color: #dda3ec;
+}
+
+div.closed_to_public {
   padding-left: 10px;
   padding-top: 10px;
   background-color: #da68f7;
   font-size: 12px;
 }
-.spray_and_swap {
+
+span.closed_to_public {
+  background-color: #da68f7;
+}
+
+div.spray_and_swap {
   padding-left: 10px;
   padding-top: 10px;
   background-color: #fa98a4;
   font-size: 12px;
 }
-.prop_swap {
+
+span.spray_and_swap {
+  background-color: #fa98a4;
+}
+
+div.prop_swap {
   display: block;
   padding-left: 100px;
   padding-top: 0px;
@@ -72,13 +99,23 @@
   /*color: black;*/
   font-size: 12px;
 }
-.wipe_down {
+
+span.prop_swap {
+  background-color: #a6cf9f;
+}
+
+div.wipe_down {
   padding-left: 10px;
   padding-top: 10px;
   background-color: #a3b5e6;
   font-size: 12px;
 }
-.unknown {
+
+span.wipe_down {
+  background-color: #a3b5e6;
+}
+
+div.unknown {
   background-color: #ff0000;
   font-size: 12px;
 }
@@ -86,6 +123,66 @@
 .hour {
   background-color: #5a6fa7;
   z-index: 0;
+}
+
+.weekly_schedule {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.day {
+  background-color: #5a6fa7;
+  z-index: 0;
+  display: grid;
+  padding: 4px;
+}
+
+.event_row {
+  padding-bottom: 2px;
+  margin: 1px 0px 1px 0px;
+}
+
+#Monday {
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+
+#Tuesday {
+  grid-row-start: 2;
+  grid-column-start: 1;
+}
+
+#Wednesday {
+  grid-row-start: 3;
+  grid-column-start: 1;
+}
+
+#Thursday {
+  grid-row-start: 4;
+  grid-column-start: 1;
+}
+
+#Notes {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  background-color: white;
+}
+
+#Friday {
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+#Saturday {
+  grid-row-start: 3;
+  grid-column-start: 2;
+}
+
+#Sunday {
+  grid-row-start: 4;
+  grid-column-start: 2;
 }
 
 .img_container {
