@@ -1,5 +1,6 @@
 .title_nav_container {
-  padding-top: 0px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   margin-top: 0px;
   display: block;
 }
@@ -11,15 +12,18 @@
 
 .page_title {
   /*color: #5a6fa7;*/
-  color: #5a6fa7;
+  background-color: #5a6fa7;
+  color: white;
   letter-spacing: 3px;
   font-size: 80px;
   font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: top;
-  padding-top: 0px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
   margin: auto;
 }
 
@@ -64,7 +68,7 @@ div.unknown {
   grid-template-columns: 1fr 1fr;
   column-gap: 10px;
   row-gap: 10px;
-  grid-gap: 20px;
+  grid-gap: 30px;
 }
 
 .day {
@@ -79,7 +83,7 @@ div.unknown {
 
 .day_title {
     color: white;
-    font-size: 24px;
+    font-size: 32px;
     margin-bottom: 5px;
     margin-top: 0px;
     padding: 0px;
@@ -88,7 +92,7 @@ div.unknown {
 .event_row {
   padding: 0px 4px 0px 4px;
   margin: 1px 0px 1px 0px;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 #Monday {
@@ -115,6 +119,7 @@ div.unknown {
   grid-row-start: 1;
   grid-column-start: 2;
   margin: auto;
+  padding:0;
 }
 
 #Friday {
