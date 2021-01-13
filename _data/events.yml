@@ -658,8 +658,8 @@
   - null
   - null
   icons: *id001
-  location: HTT
-  long_location: Hit the Trail
+  location: P2P
+  long_location: Power2Play
   row: 2
   start: *id008
   start_row: 5
@@ -682,8 +682,8 @@
   - null
   - null
   icons: *id010
-  location: HTT
-  long_location: Hit the Trail
+  location: P2P
+  long_location: Power2Play & STEMosphere
   row: 3
   start: *id007
   start_row: 9
@@ -730,8 +730,8 @@
   - null
   - null
   icons: *id010
-  location: P2P & STEMosphere
-  long_location: Power2Play & STEMosphere
+  location: HTT
+  long_location: Hit the Trail
   row: 3
   start: &id022 !!python/object/apply:datetime.time
   - !!binary |
