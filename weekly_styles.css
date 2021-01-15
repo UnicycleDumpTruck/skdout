@@ -75,6 +75,7 @@ div.unknown {
   background-color: #5a6fa7;
   z-index: 0;
   display: grid;
+  grid-template-columns: 20px 1fr;
   padding-top: 0px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -87,12 +88,24 @@ div.unknown {
     margin-bottom: 5px;
     margin-top: 0px;
     padding: 0px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.assigned_to {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .event_row {
   padding: 0px 4px 0px 4px;
   margin: 1px 0px 1px 0px;
   font-size: 24px;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
 #Monday {

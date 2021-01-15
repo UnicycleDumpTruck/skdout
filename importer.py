@@ -96,6 +96,12 @@ task_classes = {
     "Prop Swap Only": "prop_swap",
 }
 
+herb_list = [
+                "Disinfect & Prop Swap",
+                "Prop Swap Only",
+                "Prop Swap",
+                "Wipe down",
+            ]
 
 icons = {
     "Learn & Play": ("close.png", "learn.png"),
@@ -153,6 +159,7 @@ def merged_size(cell, sheet):
 
 if __name__ == "__main__":
     filename = sys.argv[1]
+    date_range = sys.argv[2]
     print(f"Importing file: {filename}")
     wb = openpyxl.load_workbook(filename)
     sheet = wb["Schedule"]
@@ -183,12 +190,26 @@ if __name__ == "__main__":
                             end = sheet.cell(
                                 row=12, column=cl.column + 1).value
                         task = cl.value
+                        start_datetime = datetime.datetime.combine(datetime.date(2020, 1, 1), start)
+                        end_datetime = datetime.datetime.combine(datetime.date(2020, 1, 1), end)
+                        humanity_shift = {'start': datetime.datetime(2020, 1, 1, 12, 00, 00, 0), 'end': datetime.datetime(2020, 1, 1, 14, 15, 00, 0)}
+                        if task in herb_list and ((start_datetime < humanity_shift['start']) or (humanity_shift['end'] <= start_datetime)):
+                            assigned_to = "E"
+                        else:
+                            assigned_to = ""
                         id_placeholder = ""
                         output_writer.writerow(
                             [weekday, location, start, end, task, id_placeholder]
                         )
                         task_list.append(
-                            {'weekday': weekday, 'location': location, 'start': start, 'end': end, 'task': task, 'icons': icons.get(task)})
+                            {
+                                'weekday': weekday,
+                                'location': location,
+                                'start': start, 'end': end,
+                                'task': task,
+                                'icons': icons.get(task),
+                                'assigned_to': assigned_to,
+                            })
     df = pd.DataFrame.from_records(task_list)
     df = df[~df['task'].str.contains("Members Only", na=False)]
     df = df[~df['task'].str.contains("Activity Room Play", na=False)]
@@ -253,6 +274,7 @@ if __name__ == "__main__":
     context = {
         "num_rows": len(time_list),
         "day_ranges": day_ranges,
+        "date_range": date_range,
         # "weekday": weekday.lower().capitalize(),
         # "events": events,
         # "time_list": list(enumerate(time_list, 1)),
