@@ -139,14 +139,14 @@ weekdays = ["Monday", "Tuesday", "Wednesday",
 # ]
 
 DAY_ROWS = [
-    (16, 23, "Monday"),  # Monday
-    (29, 36, "Tuesday"),  # Tuesday
-    (40, 47, "Wednesday"),  # Wednesday
-    (51, 58, "Thursday"),  # Thursday
-    (62, 69, "Friday"),  # Friday
+    (16, 24, "Monday"),  # Monday
+    (29, 37, "Tuesday"),  # Tuesday
+    (41, 49, "Wednesday"),  # Wednesday
+    (53, 61, "Thursday"),  # Thursday
+    (65, 73, "Friday"),  # Friday
     #(73, 80, "Weekend"),  # Weekend: Saturday & Sunday
-    (73, 80, "Saturday"),
-    (84, 91, "Sunday"),
+    (77, 84, "Saturday"),
+    (88, 95, "Sunday"),
 ]
 
 
@@ -263,9 +263,12 @@ if __name__ == "__main__":
     df["col_start"] = df.task.apply(lambda r: task_col_ranges.get(r, 6)[0])
     df["col_end"] = df.task.apply(lambda r: task_col_ranges.get(r, 7)[1])
     # df = df.drop(['start_time', 'end_time', 'start', 'end'], axis=1)
+ 
+    selection = df.loc[df['weekday'] == "Monday"]
+    print(df)
 
     events = list(df.to_dict("index").values())
-
+    #print(events)
     day_ranges = {
         wday: (min(df.loc[df['weekday'] == wday]['start']), max(df.loc[df['weekday'] == wday]['end'])) for wday in weekdays}
     print("Day Ranges")
