@@ -13,7 +13,7 @@ day_ranges:
       Ci0AAAAA
   - &id005 !!python/object/apply:datetime.time
     - !!binary |
-      DQAAAAAA
+      EB4AAAAA
   Saturday: !!python/tuple
   - &id001 !!python/object/apply:datetime.time
     - !!binary |

@@ -263,12 +263,11 @@ if __name__ == "__main__":
     df["col_start"] = df.task.apply(lambda r: task_col_ranges.get(r, 6)[0])
     df["col_end"] = df.task.apply(lambda r: task_col_ranges.get(r, 7)[1])
     # df = df.drop(['start_time', 'end_time', 'start', 'end'], axis=1)
- 
-    selection = df.loc[df['weekday'] == "Monday"]
-    print(df)
 
     events = list(df.to_dict("index").values())
     #print(events)
+    
+    # The next line fails if there are days with no events!!!!!!!!!!!!!!!!
     day_ranges = {
         wday: (min(df.loc[df['weekday'] == wday]['start']), max(df.loc[df['weekday'] == wday]['end'])) for wday in weekdays}
     print("Day Ranges")

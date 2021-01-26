@@ -1,8 +1,12 @@
 weekday,location,start,end,task,icons,assigned_to,start_time,end_time,start_string,end_string,class,long_location,start_row,end_row,time_range,row,col_start,col_end
 Monday,Around Town,12:00:00,13:00:00,Learn & Play,"('close.png', 'learn.png')",,2020-01-01 12:00:00,2020-01-01 13:00:00,12:00,1:00,learn_and_play,,17,21,12:00 to 1:00,2,2,3
+Monday,Around Town,15:45:00,16:30:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",E,2020-01-01 15:45:00,2020-01-01 16:30:00,3:45,4:30,spray_and_swap,,32,35,3:45 to 4:30,3,3,4
 Monday,Moneypalooza,10:45:00,11:45:00,Learn & Play,"('close.png', 'learn.png')",,2020-01-01 10:45:00,2020-01-01 11:45:00,10:45,11:45,learn_and_play,,12,16,10:45 to 11:45,2,2,3
+Monday,Moneypalooza,15:00:00,15:45:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",E,2020-01-01 15:00:00,2020-01-01 15:45:00,3:00,3:45,spray_and_swap,,29,32,3:00 to 3:45,3,3,4
 Tuesday,Around Town,10:45:00,11:45:00,Learn & Play,"('close.png', 'learn.png')",,2020-01-01 10:45:00,2020-01-01 11:45:00,10:45,11:45,learn_and_play,,12,16,10:45 to 11:45,2,2,3
+Tuesday,Around Town,15:00:00,15:45:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",E,2020-01-01 15:00:00,2020-01-01 15:45:00,3:00,3:45,spray_and_swap,,29,32,3:00 to 3:45,3,3,4
 Tuesday,Moneypalooza,12:00:00,13:00:00,Learn & Play,"('close.png', 'learn.png')",,2020-01-01 12:00:00,2020-01-01 13:00:00,12:00,1:00,learn_and_play,,17,21,12:00 to 1:00,2,2,3
+Tuesday,Moneypalooza,15:45:00,16:30:00,Disinfect & Prop Swap,"('close.png', 'swap.png', 'spray.png')",E,2020-01-01 15:45:00,2020-01-01 16:30:00,3:45,4:30,spray_and_swap,,32,35,3:45 to 4:30,3,3,4
 Wednesday,HTT,10:00:00,10:15:00,Prop Swap Only,"('open.png', 'swap.png')",E,2020-01-01 10:00:00,2020-01-01 10:15:00,10:00,10:15,prop_swap,Hit the Trail,9,10,10:00 to 10:15,3,3,5
 Wednesday,HTT,13:00:00,13:30:00,Wipe down,"('open.png', 'wipe.png')",,2020-01-01 13:00:00,2020-01-01 13:30:00,1:00,1:30,wipe_down,Hit the Trail,21,23,1:00 to 1:30,4,4,5
 Wednesday,Splash (UW - SS),08:30:00,09:45:00,Learn & Play,"('close.png', 'learn.png')",,2020-01-01 08:30:00,2020-01-01 09:45:00,8:30,9:45,learn_and_play,,3,8,8:30 to 9:45,2,2,3

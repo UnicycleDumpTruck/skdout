@@ -34,7 +34,7 @@
                     {% if ev.class == "prop_swap" or ev.class == "spray_and_swap" %}
                     <span class="event_row {{ ev.class }}">
                         <span class="event_time">{{ev.start_string}}</span>
-                        <span class="event_location">{% if ev.long_location %}{{ ev.long_location }}:</span>{% else %}{{ ev.location }}:</span>{% endif %}
+                        <span class="event_location">{% if ev.long_location %}{{ ev.long_location }}</span>{% else %}{{ ev.location }}</span>{% endif %}
                     </span>
                     {% endif %}
                     
