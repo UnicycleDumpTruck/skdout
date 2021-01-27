@@ -1257,13 +1257,11 @@
   class: spray_and_swap
   col_end: 4
   col_start: 3
-  end: &id028 !!python/object/apply:datetime.time
-  - !!binary |
-    DB4AAAAA
-  end_row: 19
-  end_string: '12:30'
+  end: *id007
+  end_row: 21
+  end_string: '1:00'
   end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
-  - 1577881800000000000
+  - 1577883600000000000
   - null
   - null
   icons: *id003
@@ -1278,7 +1276,7 @@
   - null
   - null
   task: Disinfect & Prop Swap
-  time_range: 12:15 to 12:30
+  time_range: 12:15 to 1:00
   weekday: Friday
 - assigned_to: ''
   class: spray_and_swap
@@ -1495,7 +1493,7 @@
   location: HTT
   long_location: Hit the Trail
   row: 4
-  start: &id029 !!python/object/apply:datetime.time
+  start: &id028 !!python/object/apply:datetime.time
   - !!binary |
     DQ8AAAAA
   start_row: 22
@@ -1536,7 +1534,7 @@
   class: wipe_down
   col_end: 5
   col_start: 4
-  end: &id030 !!python/object/apply:datetime.time
+  end: &id029 !!python/object/apply:datetime.time
   - !!binary |
     Di0AAAAA
   end_row: 28
@@ -1724,7 +1722,9 @@
   location: Kid Grid & RPW
   long_location: Kid Grid & River Playway
   row: 4
-  start: *id028
+  start: &id030 !!python/object/apply:datetime.time
+  - !!binary |
+    DB4AAAAA
   start_row: 19
   start_string: '12:30'
   start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
@@ -1799,7 +1799,7 @@
   location: HTT
   long_location: Hit the Trail
   row: 4
-  start: *id029
+  start: *id028
   start_row: 22
   start_string: '1:15'
   start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
@@ -1838,7 +1838,7 @@
   class: wipe_down
   col_end: 5
   col_start: 4
-  end: *id030
+  end: *id029
   end_row: 28
   end_string: '2:45'
   end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
@@ -2024,7 +2024,7 @@
   location: Kid Grid & RPW
   long_location: Kid Grid & River Playway
   row: 4
-  start: *id028
+  start: *id030
   start_row: 19
   start_string: '12:30'
   start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
