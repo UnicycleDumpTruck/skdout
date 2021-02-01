@@ -226,8 +226,8 @@
   end: &id011 !!python/object/apply:datetime.time
   - !!binary |
     CgAAAAAA
-  end_row: 9
-  end_string: '10:00'
+  end_row: 11
+  end_string: '10:30'
   end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
   - 1577872800000000000
   - null
@@ -241,14 +241,14 @@
   start: &id019 !!python/object/apply:datetime.time
   - !!binary |
     CS0AAAAA
-  start_row: 8
-  start_string: '9:45'
+  start_row: 10
+  start_string: '10:15'
   start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
   - 1577871900000000000
   - null
   - null
   task: PS Only
-  time_range: 9:45 to 10:00
+  time_range: 10:15 to 10:30
   weekday: Wednesday
 - assigned_to: ''
   class: wipe_down
