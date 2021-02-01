@@ -73,33 +73,40 @@ task_rows = {
     "Learn & Play": 2,
     "Closed to Public": 2,
     "Disinfect & Prop Swap": 3,
+    "Disinfect & PS": 3,
     "Wipe down": 4,
     "Prop Swap": 3,
     "Prop Swap Only": 3,
+    "PS Only": 3,
 }
 
 task_col_ranges = {
     "Learn & Play": (2, 3),
     "Closed to Public": (2, 3),
     "Disinfect & Prop Swap": (3, 4),
+    "Disinfect & PS": (3, 4),
     "Wipe down": (4, 5),
     "Prop Swap": (3, 5),
     "Prop Swap Only": (3, 5),
+    "PS Only": (3, 5),
 }
 
 task_classes = {
     "Learn & Play": "learn_and_play",
     "Closed to Public": "closed_to_public",
     "Disinfect & Prop Swap": "spray_and_swap",
+    "Disinfect & PS": "spray_and_swap",
     "Wipe down": "wipe_down",
     "Prop Swap": "prop_swap",
     "Prop Swap Only": "prop_swap",
+    "PS Only": "prop_swap",
 }
 
 herb_list = [
                 "Disinfect & Prop Swap",
                 "Prop Swap Only",
                 "Prop Swap",
+                "PS Only",
                 "Wipe down",
             ]
 
@@ -111,6 +118,12 @@ icons = {
         "swap.png",
         "spray.png",
     ),
+    "Disinfect & PS": (
+        "close.png",
+        "swap.png",
+        "spray.png",
+    ),
+
     "Wipe down": (
         "open.png",
         "wipe.png",
@@ -123,6 +136,11 @@ icons = {
         "open.png",
         "swap.png",
     ),
+        "PS Only": (
+        "open.png",
+        "swap.png",
+    ),
+
 }
 
 weekdays = ["Monday", "Tuesday", "Wednesday",

@@ -1,19 +1,19 @@
-date_range: 1/23 - 1/31
+date_range: 1/30 - 2/7
 day_ranges:
   Friday: !!python/tuple
   - &id003 !!python/object/apply:datetime.time
     - !!binary |
-      CB4AAAAA
-  - !!python/object/apply:datetime.time
+      CR4AAAAA
+  - &id004 !!python/object/apply:datetime.time
     - !!binary |
       Dy0AAAAA
   Monday: !!python/tuple
-  - &id004 !!python/object/apply:datetime.time
-    - !!binary |
-      Ci0AAAAA
   - &id005 !!python/object/apply:datetime.time
     - !!binary |
-      EB4AAAAA
+      Ci0AAAAA
+  - &id006 !!python/object/apply:datetime.time
+    - !!binary |
+      EC0AAAAA
   Saturday: !!python/tuple
   - &id001 !!python/object/apply:datetime.time
     - !!binary |
@@ -26,11 +26,13 @@ day_ranges:
   - *id002
   Thursday: !!python/tuple
   - *id003
-  - *id002
-  Tuesday: !!python/tuple
   - *id004
+  Tuesday: !!python/tuple
   - *id005
+  - *id006
   Wednesday: !!python/tuple
-  - *id003
-  - *id002
+  - !!python/object/apply:datetime.time
+    - !!binary |
+      CB4AAAAA
+  - *id006
 num_rows: 36
