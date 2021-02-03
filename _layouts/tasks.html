@@ -62,21 +62,21 @@
                 <div class="text_container">
                     <!--<span class="event_time">{{ev.start_string | slice: 1, 5}} to {{ev.end_string| slice: 1, 5}}</span>-->
                     <span class="event_time">{{ev.time_range}}</span>
-                    {% if ev.task != "Prop Swap Only" %}
+                    {% if ev.task != "Swap" %}
                     <br />
                     {% endif %}
                     <span class="event_location">{% if ev.long_location %}{{ ev.long_location }}:</span>{% else %}{{ ev.location }}:</span>{% endif %}
                     
-                    {% if ev.task != "Prop Swap Only" %}
+                    {% if ev.task != "Swap" %}
                     <!-- <br /> -->
                     {% endif %}
                     <span class="event_task">{{ev.task}}</span>
                 </div>
                 <div class="img_container"
-                    style="{% if ev.task == "Prop Swap Only" %} grid-column-start: 4; grid-row-start: 1;{% else %} grid-column-start: 1; grid-column-end: 5; grid-row-start:2;{% endif %}">
+                    style="{% if ev.task == "Swap" %} grid-column-start: 4; grid-row-start: 1;{% else %} grid-column-start: 1; grid-column-end: 5; grid-row-start:2;{% endif %}">
                     {% for src in ev.icons %}
                     <img class="task_icon" src="/sked/assets/{{ src }}" alt="{{ src }}" />
-                    {% if ev.task != "Prop Swap Only" %}
+                    {% if ev.task != "Swap" %}
                     <br />
                     {% endif %}
                     {% endfor %}
