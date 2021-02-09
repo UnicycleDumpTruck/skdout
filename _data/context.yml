@@ -1,4 +1,4 @@
-date_range: 2/3 - 2/7
+date_range: 2/8 - 2/14
 day_ranges:
   Friday: !!python/tuple
   - &id003 !!python/object/apply:datetime.time
@@ -31,8 +31,6 @@ day_ranges:
   - *id005
   - *id006
   Wednesday: !!python/tuple
-  - !!python/object/apply:datetime.time
-    - !!binary |
-      CB4AAAAA
-  - *id006
+  - *id003
+  - *id004
 num_rows: 36
