@@ -31,7 +31,7 @@
                 {% if page.weekday != "Friday" %}<a class="day_link" href="/sked/friday">Friday</a>{% endif %}
                 {% if page.weekday != "Saturday" %}<a class="day_link" href="/sked/saturday">Saturday</a>{% endif %}
                 {% if page.weekday != "Sunday" %}<a class="day_link" href="/sked/sunday">Sunday</a>{% endif %}
-                <a class="day_link" href="/sked/hard">Hard Props</a>
+                <!--<a class="day_link" href="/sked/hard">Hard Props</a>-->
             </div>
         </div>
 
@@ -88,6 +88,7 @@
     
         {% assign todays_props=site.data.hard_prop | where: "Day", page.weekday %}
         {% if todays_props.size > 0 %}
+        <!--
         <table class="hard_prop_table">
             <caption class="hard_prop_table_caption">End of day pull:</caption>
             <thead>
@@ -104,6 +105,7 @@
             {% endfor %}
             </tbody>
         </table>
+        -->
         {% endif %}
 
 
