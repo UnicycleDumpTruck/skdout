@@ -232,7 +232,7 @@ if __name__ == "__main__":
         datetime.datetime.combine(datetime.date(
             2020, 1, 1), datetime.time(8, 0)),  # min(df['start'])),  # Earliest time in df
         datetime.datetime.combine(datetime.date(
-            2020, 1, 1), datetime.time(17, 0)),  # max(df['end'])) + datetime.timedelta(minutes=15),  # Latest time in df
+            2020, 1, 1), datetime.time(18, 0)),  # max(df['end'])) + datetime.timedelta(minutes=15),  # Latest time in df
         datetime.timedelta(minutes=15),  # Interval of time list
     )
     hour_rows = [

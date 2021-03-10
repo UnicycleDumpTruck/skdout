@@ -106,3 +106,15 @@
 - !!python/tuple
   - 36
   - '"4:45PM"'
+- !!python/tuple
+  - 37
+  - '"5:00PM"'
+- !!python/tuple
+  - 38
+  - '"5:15PM"'
+- !!python/tuple
+  - 39
+  - '"5:30PM"'
+- !!python/tuple
+  - 40
+  - '"5:45PM"'
