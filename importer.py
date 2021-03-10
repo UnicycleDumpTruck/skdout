@@ -260,14 +260,14 @@ if __name__ == "__main__":
     #print(events)
     
     # The next line fails if there are days with no events!!!!!!!!!!!!!!!!
-    day_ranges = {
-        wday: (min(df.loc[df['weekday'] == wday]['start']), max(df.loc[df['weekday'] == wday]['end'])) for wday in weekdays}
-    print("Day Ranges")
-    print(day_ranges)
+    #day_ranges = {
+    #    wday: (min(df.loc[df['weekday'] == wday]['start']), max(df.loc[df['weekday'] == wday]['end'])) for wday in weekdays}
+    #print("Day Ranges")
+    #print(day_ranges)
 
     context = {
         "num_rows": len(time_list),
-        "day_ranges": day_ranges,
+    #    "day_ranges": day_ranges,
         "date_range": date_range,
         # "weekday": weekday.lower().capitalize(),
         # "events": events,
