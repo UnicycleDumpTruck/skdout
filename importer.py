@@ -75,12 +75,18 @@ task_rows = {
     "Spray & Swap": 3,
     "Wipe": 4,
     "Swap": 3,
+    "Pull Props": 3,
+    "Replace Props": 3,
+    "Spray Everything": 3,
 }
 
 task_col_ranges = {
     "Learn & Play": (2, 3),
     "Closed to Public": (2, 3),
     "Spray & Swap": (3, 4),
+    "Pull Props": (3, 4),
+    "Replace Props": (3, 4),
+    "Spray Everything": (4, 5),
     "Wipe": (4, 5),
     "Swap": (3, 5),
 }
@@ -91,6 +97,9 @@ task_classes = {
     "Spray & Swap": "spray_and_swap",
     "Wipe": "wipe_down",
     "Swap": "prop_swap",
+    "Pull Props": "pull_props",
+    "Replace Props": "replace_props",
+    "Spray Everything": "spray_everything",
 }
 
 herb_list = [
@@ -131,14 +140,14 @@ weekdays = ["Monday", "Tuesday", "Wednesday",
 # ]
 
 DAY_ROWS = [
-    (16, 24, "Monday"),  # Monday
-    (29, 37, "Tuesday"),  # Tuesday
-    (41, 49, "Wednesday"),  # Wednesday
-    (53, 61, "Thursday"),  # Thursday
-    (65, 73, "Friday"),  # Friday
+    (13, 24, "Monday"),  # Monday
+    (28, 39, "Tuesday"),  # Tuesday
+    (43, 54, "Wednesday"),  # Wednesday
+    (58, 69, "Thursday"),  # Thursday
+    (73, 84, "Friday"),  # Friday
     #(73, 80, "Weekend"),  # Weekend: Saturday & Sunday
-    (77, 84, "Saturday"),
-    (88, 95, "Sunday"),
+    (88, 98, "Saturday"),
+    (102, 112, "Sunday"),
 ]
 
 

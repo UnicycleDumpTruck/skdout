@@ -2,5 +2,20 @@ weekday,location,task,assigned_to,start_string,end_string,class,long_location,st
 Monday,Around Town,Learn & Play,,12:00,1:00,learn_and_play,,17,21,12:00 to 1:00,2,2,3
 Tuesday,Moneypalooza,Learn & Play,,12:00,1:00,learn_and_play,,17,21,12:00 to 1:00,2,2,3
 Wednesday,Think Tank,Learn & Play,,12:00,1:00,learn_and_play,,17,21,12:00 to 1:00,2,2,3
+Wednesday,Group One,Pull Props,,5:00,5:30,pull_props,,37,39,5:00 to 5:30,3,3,4
+Wednesday,Group Two,Replace Props,,9:00,10:00,replace_props,,5,9,9:00 to 10:00,3,3,4
+Wednesday,All Exhibits,Spray Everything,,5:00,5:30,spray_everything,,37,39,5:00 to 5:30,3,4,5
 Thursday,P2P & STEMosphere,Learn & Play,,12:00,1:00,learn_and_play,Power2Play & STEMosphere,17,21,12:00 to 1:00,2,2,3
+Thursday,Group One,Replace Props,,9:00,10:00,replace_props,,5,9,9:00 to 10:00,3,3,4
+Thursday,Group Two,Pull Props,,5:00,5:30,pull_props,,37,39,5:00 to 5:30,3,3,4
+Thursday,All Exhibits,Spray Everything,,5:00,5:30,spray_everything,,37,39,5:00 to 5:30,3,4,5
 Friday,Ideaworks,Learn & Play,,9:00,10:00,learn_and_play,,5,9,9:00 to 10:00,2,2,3
+Friday,Group One,Pull Props,,5:00,5:30,pull_props,,37,39,5:00 to 5:30,3,3,4
+Friday,Group Two,Replace Props,,9:00,10:00,replace_props,,5,9,9:00 to 10:00,3,3,4
+Friday,All Exhibits,Spray Everything,,5:00,5:30,spray_everything,,37,39,5:00 to 5:30,3,4,5
+Saturday,Group One,Replace Props,,8:30,9:00,replace_props,,3,5,8:30 to 9:00,3,3,4
+Saturday,Group Two,Pull Props,,5:00,5:30,pull_props,,37,39,5:00 to 5:30,3,3,4
+Saturday,All Exhibits,Spray Everything,,5:00,5:30,spray_everything,,37,39,5:00 to 5:30,3,4,5
+Sunday,Group One,Pull Props,,5:00,5:30,pull_props,,37,39,5:00 to 5:30,3,3,4
+Sunday,Group Two,Replace Props,,8:30,9:00,replace_props,,3,5,8:30 to 9:00,3,3,4
+Sunday,All Exhibits,Spray Everything,,5:00,5:30,spray_everything,,37,39,5:00 to 5:30,3,4,5
