@@ -2,30 +2,13 @@
   class: learn_and_play
   col_end: 3
   col_start: 2
-  end: &id001 !!python/object/apply:datetime.time
-  - !!binary |
-    DQAAAAAA
   end_row: 21
   end_string: '1:00'
-  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
-  - 1577883600000000000
-  - null
-  - null
-  icons: &id002 !!python/tuple
-  - close.png
-  - learn.png
   location: Around Town
   long_location: null
   row: 2
-  start: &id003 !!python/object/apply:datetime.time
-  - !!binary |
-    DAAAAAAA
   start_row: 17
   start_string: '12:00'
-  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
-  - 1577880000000000000
-  - null
-  - null
   task: Learn & Play
   time_range: 12:00 to 1:00
   weekday: Monday
@@ -33,24 +16,13 @@
   class: learn_and_play
   col_end: 3
   col_start: 2
-  end: *id001
   end_row: 21
   end_string: '1:00'
-  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
-  - 1577883600000000000
-  - null
-  - null
-  icons: *id002
   location: Moneypalooza
   long_location: null
   row: 2
-  start: *id003
   start_row: 17
   start_string: '12:00'
-  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
-  - 1577880000000000000
-  - null
-  - null
   task: Learn & Play
   time_range: 12:00 to 1:00
   weekday: Tuesday
@@ -58,24 +30,13 @@
   class: learn_and_play
   col_end: 3
   col_start: 2
-  end: *id001
   end_row: 21
   end_string: '1:00'
-  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
-  - 1577883600000000000
-  - null
-  - null
-  icons: *id002
   location: Think Tank
   long_location: null
   row: 2
-  start: *id003
   start_row: 17
   start_string: '12:00'
-  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
-  - 1577880000000000000
-  - null
-  - null
   task: Learn & Play
   time_range: 12:00 to 1:00
   weekday: Wednesday
@@ -83,24 +44,13 @@
   class: learn_and_play
   col_end: 3
   col_start: 2
-  end: *id001
   end_row: 21
   end_string: '1:00'
-  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
-  - 1577883600000000000
-  - null
-  - null
-  icons: *id002
   location: P2P & STEMosphere
   long_location: Power2Play & STEMosphere
   row: 2
-  start: *id003
   start_row: 17
   start_string: '12:00'
-  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
-  - 1577880000000000000
-  - null
-  - null
   task: Learn & Play
   time_range: 12:00 to 1:00
   weekday: Thursday
@@ -108,28 +58,13 @@
   class: learn_and_play
   col_end: 3
   col_start: 2
-  end: !!python/object/apply:datetime.time
-  - !!binary |
-    CgAAAAAA
   end_row: 9
   end_string: '10:00'
-  end_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
-  - 1577872800000000000
-  - null
-  - null
-  icons: *id002
   location: Ideaworks
   long_location: null
   row: 2
-  start: !!python/object/apply:datetime.time
-  - !!binary |
-    CQAAAAAA
   start_row: 5
   start_string: '9:00'
-  start_time: !!python/object/apply:pandas._libs.tslibs.timestamps.Timestamp
-  - 1577869200000000000
-  - null
-  - null
   task: Learn & Play
   time_range: 9:00 to 10:00
   weekday: Friday

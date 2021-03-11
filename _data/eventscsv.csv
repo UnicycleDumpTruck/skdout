@@ -1,6 +1,6 @@
-weekday,location,start,end,task,icons,assigned_to,start_time,end_time,start_string,end_string,class,long_location,start_row,end_row,time_range,row,col_start,col_end
-Monday,Around Town,12:00:00,13:00:00,Learn & Play,"('close.png', 'learn.png')",,2020-01-01 12:00:00,2020-01-01 13:00:00,12:00,1:00,learn_and_play,,17,21,12:00 to 1:00,2,2,3
-Tuesday,Moneypalooza,12:00:00,13:00:00,Learn & Play,"('close.png', 'learn.png')",,2020-01-01 12:00:00,2020-01-01 13:00:00,12:00,1:00,learn_and_play,,17,21,12:00 to 1:00,2,2,3
-Wednesday,Think Tank,12:00:00,13:00:00,Learn & Play,"('close.png', 'learn.png')",,2020-01-01 12:00:00,2020-01-01 13:00:00,12:00,1:00,learn_and_play,,17,21,12:00 to 1:00,2,2,3
-Thursday,P2P & STEMosphere,12:00:00,13:00:00,Learn & Play,"('close.png', 'learn.png')",,2020-01-01 12:00:00,2020-01-01 13:00:00,12:00,1:00,learn_and_play,Power2Play & STEMosphere,17,21,12:00 to 1:00,2,2,3
-Friday,Ideaworks,09:00:00,10:00:00,Learn & Play,"('close.png', 'learn.png')",,2020-01-01 09:00:00,2020-01-01 10:00:00,9:00,10:00,learn_and_play,,5,9,9:00 to 10:00,2,2,3
+weekday,location,task,assigned_to,start_string,end_string,class,long_location,start_row,end_row,time_range,row,col_start,col_end
+Monday,Around Town,Learn & Play,,12:00,1:00,learn_and_play,,17,21,12:00 to 1:00,2,2,3
+Tuesday,Moneypalooza,Learn & Play,,12:00,1:00,learn_and_play,,17,21,12:00 to 1:00,2,2,3
+Wednesday,Think Tank,Learn & Play,,12:00,1:00,learn_and_play,,17,21,12:00 to 1:00,2,2,3
+Thursday,P2P & STEMosphere,Learn & Play,,12:00,1:00,learn_and_play,Power2Play & STEMosphere,17,21,12:00 to 1:00,2,2,3
+Friday,Ideaworks,Learn & Play,,9:00,10:00,learn_and_play,,5,9,9:00 to 10:00,2,2,3

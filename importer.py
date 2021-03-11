@@ -254,7 +254,7 @@ if __name__ == "__main__":
     df["row"] = df.task.apply(lambda r: task_rows.get(r, 6))
     df["col_start"] = df.task.apply(lambda r: task_col_ranges.get(r, 6)[0])
     df["col_end"] = df.task.apply(lambda r: task_col_ranges.get(r, 7)[1])
-    df = df.drop(['start_time', 'end_time', 'start', 'end'], axis=1)
+    df = df.drop(['start_time', 'end_time', 'start', 'end', 'icons'], axis=1)
 
     events = list(df.to_dict("index").values())
     #print(events)
