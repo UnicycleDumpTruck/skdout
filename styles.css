@@ -46,11 +46,25 @@
 
 .prop_group_table {
   display: grid;
-  grid-gap: 5px;
+  grid-gap: 10px;
   background-color: #3a4d7e;
   max-width: 800px;
   grid-template-rows: 1fr, 1fr;
   grid-template-columns: 1fr, 1fr;
+  padding-top: 20px;
+}
+
+.prop_group {
+  background-color: #afc4fc;
+
+}
+
+.prop_group_title {
+  background-color: #afc4fc;
+  color:#3a4d7e;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .schedule {
@@ -113,7 +127,7 @@ div.replace_props {
 div.spray_everything {
   padding-left: 10px;
   padding-top: 10px;
-  background-color: #fa98a4;
+  background-color: #da68f7;
   font-size: 12px;
 }
 
