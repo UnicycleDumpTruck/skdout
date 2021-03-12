@@ -87,6 +87,27 @@ div.spray_and_swap {
   font-size: 12px;
 }
 
+div.pull_props {
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color: #fa98a4;
+  font-size: 12px;
+}
+
+div.replace_props {
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color: #fa98a4;
+  font-size: 12px;
+}
+
+div.spray_everythng {
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color: #fa98a4;
+  font-size: 12px;
+}
+
 span.spray_and_swap {
   background-color: #fa98a4;
 }
