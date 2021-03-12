@@ -44,6 +44,15 @@
   padding-right: 5px;
 }
 
+.prop_group_table {
+  display: grid;
+  grid-gap: 5px;
+  background-color: #3a4d7e;
+  max-width: 800px;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-columns: 1fr, 1fr;
+}
+
 .schedule {
   display: grid;
   grid-gap: 5px;
