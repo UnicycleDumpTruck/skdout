@@ -88,8 +88,8 @@
   col_start: 2
   end_row: 21
   end_string: '1:00'
-  location: P2P & STEMosphere
-  long_location: Power2Play & STEMosphere
+  location: Power2Play
+  long_location: null
   row: 2
   start_row: 17
   start_string: '12:00'
@@ -97,32 +97,32 @@
   time_range: 12:00 to 1:00
   weekday: Thursday
 - assigned_to: ''
-  class: pull_props
-  col_end: 4
-  col_start: 3
-  end_row: 39
-  end_string: '5:30'
-  location: Group One
-  long_location: null
-  row: 3
-  start_row: 37
-  start_string: '5:00'
-  task: Pull Props
-  time_range: 5:00 to 5:30
-  weekday: Thursday
-- assigned_to: ''
   class: replace_props
   col_end: 4
   col_start: 3
   end_row: 9
   end_string: '10:00'
-  location: Group Two
+  location: Group One
   long_location: null
   row: 3
   start_row: 5
   start_string: '9:00'
   task: Replace Props
   time_range: 9:00 to 10:00
+  weekday: Thursday
+- assigned_to: ''
+  class: pull_props
+  col_end: 4
+  col_start: 3
+  end_row: 39
+  end_string: '5:30'
+  location: Group Two
+  long_location: null
+  row: 3
+  start_row: 37
+  start_string: '5:00'
+  task: Pull Props
+  time_range: 5:00 to 5:30
   weekday: Thursday
 - assigned_to: ''
   class: spray_everything
@@ -142,15 +142,29 @@
   class: learn_and_play
   col_end: 3
   col_start: 2
-  end_row: 9
-  end_string: '10:00'
+  end_row: 21
+  end_string: '1:00'
   location: Ideaworks
   long_location: null
   row: 2
-  start_row: 5
-  start_string: '9:00'
+  start_row: 17
+  start_string: '12:00'
   task: Learn & Play
-  time_range: 9:00 to 10:00
+  time_range: 12:00 to 1:00
+  weekday: Friday
+- assigned_to: ''
+  class: pull_props
+  col_end: 4
+  col_start: 3
+  end_row: 39
+  end_string: '5:30'
+  location: Group One
+  long_location: null
+  row: 3
+  start_row: 37
+  start_string: '5:00'
+  task: Pull Props
+  time_range: 5:00 to 5:30
   weekday: Friday
 - assigned_to: ''
   class: replace_props
@@ -158,7 +172,7 @@
   col_start: 3
   end_row: 9
   end_string: '10:00'
-  location: Group One
+  location: Group Two
   long_location: null
   row: 3
   start_row: 5
@@ -167,20 +181,6 @@
   time_range: 9:00 to 10:00
   weekday: Friday
 - assigned_to: ''
-  class: pull_props
-  col_end: 4
-  col_start: 3
-  end_row: 39
-  end_string: '5:30'
-  location: Group Two
-  long_location: null
-  row: 3
-  start_row: 37
-  start_string: '5:00'
-  task: Pull Props
-  time_range: 5:00 to 5:30
-  weekday: Friday
-- assigned_to: ''
   class: spray_everything
   col_end: 5
   col_start: 4
@@ -195,32 +195,32 @@
   time_range: 5:00 to 5:30
   weekday: Friday
 - assigned_to: ''
-  class: pull_props
-  col_end: 4
-  col_start: 3
-  end_row: 39
-  end_string: '5:30'
-  location: Group One
-  long_location: null
-  row: 3
-  start_row: 37
-  start_string: '5:00'
-  task: Pull Props
-  time_range: 5:00 to 5:30
-  weekday: Saturday
-- assigned_to: ''
   class: replace_props
   col_end: 4
   col_start: 3
   end_row: 5
   end_string: '9:00'
-  location: Group Two
+  location: Group One
   long_location: null
   row: 3
   start_row: 3
   start_string: '8:30'
   task: Replace Props
   time_range: 8:30 to 9:00
+  weekday: Saturday
+- assigned_to: ''
+  class: pull_props
+  col_end: 4
+  col_start: 3
+  end_row: 39
+  end_string: '5:30'
+  location: Group Two
+  long_location: null
+  row: 3
+  start_row: 37
+  start_string: '5:00'
+  task: Pull Props
+  time_range: 5:00 to 5:30
   weekday: Saturday
 - assigned_to: ''
   class: spray_everything
@@ -237,32 +237,32 @@
   time_range: 5:00 to 5:30
   weekday: Saturday
 - assigned_to: ''
-  class: replace_props
+  class: pull_props
   col_end: 4
   col_start: 3
-  end_row: 5
-  end_string: '9:00'
+  end_row: 39
+  end_string: '5:30'
   location: Group One
   long_location: null
   row: 3
-  start_row: 3
-  start_string: '8:30'
-  task: Replace Props
-  time_range: 8:30 to 9:00
+  start_row: 37
+  start_string: '5:00'
+  task: Pull Props
+  time_range: 5:00 to 5:30
   weekday: Sunday
 - assigned_to: ''
-  class: pull_props
+  class: replace_props
   col_end: 4
   col_start: 3
-  end_row: 39
-  end_string: '5:30'
+  end_row: 5
+  end_string: '9:00'
   location: Group Two
   long_location: null
   row: 3
-  start_row: 37
-  start_string: '5:00'
-  task: Pull Props
-  time_range: 5:00 to 5:30
+  start_row: 3
+  start_string: '8:30'
+  task: Replace Props
+  time_range: 8:30 to 9:00
   weekday: Sunday
 - assigned_to: ''
   class: spray_everything
