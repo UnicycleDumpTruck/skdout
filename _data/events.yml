@@ -86,15 +86,29 @@
   class: learn_and_play
   col_end: 3
   col_start: 2
-  end_row: 21
-  end_string: '1:00'
+  end_row: 29
+  end_string: '3:00'
+  location: Splash
+  long_location: null
+  row: 2
+  start_row: 25
+  start_string: '2:00'
+  task: Learn & Play
+  time_range: 2:00 to 3:00
+  weekday: Thursday
+- assigned_to: ''
+  class: learn_and_play
+  col_end: 3
+  col_start: 2
+  end_row: 17
+  end_string: '12:00'
   location: Power2Play
   long_location: null
   row: 2
-  start_row: 17
-  start_string: '12:00'
+  start_row: 13
+  start_string: '11:00'
   task: Learn & Play
-  time_range: 12:00 to 1:00
+  time_range: 11:00 to 12:00
   weekday: Thursday
 - assigned_to: ''
   class: replace_props
@@ -142,15 +156,29 @@
   class: learn_and_play
   col_end: 3
   col_start: 2
-  end_row: 21
-  end_string: '1:00'
+  end_row: 29
+  end_string: '3:00'
+  location: Ideaworks
+  long_location: null
+  row: 2
+  start_row: 25
+  start_string: '2:00'
+  task: Learn & Play
+  time_range: 2:00 to 3:00
+  weekday: Friday
+- assigned_to: ''
+  class: learn_and_play
+  col_end: 3
+  col_start: 2
+  end_row: 17
+  end_string: '12:00'
   location: Think Tank
   long_location: null
   row: 2
-  start_row: 17
-  start_string: '12:00'
+  start_row: 13
+  start_string: '11:00'
   task: Learn & Play
-  time_range: 12:00 to 1:00
+  time_range: 11:00 to 12:00
   weekday: Friday
 - assigned_to: ''
   class: pull_props
