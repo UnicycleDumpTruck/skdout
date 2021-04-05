@@ -2,29 +2,57 @@
   class: learn_and_play
   col_end: 3
   col_start: 2
-  end_row: 21
-  end_string: '1:00'
-  location: Around Town
+  end_row: 29
+  end_string: '3:00'
+  location: Splash
   long_location: null
   row: 2
-  start_row: 17
-  start_string: '12:00'
+  start_row: 25
+  start_string: '2:00'
   task: Learn & Play
-  time_range: 12:00 to 1:00
+  time_range: 2:00 to 3:00
   weekday: Monday
 - assigned_to: ''
   class: learn_and_play
   col_end: 3
   col_start: 2
-  end_row: 21
-  end_string: '1:00'
+  end_row: 11
+  end_string: '10:30'
+  location: Around Town
+  long_location: null
+  row: 2
+  start_row: 5
+  start_string: '9:00'
+  task: Learn & Play
+  time_range: 9:00 to 10:30
+  weekday: Monday
+- assigned_to: ''
+  class: learn_and_play
+  col_end: 3
+  col_start: 2
+  end_row: 11
+  end_string: '10:30'
   location: Moneypalooza
   long_location: null
   row: 2
-  start_row: 17
-  start_string: '12:00'
+  start_row: 5
+  start_string: '9:00'
   task: Learn & Play
-  time_range: 12:00 to 1:00
+  time_range: 9:00 to 10:30
+  weekday: Tuesday
+- assigned_to: ''
+  class: learn_and_play
+  col_end: 3
+  col_start: 2
+  end_row: 29
+  end_string: '3:00'
+  location: Kid Grid & RPW
+  long_location: Kid Grid & River Playway
+  row: 2
+  start_row: 25
+  start_string: '2:00'
+  task: Learn & Play
+  time_range: 2:00 to 3:00
   weekday: Tuesday
 - assigned_to: ''
   class: learn_and_play
@@ -32,8 +60,8 @@
   col_start: 2
   end_row: 9
   end_string: '10:00'
-  location: Splash
-  long_location: null
+  location: HTT
+  long_location: Hit the Trail
   row: 2
   start_row: 5
   start_string: '9:00'
@@ -41,144 +69,130 @@
   time_range: 9:00 to 10:00
   weekday: Wednesday
 - assigned_to: ''
-  class: pull_props
-  col_end: 4
-  col_start: 3
-  end_row: 39
-  end_string: '5:30'
-  location: Downstairs
-  long_location: null
-  row: 3
-  start_row: 37
-  start_string: '5:00'
-  task: Pull Props
-  time_range: 5:00 to 5:30
-  weekday: Wednesday
-- assigned_to: ''
-  class: replace_props
-  col_end: 4
-  col_start: 3
-  end_row: 9
-  end_string: '10:00'
-  location: Upstairs
-  long_location: null
-  row: 3
-  start_row: 5
-  start_string: '9:00'
-  task: Replace Props
-  time_range: 9:00 to 10:00
-  weekday: Wednesday
-- assigned_to: ''
-  class: spray_everything
-  col_end: 5
-  col_start: 4
-  end_row: 39
-  end_string: '5:30'
-  location: All Exhibits
-  long_location: null
-  row: 3
-  start_row: 37
-  start_string: '5:00'
-  task: Spray Everything
-  time_range: 5:00 to 5:30
-  weekday: Wednesday
-- assigned_to: ''
   class: learn_and_play
   col_end: 3
   col_start: 2
-  end_row: 29
-  end_string: '3:00'
-  location: Splash
-  long_location: null
-  row: 2
-  start_row: 25
-  start_string: '2:00'
-  task: Learn & Play
-  time_range: 2:00 to 3:00
-  weekday: Thursday
-- assigned_to: ''
-  class: learn_and_play
-  col_end: 3
-  col_start: 2
-  end_row: 17
-  end_string: '12:00'
-  location: Power2Play
-  long_location: null
-  row: 2
-  start_row: 13
-  start_string: '11:00'
-  task: Learn & Play
-  time_range: 11:00 to 12:00
-  weekday: Thursday
-- assigned_to: ''
-  class: replace_props
-  col_end: 4
-  col_start: 3
-  end_row: 9
-  end_string: '10:00'
-  location: Downstairs
-  long_location: null
-  row: 3
-  start_row: 5
-  start_string: '9:00'
-  task: Replace Props
-  time_range: 9:00 to 10:00
-  weekday: Thursday
-- assigned_to: ''
-  class: pull_props
-  col_end: 4
-  col_start: 3
-  end_row: 39
-  end_string: '5:30'
-  location: Upstairs
-  long_location: null
-  row: 3
-  start_row: 37
-  start_string: '5:00'
-  task: Pull Props
-  time_range: 5:00 to 5:30
-  weekday: Thursday
-- assigned_to: ''
-  class: spray_everything
-  col_end: 5
-  col_start: 4
-  end_row: 39
-  end_string: '5:30'
-  location: All Exhibits
-  long_location: null
-  row: 3
-  start_row: 37
-  start_string: '5:00'
-  task: Spray Everything
-  time_range: 5:00 to 5:30
-  weekday: Thursday
-- assigned_to: ''
-  class: learn_and_play
-  col_end: 3
-  col_start: 2
-  end_row: 29
-  end_string: '3:00'
-  location: Ideaworks
-  long_location: null
-  row: 2
-  start_row: 25
-  start_string: '2:00'
-  task: Learn & Play
-  time_range: 2:00 to 3:00
-  weekday: Friday
-- assigned_to: ''
-  class: learn_and_play
-  col_end: 3
-  col_start: 2
-  end_row: 17
-  end_string: '12:00'
+  end_row: 21
+  end_string: '1:00'
   location: Think Tank
   long_location: null
   row: 2
-  start_row: 13
-  start_string: '11:00'
+  start_row: 17
+  start_string: '12:00'
   task: Learn & Play
-  time_range: 11:00 to 12:00
+  time_range: 12:00 to 1:00
+  weekday: Wednesday
+- assigned_to: ''
+  class: pull_props
+  col_end: 4
+  col_start: 3
+  end_row: 39
+  end_string: '5:30'
+  location: Downstairs
+  long_location: null
+  row: 3
+  start_row: 37
+  start_string: '5:00'
+  task: Pull Props
+  time_range: 5:00 to 5:30
+  weekday: Wednesday
+- assigned_to: ''
+  class: replace_props
+  col_end: 4
+  col_start: 3
+  end_row: 9
+  end_string: '10:00'
+  location: Upstairs
+  long_location: null
+  row: 3
+  start_row: 5
+  start_string: '9:00'
+  task: Replace Props
+  time_range: 9:00 to 10:00
+  weekday: Wednesday
+- assigned_to: ''
+  class: spray_everything
+  col_end: 5
+  col_start: 4
+  end_row: 39
+  end_string: '5:30'
+  location: All Exhibits
+  long_location: null
+  row: 3
+  start_row: 37
+  start_string: '5:00'
+  task: Spray Everything
+  time_range: 5:00 to 5:30
+  weekday: Wednesday
+- assigned_to: ''
+  class: learn_and_play
+  col_end: 3
+  col_start: 2
+  end_row: 21
+  end_string: '1:00'
+  location: Power2Play
+  long_location: null
+  row: 2
+  start_row: 17
+  start_string: '12:00'
+  task: Learn & Play
+  time_range: 12:00 to 1:00
+  weekday: Thursday
+- assigned_to: ''
+  class: replace_props
+  col_end: 4
+  col_start: 3
+  end_row: 9
+  end_string: '10:00'
+  location: Downstairs
+  long_location: null
+  row: 3
+  start_row: 5
+  start_string: '9:00'
+  task: Replace Props
+  time_range: 9:00 to 10:00
+  weekday: Thursday
+- assigned_to: ''
+  class: pull_props
+  col_end: 4
+  col_start: 3
+  end_row: 39
+  end_string: '5:30'
+  location: Upstairs
+  long_location: null
+  row: 3
+  start_row: 37
+  start_string: '5:00'
+  task: Pull Props
+  time_range: 5:00 to 5:30
+  weekday: Thursday
+- assigned_to: ''
+  class: spray_everything
+  col_end: 5
+  col_start: 4
+  end_row: 39
+  end_string: '5:30'
+  location: All Exhibits
+  long_location: null
+  row: 3
+  start_row: 37
+  start_string: '5:00'
+  task: Spray Everything
+  time_range: 5:00 to 5:30
+  weekday: Thursday
+- assigned_to: ''
+  class: learn_and_play
+  col_end: 3
+  col_start: 2
+  end_row: 21
+  end_string: '1:00'
+  location: Ideaworks
+  long_location: null
+  row: 2
+  start_row: 17
+  start_string: '12:00'
+  task: Learn & Play
+  time_range: 12:00 to 1:00
   weekday: Friday
 - assigned_to: ''
   class: pull_props
