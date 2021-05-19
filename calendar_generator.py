@@ -29,7 +29,7 @@ def output_month_calendar_file(month_data):
     <head>
         <meta charset="utf-8">
         <title>""" + month_data['name'] + """ Cleaning Schedule Calendar</title>
-        <link rel="stylesheet" href="calendar_styles.css?version=12">
+        <link rel="stylesheet" href="calendar_styles.css?version=13">
         <link rel="apple-touch-icon" href="/sked/assets/apple-touch-icon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -56,7 +56,7 @@ def output_month_calendar_file(month_data):
     </html>
     """
 
-    filename = month_data['name'] + ".html"
+    filename = "_layouts/" + month_data['name'].lower() + ".html"
     with open(filename, 'w') as cleaning_dates_file:
         cleaning_dates_file.write(head_text)
         for day_diff in range(num_days):
