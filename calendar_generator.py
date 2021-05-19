@@ -7,7 +7,7 @@ text = {
     'sunday_downstairs': '<hr>Morning:<br><span class="humanity">Humanity Clean Downstairs</span><br><span class="gex">GEX Re-Prop Downstairs</span><br><br>Evening:<br><span class="gex">GEX Pull Upstairs<br>GEX Re-Prop Upstairs</span>',
 }
 
-may_data = {'name': 'May', 'begin': (2021, 5, 19), 'end': (2021, 5, 30), 'blanks': 2, 'beginning_upstairs':False}
+may_data = {'name': 'May', 'begin': (2021, 5, 19), 'end': (2021, 5, 30), 'blanks': 2, 'beginning_upstairs':True}
 june_data = {'name': 'June', 'begin': (2021, 5, 31), 'end': (2021, 7, 4), 'blanks': 0, 'beginning_upstairs':True}
 july_data = {'name': 'July', 'begin': (2021, 6, 28), 'end': (2021, 7, 31), 'blanks': 0, 'beginning_upstairs':True}
 
