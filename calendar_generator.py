@@ -3,8 +3,9 @@ import datetime
 text = {
     'upstairs': '<hr>Morning:<br><span class="humanity">Humanity Clean Upstairs</span><br><span class="gex">GEX Re-Prop Upstairs</span><br><br>Evening:<br><span class="gex">GEX Pull Downstairs<span>',
     'downstairs': '<hr>Morning:<br><span class="humanity">Humanity Clean Downstairs</span><br><span class="gex">GEX Re-Prop Downstairs</span><br><br>Evening:<br><span class="gex">GEX Pull Upstairs</span>',
+    'monday_upstairs': '<hr>Morning:<span class="camps">Camps Re-Prop Upstairs</span>',
     'tuesday_upstairs': '<hr>Morning:<br><span class="humanity">Humanity Clean Upstairs</span><br><br>Evening:<br><span class="gex">GEX Pull Downstairs<span>',
-    'sunday_downstairs': '<hr>Morning:<br><span class="humanity">Humanity Clean Downstairs</span><br><span class="gex">GEX Re-Prop Downstairs</span><br><br>Evening:<br><span class="gex">GEX Pull Upstairs<br>GEX Re-Prop Upstairs</span>',
+    'sunday_downstairs': '<hr>Morning:<br><span class="humanity">Humanity Clean Downstairs</span><br><span class="gex">GEX Re-Prop Downstairs</span><br><br>Evening:<br><span class="gex">GEX Pull Upstairs</span>',
 }
 
 may_data = {'name': 'May', 'begin': (2021, 5, 19), 'end': (2021, 5, 30), 'blanks': 2, 'beginning_upstairs':True}
@@ -63,7 +64,7 @@ def output_month_calendar_file(month_data):
             print_day = (beginning_date + datetime.timedelta(days=day_diff))
             weekday = print_day.strftime("%A")
             date_string = print_day.strftime("%A, %B %d")
-            if (weekday == "Tuesday" and print_day < change_date) or (weekday == "Monday"):
+            if (weekday == "Tuesday" and print_day < change_date) or (weekday == "Monday" and print_day < change_date):
                 line_string = f"<td><div class='dates'>{date_string}</div><hr><div class='day-text'>Closed</div></td>"
             else:
                 if last_cleaning_floor_was_upstairs:
@@ -73,11 +74,14 @@ def output_month_calendar_file(month_data):
                         floor_string = text['downstairs']
                     last_cleaning_floor_was_upstairs = False
                 else:
-                    if weekday == "Tuesday":
+                    if weekday == "Monday":
+                        floor_string = text['monday_upstairs']
+                    elif weekday == "Tuesday":
                         floor_string = text['tuesday_upstairs']
+                        last_cleaning_floor_was_upstairs = True
                     else:
                         floor_string = text['upstairs']
-                    last_cleaning_floor_was_upstairs = True
+                        last_cleaning_floor_was_upstairs = True
                 last_floor = floor_string
                 line_string = f'<td><div class="dates">{date_string}</div><div class="day-text">{floor_string}</div></td>'
             if weekday == "Monday":
