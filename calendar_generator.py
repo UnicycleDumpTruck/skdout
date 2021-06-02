@@ -3,7 +3,7 @@ import datetime
 text = {
     'upstairs': '<hr>Morning:<br><span class="humanity">Humanity Clean Upstairs</span><br><span class="gex">GEX Re-Prop Upstairs</span><br><br>Evening:<br><span class="gex">GEX Pull Downstairs<span>',
     'downstairs': '<hr>Morning:<br><span class="humanity">Humanity Clean Downstairs</span><br><span class="gex">GEX Re-Prop Downstairs</span><br><br>Evening:<br><span class="gex">GEX Pull Upstairs</span>',
-    'monday_upstairs': '<hr>Morning:<span class="camps">Camps Re-Prop Upstairs</span>',
+    'monday_upstairs': '<hr>Morning:<br><span class="camps">Camps Re-Prop Upstairs</span>',
     'tuesday_upstairs': '<hr>Morning:<br><span class="humanity">Humanity Clean Upstairs</span><br><br>Evening:<br><span class="gex">GEX Pull Downstairs<span>',
     'sunday_downstairs': '<hr>Morning:<br><span class="humanity">Humanity Clean Downstairs</span><br><span class="gex">GEX Re-Prop Downstairs</span><br><br>Evening:<br><span class="gex">GEX Pull Upstairs</span>',
 }
@@ -30,7 +30,7 @@ def output_month_calendar_file(month_data):
     <head>
         <meta charset="utf-8">
         <title>""" + month_data['name'] + """ Cleaning Schedule Calendar</title>
-        <link rel="stylesheet" href="calendar_styles.css?version=14">
+        <link rel="stylesheet" href="calendar_styles.css?version=15">
         <link rel="apple-touch-icon" href="/sked/assets/apple-touch-icon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
