@@ -1,3 +1,3 @@
 ---
-layout: may
+layout: july
 ---

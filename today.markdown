@@ -1,4 +1,4 @@
 ---
 weekday: "Today"
-layout: june
+layout: july
 ---
