@@ -11,8 +11,9 @@ text = {
 may_data = {'name': 'May', 'begin': (2021, 5, 19), 'end': (2021, 5, 30), 'blanks': 2, 'beginning_upstairs':True}
 june_data = {'name': 'June', 'begin': (2021, 5, 31), 'end': (2021, 7, 4), 'blanks': 0, 'beginning_upstairs':True}
 july_data = {'name': 'July', 'begin': (2021, 6, 28), 'end': (2021, 7, 31), 'blanks': 0, 'beginning_upstairs':True}
+aug_data = {'name': 'August', 'begin': (2021, 8, 2), 'end': (2021, 8, 31), 'blanks': 0, 'beginning_upstairs':True}
 
-months = (may_data, june_data, july_data)
+months = (may_data, june_data, july_data, aug_data)
 
 def output_month_calendar_file(month_data):
     beginning_cleaning_floor_is_upstairs = month_data['beginning_upstairs']
