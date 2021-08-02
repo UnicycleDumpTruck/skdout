@@ -1,11 +1,11 @@
 import datetime
 
 text = {
-    'upstairs': '<hr>Morning:<br><span class="humanity">Humanity Clean Upstairs</span><br><span class="gex">GEX Re-Prop Upstairs</span><br><br>Evening:<br><span class="gex">GEX Pull Downstairs<span>',
-    'downstairs': '<hr>Morning:<br><span class="humanity">Humanity Clean Downstairs</span><br><span class="gex">GEX Re-Prop Downstairs</span><br><br>Evening:<br><span class="gex">GEX Pull Upstairs</span>',
+    'upstairs': '<hr>Morning:<br><span class="humanity">Clean Upstairs</span><br><span class="gex">GEX Re-Prop Upstairs</span><br><br>Evening:<br><span class="gex">GEX Pull Downstairs<span>',
+    'downstairs': '<hr>Morning:<br><span class="humanity">Clean Downstairs</span><br><span class="gex">GEX Re-Prop Downstairs</span><br><br>Evening:<br><span class="gex">GEX Pull Upstairs</span>',
     'monday_upstairs': '<hr>Morning:<br><span class="camps">Camps Re-Prop Upstairs</span>',
-    'tuesday_upstairs': '<hr>Morning:<br><span class="humanity">Humanity Clean Upstairs</span><br><br>Evening:<br><span class="gex">GEX Pull Downstairs<span>',
-    'sunday_downstairs': '<hr>Morning:<br><span class="humanity">Humanity Clean Downstairs</span><br><span class="gex">GEX Re-Prop Downstairs</span><br><br>Evening:<br><span class="gex">GEX Pull Upstairs</span>',
+    'tuesday_upstairs': '<hr>Morning:<br><span class="humanity">Clean Upstairs</span><br><br>Evening:<br><span class="gex">GEX Pull Downstairs<span>',
+    'sunday_downstairs': '<hr>Morning:<br><span class="humanity">Clean Downstairs</span><br><span class="gex">GEX Re-Prop Downstairs</span><br><br>Evening:<br><span class="gex">GEX Pull Upstairs</span>',
 }
 
 may_data = {'name': 'May', 'begin': (2021, 5, 19), 'end': (2021, 5, 30), 'blanks': 2, 'beginning_upstairs':True}
